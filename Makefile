@@ -4,6 +4,7 @@
 PDFS := $(patsubst %.md,%.md.pdf,$(wildcard *.md))
 DOCX := $(patsubst %.md,%.md.docx,$(wildcard *.md))
 TEX := $(patsubst %.md,%.md.tex,$(wildcard *.md))
+SLIDES := $(patsubst %.slides,%.slides.pdf,$(wildcard *.slides))
 
 # The all rule makes all the PDF files listed
 all : $(PDFS) $(DOCX) $(TEX)
@@ -17,20 +18,25 @@ docx : $(DOCX)
 # makes all Markdown into tex
 tex : $(TEX)
 
+# makes all .slides files into slide PDFs
+slides : $(SLIDES)
+
 # This generic rule accepts PDF targets with corresponding Markdown 
 # source, and makes them using pandoc
 %.md.pdf : %.md
-	pandoc $< -o $@ -N --toc
+	pandoc $< -o $@ -N --toc --bibliography refs.bib
 
 # This generic rule accepts docx targets with corresponding Markdown 
 # source, and makes them using pandoc
 %.md.docx : %.md
-	pandoc $< -o $@ -N --toc
+	pandoc $< -o $@ -N --toc --bibliography refs.bib
 
 # This generic rule accepts docx targets with corresponding Markdown 
 # source, and makes them using pandoc
 %.md.tex : %.md
-	pandoc -s $< -o $@ -N --toc
+	pandoc -s $< -o $@ -N --toc --bibliography refs.bib --biblatex
+
+%.slides.pdf : %.slides
 
 # Remove all outputs
 clean :
