@@ -9,8 +9,11 @@
 \textsc{\Large Qualifying Examination}\\[0.5cm]
 
 % Title
-{ \LARGE \bfseries A Systems Approach for Studying and Treating Arterial Calcification Due to CD73 Deficiency}\\[0.4cm]
+{ \LARGE \bfseries A Systems Approach for Studying and Treating Arterial Calcification Due to CD73 Deficiency}\\[2.0cm]
 
+\vfill
+
+% Bottom of the page
 % Author and supervisor
 \begin{minipage}{0.2\textwidth}
 \begin{flushleft} \large
@@ -28,9 +31,7 @@ Dr.~Paul \textsc{Wiggins} \\
 \end{flushright}
 \end{minipage}
 
-\vfill
-
-% Bottom of the page
+\vspace{3cm}
 {\large May 9, 2013}
 
 \end{center}
