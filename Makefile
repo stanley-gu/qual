@@ -24,7 +24,7 @@ slides : $(SLIDES)
 # This generic rule accepts PDF targets with corresponding Markdown 
 # source, and makes them using pandoc
 %.md.pdf : %.md
-	pandoc $< -o $@ -N --bibliography refs.bib
+	pandoc $< -o $@ -N -H header.latex --bibliography refs.bib
 
 # This generic rule accepts docx targets with corresponding Markdown 
 # source, and makes them using pandoc
@@ -34,7 +34,7 @@ slides : $(SLIDES)
 # This generic rule accepts docx targets with corresponding Markdown 
 # source, and makes them using pandoc
 %.md.tex : %.md
-	pandoc -s $< -o $@ -N --bibliography refs.bib --biblatex
+	pandoc -s $< -o $@ -N -H header.latex --bibliography refs.bib --biblatex
 
 %.slides.pdf : %.slides
 
