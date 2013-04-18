@@ -41,6 +41,8 @@ Dr.~Paul \textsc{Wiggins} \\
 
 # Abstract and Specific Aims
 
+Vascular calcification
+
 ## Specific Aim 1: *In Vitro* Model of Arterial Calcification
 
 ## Specific Aim 2:  Mathematical Model of Arterial Calcification
@@ -85,6 +87,33 @@ Dr.~Paul \textsc{Wiggins} \\
 \begin{equation}
 \frac{d[\text{HA}]}{dt} = + (\text{HA Formation Rate})[P_i] - (\text{HA Degradation Rate}) [PP_i]
 \end{equation}
+
+Filling out with Michaelis-Menten Kinetics
+
+\begin{equation}
+\frac{d[\text{ATP}]}{dt} = - (\text{ENPP1 Activity}) - (\text{ATP Degradation})
+\end{equation}
+
+\begin{equation}
+\frac{d[PP_i]}{dt} = + (\text{ENPP1 Activity}) - (\text{TNAP Activity}) - (PP_i \: \text{Degradation})
+\end{equation}
+
+\begin{equation}
+\frac{d[\text{AMP}]}{dt} = + (\text{ENPP1 Activity}) - (\text{CD73 Activity}) - (\text{AMP Degradation})
+\end{equation}
+
+\begin{equation}
+\frac{d[\text{Adenosine}]}{dt} = + (\text{CD73 Activity}) - (\text{Adenosine Degradation})
+\end{equation}
+
+\begin{equation}
+\frac{d[P_i]}{dt} = + (\text{CD73 Activity}) - (\text{TNAP Activity}) - (P_i \: \text{Degradation})
+\end{equation}
+
+\begin{equation}
+\frac{d[\text{HA}]}{dt} = + (\text{HA Formation Rate})[P_i] - (\text{HA Degradation Rate}) [PP_i]
+\end{equation}
+
 
 ### Experimental Plan
 ### Expected Results and Proposed Alternatives

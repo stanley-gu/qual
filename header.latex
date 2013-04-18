@@ -2,3 +2,4 @@
 \usepackage{setspace}
 \usepackage{epstopdf}
 \usepackage{boxedminipage}
+\usepackage{fullpage}
