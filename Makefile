@@ -37,7 +37,7 @@ slides : $(SLIDES)
 
 # This generic rule accepts docx targets with corresponding Markdown 
 # source, and makes them using pandoc
-%.md.tex : %.md outputFolder bib
+%.md.tex : %.md outputFolder cpOutput
 	pandoc -s $< -o output/$@ -N -H header.latex --bibliography refs.bib --biblatex
 
 %.slides.pdf : %.slides
@@ -46,9 +46,10 @@ slides : $(SLIDES)
 outputFolder :
 	mkdir -p output
 
-# This rule copies over bib files to output
-bib :
+# This rule copies over bib and image files to output
+cpOutput :
 	cp *.bib output
+	cp -r images output
 
 # Remove all outputs
 clean :
