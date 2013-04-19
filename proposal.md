@@ -39,6 +39,8 @@ Dr.~Paul \textsc{Wiggins} \\
 
 \tableofcontents
 
+\newpage
+
 # Abstract and Specific Aims
 
 Vascular calcification in both the intima and media of vessels is associated with increase risk for cardiac events and mortality. Given the significant clinical impact of arterial calcification, the mechanism and genetic basis behind its clinical presentation has been a subject of intense study.
