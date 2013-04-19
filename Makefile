@@ -23,24 +23,37 @@ slides : $(SLIDES)
 
 # This generic rule accepts PDF targets with corresponding Markdown 
 # source, and makes them using pandoc
-%.md.pdf : %.md
-	pandoc $< -o $@ -N -H header.latex --bibliography refs.bib
+%.md.pdf : %.md %.md.tex %.md.aux
+#	pandoc $< -o $@ -N -H header.latex --bibliography refs.bib
+	-cd output; pdflatex $<
+
+%.md.aux : %.md.tex
+	-cd output; latex $<; bibtex $@; latex $<;
 
 # This generic rule accepts docx targets with corresponding Markdown 
 # source, and makes them using pandoc
 %.md.docx : %.md
-	pandoc $< -o $@ -N --toc --bibliography refs.bib
+	pandoc $< -o output/$@ -N --toc --bibliography refs.bib
 
 # This generic rule accepts docx targets with corresponding Markdown 
 # source, and makes them using pandoc
-%.md.tex : %.md
-	pandoc -s $< -o $@ -N -H header.latex --bibliography refs.bib --biblatex
+%.md.tex : %.md outputFolder bib
+	pandoc -s $< -o output/$@ -N -H header.latex --bibliography refs.bib --biblatex
 
 %.slides.pdf : %.slides
 
+# This rule makes the output folder
+outputFolder :
+	mkdir -p output
+
+# This rule copies over bib files to output
+bib :
+	cp *.bib output
+
 # Remove all outputs
 clean :
-	rm $(PDFS) $(DOCX) $(TEX)
+#	rm $(PDFS) $(DOCX) $(TEX)
+	rm -r output
 
 # Remove all PDF outputs then build them again
 rebuild : clean all
