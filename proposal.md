@@ -55,16 +55,18 @@ CD73 and ENPP1 are likely to be expressed in fibroblasts, but ABCC6 will need to
 Confirm that all three receptors are expressed.
 Replicate disease states by blocking individual enzymes with antibodies.
 
+Alternative: forget about ABCC6 and use serum from ABCC6 -/-
+
 Alternative: multiple cell lines
 
 ## Specific Aim 2:  **Build Quantitative Systems Model of Arterial Calcification.**
+Fit to ODE model
 Quantify enzymes
-Initial rate reaction assay, by blocking enzyme activity with antibodies
+Determine enzyme kinetics: Initial rate reaction assay, by blocking enzyme activity with antibodies,
 
 
-Alternative: NMR
 
-## Specific Aim 3: ***In Vivo* Study of Therapeutic Interventions for Treating NT5E 
+Alternative: NMR, try reversible hill equation
 
 ## Specific Aim 3: **Investigate Potential Therapeutic Interventions for Treating NT5E *In Vitro* and *In Silico* Along with Extrapolating the Results for *In Vivo* Study in an Established Murine Model.**
 Mutations
@@ -93,7 +95,9 @@ CD73 -/- mice.
 ## Specific Aim 2
 ### Strategy and Rationale
 
-\begin{equation}
+Equations \ref{eq:firstText} - \ref{eq:lastText}
+
+\begin{equation}\label{eq:firstText}
 \frac{d[\text{ATP}]}{dt} = - (\text{ENPP1 Activity}) - (\text{ATP Degradation})
 \end{equation}
 
@@ -113,34 +117,35 @@ CD73 -/- mice.
 \frac{d[P_i]}{dt} = + (\text{CD73 Activity}) - (\text{TNAP Activity}) - (P_i \: \text{Degradation})
 \end{equation}
 
-\begin{equation}
+\begin{equation}\label{eq:lastText}
 \frac{d[\text{HA}]}{dt} = + (\text{HA Formation Rate})[P_i] - (\text{HA Degradation Rate}) [PP_i]
 \end{equation}
 
 Filling out with Michaelis-Menten Kinetics
+Equations \ref{eq:firstMath} - \ref{eq:lastMath}
 
-\begin{equation}
-\frac{d[\text{ATP}]}{dt} = - (\text{ENPP1 Activity}) - (\text{ATP Degradation})
+\begin{equation}\label{eq:firstMath}
+\frac{d[\text{ATP}]}{dt} = - \frac{V_{max\text{-ENPP1}}[\text{ATP}]}{K_{m\text{-ENPP1}} + [\text{ATP}]} - \alpha_{\text{ATP}} \text{[ATP]}
 \end{equation}
 
 \begin{equation}
-\frac{d[PP_i]}{dt} = + (\text{ENPP1 Activity}) - (\text{TNAP Activity}) - (PP_i \: \text{Degradation})
+\frac{d[PP_i]}{dt} = + \frac{V_{max\text{-ENPP1}}[\text{ATP}]}{K_{m\text{-ENPP1}} + [\text{ATP}]} - \frac{V_{max\text{-TNAP}}[PP_i]}{K_{m\text{-TNAP}} + [PP_i]} - \alpha_{PP_i}[PP_i]
 \end{equation}
 
 \begin{equation}
-\frac{d[\text{AMP}]}{dt} = + (\text{ENPP1 Activity}) - (\text{CD73 Activity}) - (\text{AMP Degradation})
+\frac{d[\text{AMP}]}{dt} = + \frac{V_{max\text{-ENPP1}}[\text{ATP}]}{K_{m\text{-ENPP1}} + [\text{ATP}]} - \frac{V_{max\text{-CD73}}[\text{AMP}]}{K_{m\text{-CD73}} + [\text{AMP}]} - \alpha_{\text{AMP}}[\text{AMP}]
 \end{equation}
 
 \begin{equation}
-\frac{d[\text{Adenosine}]}{dt} = + (\text{CD73 Activity}) - (\text{Adenosine Degradation})
+\frac{d[\text{Adenosine}]}{dt} = + \frac{V_{max\text{-CD73}}[\text{AMP}]}{K_{m\text{-CD73}} + [\text{AMP}]} - \alpha_{\text{Adenosine}}
 \end{equation}
 
 \begin{equation}
-\frac{d[P_i]}{dt} = + (\text{CD73 Activity}) - (\text{TNAP Activity}) - (P_i \: \text{Degradation})
+\frac{d[P_i]}{dt} = + \frac{V_{max\text{-CD73}}[\text{AMP}]}{K_{m\text{-CD73}} + [\text{AMP}]} - \frac{V_{max\text{-TNAP}}[PP_i]}{K_{m\text{-TNAP}} + [PP_i]} - \alpha_{P_i}
 \end{equation}
 
-\begin{equation}
-\frac{d[\text{HA}]}{dt} = + (\text{HA Formation Rate})[P_i] - (\text{HA Degradation Rate}) [PP_i]
+\begin{equation}\label{eq:lastMath}
+\frac{d[\text{HA}]}{dt} = + \beta_{\text{HA}}[P_i] - \alpha_{\text{HA}}[PP_i]
 \end{equation}
 
 
