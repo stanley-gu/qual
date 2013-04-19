@@ -7,7 +7,7 @@ TEX := $(patsubst %.md,%.md.tex,$(wildcard *.md))
 SLIDES := $(patsubst %.slides,%.slides.pdf,$(wildcard *.slides))
 
 # The all rule makes all the PDF files listed
-all : $(PDFS) $(DOCX) $(TEX)
+all : $(PDFS)
 
 # makes all Markdown into PDFs
 pdf : $(PDFS)
