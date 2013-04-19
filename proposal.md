@@ -41,15 +41,42 @@ Dr.~Paul \textsc{Wiggins} \\
 
 # Abstract and Specific Aims
 
-Vascular calcification
+Vascular calcification in both the intima and media of vessels is associated with increase risk for cardiac events and mortality. Given the significant clinical impact of arterial calcification, the mechanism and genetic basis behind its clinical presentation has been a subject of intense study.
 
-## Specific Aim 1: *In Vitro* Model of Arterial Calcification
+Recently, the human gene *NT53* that encodes CD73, the enzyme responsible for converting extracellular AMP to adenosine, has been implicated as a key component behind the metabolic pathway for inhibiting ectopic tissue calcification. Individuals with mutations in NT5E result in an arterial disease phenotype of arterial calcification and distal joint calcification (ACDC). As of the writing of this proposal, there is no standard treatment or therapy for alleviating this condition.
 
-## Specific Aim 2:  Mathematical Model of Arterial Calcification
+This study proposes the development of a quantitative systems model, built alongside *in vitro* and murine disease model experimentation, for elucidating the mechanism behind the presentation of ACDC. This model will enable the in-depth investigation of the ectopic tissue calcification pathway and useful for predicting the efficacy of new therapeutic interventions, which will be confirmed experimentally. Furthermore, two other potential pieces to this biological process have been identified in the literature, ENPP1 and ABCC6, which when deficient cause generalized arterial calcification of infancy (GACI) and pseudoxanthoma elasticum (PXE), respectively. These two components will be integrated into the *in silico* model and added to 
 
-## Specific Aim 3: *In Vivo* Study of Therapeutic Interventions for Treating NT5E Mutations
+## Specific Aim 1: **Develop *In Vitro* Model of Arterial Calcification.**
+Develop assay to check for expression levels of CD73, ENPP1, and ABCC6.
+CD73 and ENPP1 are likely to be expressed in fibroblasts, but ABCC6 will need to be transfected and expressed.
+Confirm that all three receptors are expressed.
+Replicate disease states by blocking individual enzymes with antibodies.
+
+Alternative: multiple cell lines
+
+## Specific Aim 2:  **Build Quantitative Systems Model of Arterial Calcification.**
+Quantify enzymes
+Initial rate reaction assay, by blocking enzyme activity with antibodies
+
+
+Alternative: NMR
+
+## Specific Aim 3: ***In Vivo* Study of Therapeutic Interventions for Treating NT5E 
+
+## Specific Aim 3: **Investigate Potential Therapeutic Interventions for Treating NT5E *In Vitro* and *In Silico* Along with Extrapolating the Results for *In Vivo* Study in an Established Murine Model.**
+Mutations
+Bisphosphonates
+adenosine-analog
+Dipyridamole
+lansoprazole
+
+CD73 -/- mice.
 
 # Background and Significance
+
+## Arterial Calcification
+[@Shaw2003]
 
 # Experimental Design and Methods
 ## Overview
@@ -124,3 +151,5 @@ Filling out with Michaelis-Menten Kinetics
 ### Expected Results and Proposed Alternatives
 
 # References
+
+
