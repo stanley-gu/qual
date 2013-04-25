@@ -4,10 +4,11 @@
 PDFS := $(patsubst %.md,%.md.pdf,$(wildcard *.md))
 DOCX := $(patsubst %.md,%.md.docx,$(wildcard *.md))
 TEX := $(patsubst %.md,%.md.tex,$(wildcard *.md))
+HTML := $(patsubst %.md,%.md.html,$(wildcard *.md))
 SLIDES := $(patsubst %.slides,%.slides.pdf,$(wildcard *.slides))
 
 # The all rule makes all the PDF files listed
-all : $(PDFS)
+all : $(PDFS) $(HTML)
 
 # makes all Markdown into PDFs
 pdf : $(PDFS)
@@ -39,6 +40,11 @@ slides : $(SLIDES)
 # source, and makes them using pandoc
 %.md.tex : %.md outputFolder cpOutput
 	pandoc -s $< -o output/$@ -N -H header.latex --bibliography refs.bib --biblatex
+
+# This generic rule accepts docx targets with corresponding Markdown 
+# source, and makes them using pandoc
+%.md.html : %.md outputFolder cpOutput
+	pandoc $< -o output/$@ -N --toc --bibliography refs.bib -s --mathjax
 
 %.slides.pdf : %.slides
 
