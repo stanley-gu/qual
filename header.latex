@@ -1,4 +1,3 @@
-\usepackage[dvipdfmx]{graphicx}
 \usepackage{setspace}
 \usepackage{epstopdf}
 \usepackage{boxedminipage}

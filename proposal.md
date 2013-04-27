@@ -122,12 +122,7 @@ for *In Vivo* Study in an Established Murine Model.**
 Genetics
 [@Kathiresan2012]: Genetics of Human Cardiovascular Disease
 
-
-
-
-### Intimal Calcification
-
-[@Giachelli1993]: Osteopontin Is Elevated during Neointima Formation in Rat Arteries and Is a Novel Component of Human Atherosclerotic Plaques
+### Arterial Calcification due to Deficiency of CD73 (ACDC)
 
 ### Medial Calcification
 
@@ -135,13 +130,22 @@ Genetics
 
 [@Ding2006]: Fibronectin Enhances In Vitro Vascular Calcification by Promoting Osteoblastic Differentiation of Vascular Smooth Muscle Cells Via ERK Pathway
 
-## Mechanisms Behind Arterial Calcification
+### Intimal Calcification
+
+[@Giachelli1993]: Osteopontin Is Elevated during Neointima Formation in Rat Arteries and Is a Novel Component of Human Atherosclerotic Plaques
+
+## Mechanisms Behind Medial Arterial Calcification
 
 [@Jono2000]: quantification of calcification. treatment of HSMC with phosphate. Immortal HSMC. Causes differentiation
 
 [@Addison2007]: pyrophosphate inhibits mineralization through  three mechanisms - binding to mineral, upregulating Opn and decreasing expression of TNAP
 
-## NT5E Mutations and Associated Mechanisms
+Whole Mechanism:
+[@Nitschke2012a]: Genetics in arterial calcification: lessons learned from rare diseases. General review and also includes PIT2
+[@Rutsch2011]: Genetics in arterial calcification: pieces of a puzzle and cogs in a wheel. 
+
+### ecto-5'-nucleotidase (CD73)NT5E Mutations and Associated Phenotype
+
 
 [@Colgan2006]: CD73 physiological roles
 [@Zimmermann1992]: Review on CD39 and CD73 family of diseases
@@ -151,12 +155,10 @@ Genetics
 
 [@Markello2011]: Vascular pathology of medial arterial calcifications in NT5E deficiency: implications for the role of adenosine in pseudoxanthoma elasticum.
 
-Whole Mechanism:
-[@Nitschke2012a]: Genetics in arterial calcification: lessons learned from rare diseases. General review and also includes PIT2
-[@Rutsch2011]: Genetics in arterial calcification: pieces of a puzzle and cogs in a wheel. 
 
 
-TNAP
+### Tissue Non-specific Alkaline Phosphatase (TNAP)
+
 [@Henthorn1992]: Different missense mutations at the tissue-nonspecific alkaline phosphatase (TNAP) gene locus in autosomal recessive inherited forms of mild and severe hypophosphatasia
 [@Hessle2002]: Tissue-nonspecific alkaline phosphatase and plasma cell membrane glycoprotein-1 are central antagonistic
 regulators of bone mineralization
@@ -165,18 +167,25 @@ regulators of bone mineralization
 Phosphate
 [@Jono2000]: Phosphate Regulation of Vascular Smooth Muscle Cell Calcification - in vitro assays
 
-ENPP1
-[@Kato2012]: Crystal structure of Enpp1, an extracellular glycoprotein involved in bone mineralization and insulin signaling
+### Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1)
+[@Kato2012]: Crystal structure of Enpp1, an extracellular glycoprotein involved in bone mineralization and insulin signalin
 
-Phospho1
+### Phosphoethanolamine/Phosphocholine Phosphatase (PHOSPHO 1) and Pyridoxal Phosphate Phosphatase (PHOSPHO2)
+
 [@Kiffer-Moreira2013]: Pharmacological Inhibition of PHOSPHO1 Suppresses Vascular Smooth Muscle Cell Calcification
 
-ABCC6
+[@Roberts2005]: Probing the substrate specificities of human PHOSPHO1 and PHOSPHO2. Have a wide spectrum of phosphorylated compounds that are hydrolyzed. PHOSPHO2 hydrolyze ATP and pyrophosphate
+
+### ATP-binding Cassette Sub-Family C Member 6 (ABCC6)
+
 [@LeSaux2006]: Serum Factors from Pseudoxanthoma Elasticum Patients Alter Elastic Fiber Formation In Vitro
 [@LeSaux2012]: The molecular and physiological roles of ABCC6: more than meets the eye
 
+### Sodium-dependent Phosphate Transporter 1 (PIT1)
+
+### Progressive Ankylosis Protein Homolog (ANKH)
+
 METHODS:
-[@Livak1999]: Allelic discrimination using fluorogenic probes and the 5’ nuclease assay
 
 ## Other Monogenetic Diseases Related to Mechanism
 
@@ -228,11 +237,7 @@ METHODS:
 
 Proposed mechanism shown in Figure \ref{fig:pathway}.
 
-\begin{figure}
-\centering
-	\includegraphics[width=1\textwidth]{images/pathway.png}
-	\caption{Proposed biological pathway involved in arterial calcification caused by ACDC, GACI, and PXE. \label{fig:pathway}}
-\end{figure}
+![Proposed biological pathway involved in arterial calcification caused by ACDC, GACI, and PXE. \label{fig:pathway}](images/mechanism.pdf)
 
 ### Experimental Plan
 ### Expected Results and Proposed Alternatives

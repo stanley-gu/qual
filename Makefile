@@ -22,11 +22,16 @@ tex : $(TEX)
 # makes all .slides files into slide PDFs
 slides : $(SLIDES)
 
+# makes all .slides files into slide PDFs
+html : $(HTML)
+
 # This generic rule accepts PDF targets with corresponding Markdown 
 # source, and makes them using pandoc
-%.md.pdf : %.md %.md.tex %.md.aux
-#	pandoc $< -o $@ -N -H header.latex --bibliography refs.bib
-	-cd output; pdflatex $<
+#%.md.pdf : %.md %.md.tex %.md.aux
+#	-cd output; pdflatex $<
+
+%.md.pdf : %.md outputFolder cpOutput
+	pandoc $< -o output/$@ -N -H header.latex --bibliography refs.bib
 
 %.md.aux : %.md.tex
 	-cd output; latex $<; bibtex $@; latex $<;
