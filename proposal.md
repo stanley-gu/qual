@@ -50,11 +50,11 @@ behind its clinical presentation has been a subject of intense study.
 
 Recently, the human gene *NT53* that encodes CD73, the enzyme responsible for
 converting extracellular AMP to adenosine, has been implicated as a key
-component behind the metabolic pathway for inhibiting ectopic tissue
-calcification. Individuals with mutations in NT5E result in an arterial disease
-phenotype of arterial calcification and distal joint calcification (ACDC). As
-of the writing of this proposal, there is no standard treatment or therapy for
-alleviating this condition.
+component behind the metabolic pathway for inhibiting medial vascular
+calcification calcification. Individuals with mutations in NT5E result in an
+arterial disease phenotype of arterial calcification and distal joint
+calcification (ACDC). As of the writing of this proposal, there is no standard
+treatment or therapy for alleviating this condition.
 
 This study proposes the development of a quantitative systems model, built
 alongside *in vitro* and murine disease model experimentation, for elucidating
@@ -237,7 +237,7 @@ METHODS:
 
 Proposed mechanism shown in Figure \ref{fig:pathway}.
 
-![Proposed biological pathway involved in arterial calcification caused by ACDC, GACI, and PXE. \label{fig:pathway}](images/mechanism.pdf)
+![Proposed biological pathway involved in arterial calcification caused by ACDC, GACI, and PXE. \label{fig:pathway}](images/mechanism.png)
 
 ### Experimental Plan
 ### Expected Results and Proposed Alternatives
