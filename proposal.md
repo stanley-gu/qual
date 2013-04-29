@@ -57,15 +57,14 @@ writing of this proposal, there is no standard treatment or therapy for
 alleviating this condition.
 
 This study proposes the development of a quantitative systems model, built
-alongside an *in vitro* and murine disease model experimentation, for elucidating
-the mechanism behind the ACDC phenotype. This model, informed experimentally will enable the
+alongside and informed through *in vitro* experimentation, for elucidating
+the mechanism behind the ACDC phenotype. This model will enable the
 in-depth investigation of the medial vascular calcification pathway and will be
-useful for predicting the efficacy of new therapeutic interventions, which will
-be confirmed experimentally. Furthermore, two other potential pieces to this
-biological process have been identified in the literature, ENPP1 and ABCC6,
-which when deficient cause generalized arterial calcification of infancy (GACI)
-and pseudoxanthoma elasticum (PXE), respectively. These two components will be
-integrated into the *in silico* model.
+useful for identifying and predicting the efficacy of new therapeutic
+interventions, which will be confirmed experimentally. After establishing a
+predictive *in silico* model of the biological mechanism behind ACDC,
+sensitivity and flux balance analysis will be used to identify targets within
+the pathway for therapy, which will be confirmed in a murine disease model.
 
 ## Specific Aim 1: **Develop *In Vitro* Model of Arterial Calcification.**
 
@@ -218,7 +217,7 @@ METHODS:
 
 [@Chen1999]: Modeling gene expression with differential equations.
 
-[@Gutenkunst2007]: Systems biology models are universally "sloppy", meaning they that they contain many insensitive parameters and their behaviors are determined by relatively ffew number of stiff parameters.
+[@Gutenkunst2007]: Systems biology models are universally "sloppy", meaning they that they contain many insensitive parameters and their behaviors are determined by relatively few number of stiff parameters.
 
 [@Marino2008]: A methodology for performing global uncertainty and sensitivity analysis in systems biology.
 
@@ -259,54 +258,46 @@ Proposed mechanism shown in Figure \ref{fig:pathway}.
 Equations \ref{eq:firstText} - \ref{eq:lastText}
 
 \begin{equation}\label{eq:firstText}
-\frac{d[\text{ATP}]}{dt} = - (\text{ENPP1 Activity}) - (\text{ATP Degradation})
+\frac{d[\text{ATP}]}{dt} = - (\text{ENPP1 Activity}) - (\text{ATP Degradation}) + (\text{ATP Generation})
 \end{equation}
 
 \begin{equation}
-\frac{d[PP_i]}{dt} = + (\text{ENPP1 Activity}) - (\text{TNAP Activity}) - (PP_i \: \text{Degradation})
+\frac{d[PP_i]}{dt} = + (\text{ENPP1 Activity}) - (\text{TNAP Activity}) - (PP_i \: \text{Degradation}) + (PP_i \: \text{Generation})
 \end{equation}
 
 \begin{equation}
-\frac{d[\text{AMP}]}{dt} = + (\text{ENPP1 Activity}) - (\text{CD73 Activity}) - (\text{AMP Degradation})
+\frac{d[\text{AMP}]}{dt} = + (\text{ENPP1 Activity}) - (\text{CD73 Activity}) - (\text{AMP Degradation}) + (\text{AMP Generation})
 \end{equation}
 
 \begin{equation}
-\frac{d[\text{Adenosine}]}{dt} = + (\text{CD73 Activity}) - (\text{Adenosine Degradation})
+\frac{d[\text{Adenosine}]}{dt} = + (\text{CD73 Activity}) - (\text{Adenosine Degradation}) + (\text{Adenosine Generation})
 \end{equation}
 
 \begin{equation}
-\frac{d[P_i]}{dt} = + (\text{CD73 Activity}) - (\text{TNAP Activity}) - (P_i \: \text{Degradation})
-\end{equation}
-
-\begin{equation}\label{eq:lastText}
-\frac{d[\text{HA}]}{dt} = + (\text{HA Formation Rate})[P_i] - (\text{HA Degradation Rate}) [PP_i]
+\frac{d[P_i]}{dt} = + (\text{CD73 Activity}) - (\text{TNAP Activity}) - (P_i \: \text{Degradation}) + (P_i \: \text{Generation})
 \end{equation}
 
 Filling out with Michaelis-Menten Kinetics
 Equations \ref{eq:firstMath} - \ref{eq:lastMath}
 
 \begin{equation}\label{eq:firstMath}
-\frac{d[\text{ATP}]}{dt} = - \frac{V_{max\text{-ENPP1}}[\text{ATP}]}{K_{m\text{-ENPP1}} + [\text{ATP}]} - \alpha_{\text{ATP}} \text{[ATP]}
+\frac{d[\text{ATP}]}{dt} = - \frac{V_{max\text{-ENPP1}}[\text{ATP}]}{K_{m\text{-ENPP1}} + [\text{ATP}]} - \alpha_{\text{ATP}} \text{[ATP]}  - \gamma_{\text{ATP}} \text{[ATP]}
 \end{equation}
 
 \begin{equation}
-\frac{d[PP_i]}{dt} = + \frac{V_{max\text{-ENPP1}}[\text{ATP}]}{K_{m\text{-ENPP1}} + [\text{ATP}]} - \frac{V_{max\text{-TNAP}}[PP_i]}{K_{m\text{-TNAP}} + [PP_i]} - \alpha_{PP_i}[PP_i]
+\frac{d[PP_i]}{dt} = + \frac{V_{max\text{-ENPP1}}[\text{ATP}]}{K_{m\text{-ENPP1}} + [\text{ATP}]} - \frac{V_{max\text{-TNAP}}[PP_i]}{K_{m\text{-TNAP}} + [PP_i]} - \alpha_{PP_i}[PP_i] + \gamma_{PP_i}[PP_i]
 \end{equation}
 
 \begin{equation}
-\frac{d[\text{AMP}]}{dt} = + \frac{V_{max\text{-ENPP1}}[\text{ATP}]}{K_{m\text{-ENPP1}} + [\text{ATP}]} - \frac{V_{max\text{-CD73}}[\text{AMP}]}{K_{m\text{-CD73}} + [\text{AMP}]} - \alpha_{\text{AMP}}[\text{AMP}]
+\frac{d[\text{AMP}]}{dt} = + \frac{V_{max\text{-ENPP1}}[\text{ATP}]}{K_{m\text{-ENPP1}} + [\text{ATP}]} - \frac{V_{max\text{-CD73}}[\text{AMP}]}{K_{m\text{-CD73}} + [\text{AMP}]} - \alpha_{\text{AMP}}[\text{AMP}] + \gamma_{\text{AMP}}[\text{AMP}]
 \end{equation}
 
 \begin{equation}
-\frac{d[\text{Adenosine}]}{dt} = + \frac{V_{max\text{-CD73}}[\text{AMP}]}{K_{m\text{-CD73}} + [\text{AMP}]} - \alpha_{\text{Adenosine}}
+\frac{d[\text{Adenosine}]}{dt} = + \frac{V_{max\text{-CD73}}[\text{AMP}]}{K_{m\text{-CD73}} + [\text{AMP}]} - \alpha_{\text{Adenosine}} + \gamma_{\text{Adenosine}}
 \end{equation}
 
 \begin{equation}
-\frac{d[P_i]}{dt} = + \frac{V_{max\text{-CD73}}[\text{AMP}]}{K_{m\text{-CD73}} + [\text{AMP}]} - \frac{V_{max\text{-TNAP}}[PP_i]}{K_{m\text{-TNAP}} + [PP_i]} - \alpha_{P_i}
-\end{equation}
-
-\begin{equation}\label{eq:lastMath}
-\frac{d[\text{HA}]}{dt} = + \beta_{\text{HA}}[P_i] - \alpha_{\text{HA}}[PP_i]
+\frac{d[P_i]}{dt} = + \frac{V_{max\text{-CD73}}[\text{AMP}]}{K_{m\text{-CD73}} + [\text{AMP}]} - \frac{V_{max\text{-TNAP}}[PP_i]}{K_{m\text{-TNAP}} + [PP_i]} - \alpha_{P_i} [P_i] + \gamma_{P_i} [P_i]
 \end{equation}
 
 ### Experimental Plan
@@ -337,7 +328,7 @@ Equations \ref{eq:firstMath} - \ref{eq:lastMath}
 
 #### Measurement of Therapeutic Efficacy on CD73 -/- Murine Model
 
-## Expected Results and Proposed Alternatives
+### Expected Results and Proposed Alternatives
 
 # Summary and Future Directions
 
