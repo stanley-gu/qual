@@ -51,17 +51,17 @@ behind its clinical presentation has been a subject of intense study.
 Recently, the human gene *NT53* that encodes CD73, the enzyme responsible for
 converting extracellular AMP to adenosine, has been implicated as a key
 component behind the metabolic pathway for inhibiting medial vascular
-calcification calcification. Individuals with mutations in NT5E result in an
-arterial disease phenotype of arterial calcification and distal joint
-calcification (ACDC). As of the writing of this proposal, there is no standard
-treatment or therapy for alleviating this condition.
+calcification. Individuals with mutations in NT5E result in a disease phenotype
+of arterial calcification and distal joint calcification (ACDC). As of the
+writing of this proposal, there is no standard treatment or therapy for
+alleviating this condition.
 
 This study proposes the development of a quantitative systems model, built
-alongside *in vitro* and murine disease model experimentation, for elucidating
-the mechanism behind the presentation of ACDC. This model will enable the
-in-depth investigation of the ectopic tissue calcification pathway and useful
-for predicting the efficacy of new therapeutic interventions, which will be
-confirmed experimentally. Furthermore, two other potential pieces to this
+alongside an *in vitro* and murine disease model experimentation, for elucidating
+the mechanism behind the ACDC phenotype. This model, informed experimentally will enable the
+in-depth investigation of the medial vascular calcification pathway and will be
+useful for predicting the efficacy of new therapeutic interventions, which will
+be confirmed experimentally. Furthermore, two other potential pieces to this
 biological process have been identified in the literature, ENPP1 and ABCC6,
 which when deficient cause generalized arterial calcification of infancy (GACI)
 and pseudoxanthoma elasticum (PXE), respectively. These two components will be
@@ -69,24 +69,25 @@ integrated into the *in silico* model.
 
 ## Specific Aim 1: **Develop *In Vitro* Model of Arterial Calcification.**
 
-* Develop assay to check for expression levels of CD73, ENPP1, and ABCC6.
-* CD73 and ENPP1 are likely to be expressed in fibroblasts, but ABCC6 will
-  likely need to be transfected and expressed.
-* Confirm that all three receptors are expressed.  Replicate disease states by
-  blocking individual enzymes with antibodies.
+* Culture Vascular Smooth Muscle Cells (VSMCs).
+* Develop assay to check for expression levels of CD73, ENPP1, TNAP, ANKH, and PIT1/2.
+* Develop antibodies for blocking each enzyme, and characterize kinetic parameters
 
 Alternatives:
 
-* Forget about ABCC6 and use serum from ABCC6 -/-
 * Try different cell lines
+* Try chemostat?
 
-## Specific Aim 2:  **Build Quantitative Systems Model of Arterial
+## Specific Aim 2:  **Build Quantitative Systems Model of Medial Arterial
 Calcification.**
 
 * Fit to ODE model
 * Quantify enzymes levels
 * Determine enzyme kinetics: Initial rate reaction assay by blocking enzyme
   activity with antibodies
+* Uncertainty Analysis
+* Sensitivity Analysis
+* Flux Balance Analysis
 
 Alternatives:
 
@@ -113,13 +114,11 @@ for *In Vivo* Study in an Established Murine Model.**
 [@Demer2008]: Vascular Calcification : Pathobiology of a Multifaceted Disease
 
 [@Shaw2003]: arterial calcification significantly increases all-cause death rate
-[@Abedin2004]: Review of arterial calcification and mechanisms behind it
 
 [@Giachelli2000]: Osteopontin: a versatile regulator of inflammation and biomineralization, mini review
 
 [@Giachelli2004]: Vascular Calcification Mechanisms - Review
 
-Genetics
 [@Kathiresan2012]: Genetics of Human Cardiovascular Disease
 
 ### Arterial Calcification due to Deficiency of CD73 (ACDC)
@@ -206,7 +205,7 @@ METHODS:
 [@O'Neill2010]: Recent progress in the treatment of vascular calcification. Suggests the control of phosphates for treatment
 
 ## Animal Models
-[@Abedin2004]: Vascular calcification may include both osteogenic and chondrogenic differentiation. In humans, it is primarily osteogenic with bone tissue formation, whereas in mice, it is primarily chondrogenic with cartilage formation. 
+[@Abedin2004]: Review of arterial calcification and mechanisms behind it. Vascular calcification may include both osteogenic and chondrogenic differentiation. In humans, it is primarily osteogenic with bone tissue formation, whereas in mice, it is primarily chondrogenic with cartilage formation. 
 [@Koszalka2004]: CD73 -/- Mice
 
 ## Quantitative Systems Modeling in Biology
@@ -214,14 +213,16 @@ METHODS:
 ### Modeling Techniques
 
 [@Bhalla2004]: Review of the different types of cell signaling models
-[@Aldridge2006]: Review of physicochemical modeling. 
 
 [@Fisher2007]: Review of the difference between two types of modeling, mathematical and computational. 
 
-[@Chen1999]: Modeling 
-
+[@Chen1999]: Modeling gene expression with differential equations.
 
 [@Gutenkunst2007]: Systems biology models are universally "sloppy", meaning they that they contain many insensitive parameters and their behaviors are determined by relatively ffew number of stiff parameters.
+
+[@Marino2008]: A methodology for performing global uncertainty and sensitivity analysis in systems biology.
+
+[@Aldridge2006]: Physicochemical modelling of cell signalling pathways. Lauffenburger review article
 
 ### Enzyme Kinetics
 
