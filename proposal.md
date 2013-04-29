@@ -4,12 +4,13 @@
 % Upper part of the page. The '~' is needed because \\
 % only works if a paragraph has started.
 
-\textsc{\LARGE University of Washington}\\[1.5cm]
+\textsc{\LARGE University of Washington}\\[0.1cm]
+\textsc{\LARGE Department of Bioengineering}\\[1.5cm]
 
 \textsc{\Large Qualifying Examination}\\[0.5cm]
 
 % Title
-{ \LARGE \bfseries A Systems Approach for Studying and Treating Arterial Calcification Due to CD73 Deficiency}\\[2.0cm]
+{ \LARGE \bfseries A Quantitative Systems Approach for Studying and Treating Arterial Calcification Due to CD73 Deficiency}\\[2.0cm]
 
 \vfill
 
@@ -76,7 +77,7 @@ upstream and down stream of CD73.
 
 ## Specific Aim 1: **Develop *In Vitro* Platform for Exploring ACDC Pathway.**
 
-An *in vitro* model . Through review of the current literature, several components
+An *in vitro* model of the underlying . Through review of the current literature, several components
 
 * Culture Vascular Smooth Muscle Cells (VSMCs).
 * Develop assay to check for expression levels of CD73, ENPP1, TNAP, ANKH, and PIT1/2.
