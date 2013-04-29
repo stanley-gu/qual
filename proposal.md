@@ -57,25 +57,31 @@ writing of this proposal, there is no standard treatment or therapy for
 alleviating this condition.
 
 This study proposes the development of a quantitative systems model, built
-alongside and informed through *in vitro* experimentation, for elucidating
-the mechanism behind the ACDC phenotype. This model will enable the
-in-depth investigation of the medial vascular calcification pathway and will be
-useful for identifying and predicting the efficacy of new therapeutic
-interventions, which will be confirmed experimentally. After establishing a
-predictive *in silico* model of the biological mechanism behind ACDC,
-sensitivity and flux balance analysis will be used to identify targets within
-the pathway for therapy, which will be confirmed in a murine disease model.
+alongside and informed through *in vitro* experimentation, for elucidating the
+mechanism behind the ACDC phenotype. This model will enable in-depth
+investigation of the medial vascular calcification pathway, consolidation and
+validation of the mechanistic understanding of the disease, and identification
+and prediction of efficacious new therapeutic interventions, which will be
+confirmed experimentally. After establishing a predictive *in silico* model of
+the biological mechanism behind ACDC, sensitivity and flux balance analysis
+will be used to identify targets within the pathway for therapy, which will be
+confirmed in a murine disease model. The general approach in building this
+mechanistic model is iterative and hypothesis driven. Experimental results will
+serve to tune and build confidence in the proposed mechanisms, leading to
+better understanding of the impact due to CD73-deficiency and potential
+treatments for the condition.  While beyond the scope of this proposal, the
+systems modeling approach introduced here may also prove useful for studying a
+number of related diseases stemming from defects within biomolecular components
+upstream and down stream of CD73.
 
-## Specific Aim 1: **Develop *In Vitro* Model of Arterial Calcification.**
+## Specific Aim 1: **Develop *In Vitro* Platform for Exploring ACDC Pathway.**
+
+An *in vitro* model . Through review of the current literature, several components
 
 * Culture Vascular Smooth Muscle Cells (VSMCs).
 * Develop assay to check for expression levels of CD73, ENPP1, TNAP, ANKH, and PIT1/2.
 * Develop antibodies for blocking each enzyme, and characterize kinetic parameters
 
-Alternatives:
-
-* Try different cell lines
-* Try chemostat?
 
 ## Specific Aim 2:  **Build Quantitative Systems Model of Medial Arterial
 Calcification.**
