@@ -241,9 +241,19 @@ Proposed mechanism shown in Figure \ref{fig:pathway}.
 ![Proposed biological pathway involved in arterial calcification caused by ACDC, GACI, and PXE. \label{fig:pathway}](images/mechanism.png)
 
 ### Experimental Plan
+
+#### *In Vitro* Culture of VSMCs
+
+#### Establish Methods for Measuring Key Metabolites
+
+#### Quantify Enzyme Expression
+
+#### Develop Antibodies for Highly Selective Blocking and Isolation of Pathways
+
 ### Expected Results and Proposed Alternatives
 
 ## Specific Aim 2
+
 ### Strategy and Rationale
 
 Equations \ref{eq:firstText} - \ref{eq:lastText}
@@ -300,12 +310,36 @@ Equations \ref{eq:firstMath} - \ref{eq:lastMath}
 \end{equation}
 
 ### Experimental Plan
+
+#### Characterize and Quantify Enzyme Kinetics Through Initial Rate Reactions
+
+![Generalized process for measuring enzyme kinetics. \label{fig:kinetics}](images/kinetics.png)
+
+#### Establish Confidence in Model Through Uncertainty Analysis and Cross Validation with Experiments
+
+* Latin Hypercube
+
 ### Expected Results and Proposed Alternatives
+
+* Try reversible hill equation instead of Michaelis-Menten
+* Consider alternative mechanisms
 
 ## Specific Aim 3
 ### Strategy and Rationale
+
+[@Castrop2004]: CD73 mice sacrificed at 4-6 months, showed significantly elevated plasma alkaline phosphatase levels, consistent with the mechanism and suggests that the ACDC phenotype may be expressed
+
 ### Experimental Plan
-### Expected Results and Proposed Alternatives
+
+#### Identification of Therapeutic Targets *In Silico*
+* Sensitivity Analysis
+* Flux Balance Analysis
+
+#### Measurement of Therapeutic Efficacy on CD73 -/- Murine Model
+
+## Expected Results and Proposed Alternatives
+
+# Summary and Future Directions
 
 # Exam Question
 
