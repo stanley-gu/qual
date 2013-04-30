@@ -287,7 +287,7 @@ Filling out with Michaelis-Menten Kinetics
 Equations \ref{eq:firstMath} - \ref{eq:lastMath}
 
 \begin{equation}\label{eq:firstMath}
-\frac{d[\text{ATP}]}{dt} = - \frac{V_{max\text{-ENPP1}}[\text{ATP}]}{K_{m\text{-ENPP1}} + [\text{ATP}]} - \alpha_{\text{ATP}} \text{[ATP]}  - \gamma_{\text{ATP}} \text{[ATP]}
+\frac{d[\text{ATP}]}{dt} = - \frac{V_{max\text{-ENPP1}}[\text{ATP}]}{K_{m\text{-ENPP1}} + [\text{ATP}]} - \alpha_{\text{ATP}} \text{[ATP]}  + \gamma_{\text{ATP}} \text{[ATP]}
 \end{equation}
 
 \begin{equation}
