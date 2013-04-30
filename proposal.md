@@ -92,21 +92,35 @@ modeled.
 ## Specific Aim 2:  **Build Quantitative Systems Model of Medial Arterial
 Calcification.**
 
-
-* Fit to ODE model
-* Quantify enzymes levels
-* Determine enzyme kinetics: Initial rate reaction assay by blocking enzyme
-  activity with antibodies
-* Uncertainty Analysis
+A system of coupled differential equations will be used to mathematically model
+the kinetics of the arterial calcification system. The biomolecular
+interrogation techniques from Specific Aim 1 will be used experimentally fit
+parameters within the model. Enzyme surface expression levels and trafficking
+will be determined, as it is important from a modeling perspective to quantify
+the total available enzyme levels. Endogenous metabolite generation and
+degradation rates will be measured under full blockage of the pathway.  The
+kinetics of each enzyme in the system will be measured in insolation by
+selectively blocking the activity of other enzymes in the pathway. Parameters
+will be fit through standard nonlinear regression techniques and the model will
+be built in steps through the incremental coupling of the system components.
+Once the full model has been established, uncertainty analysis will be
+performed to determine how uncertainty in the model parameters propagates to
+uncertainty in the model predictions.
 
 ## Specific Aim 3: **Investigate Potential Therapeutic Interventions for
-Treating NT5E *In Vitro* and *In Silico* Along with Extrapolating the Results
-for *In Vivo* Study in an Established Murine Model.**
+Treating CD73 Deficiency *In Vitro* and *In Silico* Along with Extrapolating
+the Results for *In Vivo* Study in an Established Murine Model.**
 
-* Use animal model: CD73 -/- mice.
-* Compare *in silico* and *in vivo* results when treated with: bisphosphonates
-  ($PP_i$ analog), adenosine analogs, lansoprazole (inhibitor of TNAP),
-  Dipyridamole (inhibits adenosine uptake)
+An *in vitro* and *in silico* disease model will be produced through antibody
+blocking of CD73 in cultured cells and removing the CD73 contribution in the
+mathematical model. Sensitivity and flux balance analysis will be used to
+determine which other parts of the network would be suitable therapeutic
+targets for restarting PPi/Pi balance.  An animal model of disease, CD73 -/-
+mice, will be used to perform a test of principle for phosphate balance
+recovery. Potential therapies include, but is not limited to, bisphosphonates
+(a PPi analog), adenosine anaologes, lansoprazole (inhibitor of TNAP), and
+dipyridamole (adenosine signaling inhibitor). Therapy selection will be
+assisted by *in vitro* and model simulation results.
 
 # Background and Significance
 
