@@ -77,28 +77,27 @@ upstream and down stream of CD73.
 
 ## Specific Aim 1: **Develop *In Vitro* Platform for Exploring ACDC Pathway.**
 
-An *in vitro* model of the underlying . Through review of the current literature, several components
-
-* Culture Vascular Smooth Muscle Cells (VSMCs).
-* Develop assay to check for expression levels of CD73, ENPP1, TNAP, ANKH, and PIT1/2.
-* Develop antibodies for blocking each enzyme, and characterize kinetic parameters
-
+An *in vitro* model consisting of vascular smooth muscle cells, will serve as a
+platform for running molecular biology experiments for mechanistic exploration
+and model building. Through review of the current literature, several surface
+bound enzymes, primarily ENPP1 and TNAP, were identified as major components
+contributing to pyrophosphate depletion, leading to mineralization of the
+arterial wall, and will also be incorporated in the initial mechanistic
+hypothesis. Antibodies will be developed to specifically to bind to each of the
+surface proteins of interest, allowing for labeling and quantification of the
+enzymes, in addition to serving as a method for inhibiting specific reactions.
+This aim will achieve quantification and control over the system that will be
+modeled.
 
 ## Specific Aim 2:  **Build Quantitative Systems Model of Medial Arterial
 Calcification.**
+
 
 * Fit to ODE model
 * Quantify enzymes levels
 * Determine enzyme kinetics: Initial rate reaction assay by blocking enzyme
   activity with antibodies
 * Uncertainty Analysis
-* Sensitivity Analysis
-* Flux Balance Analysis
-
-Alternatives:
-
-* Use NMR
-* Try reversible hill equation instead of Michaelis-Menten
 
 ## Specific Aim 3: **Investigate Potential Therapeutic Interventions for
 Treating NT5E *In Vitro* and *In Silico* Along with Extrapolating the Results
