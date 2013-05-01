@@ -143,7 +143,9 @@ and genetic disorders. [@Micheletti2008]
 
 ### Arterial Calcification due to Deficiency of CD73 (ACDC)
 
-Nonsense mutations in the NT5E gene, coding for ecto-5'-nucleotidase (CD73), have been discovered to cause medial arterial calcification of the limbs, in otherwise health individuals. [@StHilaire2011]
+Nonsense mutations in the NT5E gene, coding for ecto-5'-nucleotidase (CD73),
+have been discovered to cause medial arterial calcification of the limbs, in
+otherwise health individuals. [@StHilaire2011]
 
 [@Colgan2006]: CD73 physiological roles
 [@Zimmermann1992]: Review on CD39 and CD73 family of diseases
