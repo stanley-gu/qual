@@ -124,7 +124,12 @@ assisted by *in vitro* and model simulation results.
 
 # Background and Significance
 
-In this section, the biological and 
+In this section, the scientific context of this biological problem will be
+introduced. While the subject of arterial calcification is a large and diverse
+field, the focus of this background will be on the biological mechanisms of
+interest behind the NT5E mutation phenotype in designing this disease model.
+Additional reviews on the other facets of the pathobiology behind arterial
+calcification have been published. [@Demer2008; @Giachelli2000; @Giachelli2004]
 
 ## Vascular Calcification
 
@@ -143,7 +148,7 @@ as Monckeberg's arteriosclerosis, increases in prevalence in populations with
 increased age, diabetes mellitus, chronic kidney disease, chronic inflammation,
 and genetic disorders. [@Micheletti2008]
 
-### Arterial Calcification due to Deficiency of CD73 (ACDC)
+## Arterial Calcification due to Deficiency of CD73 (ACDC)
 
 Ecto-5'-nucleotidase (CD73) is located on the surface of the plasma membrane
 and hydrolyzes adenosine monophosphate (AMP) to adenosine. [@Zimmermann1992]
@@ -161,17 +166,9 @@ otherwise healthy individuals. [@StHilaire2011]
 [@Collin-Osdoby2004]: Regulation of calcification by RANKL and
 osteoprotegerin
 
-[@Demer2008]: Vascular Calcification : Pathobiology of a Multifaceted Disease
-
-
-[@Giachelli2000]: Osteopontin: a versatile regulator of inflammation and biomineralization, mini review
-
-[@Giachelli2004]: Vascular Calcification Mechanisms - Review
-
 [@Kathiresan2012]: Genetics of Human Cardiovascular Disease
 
 
-[@Neven2011]: Cell biological and physicochemical aspects of arterial calcification - review of medial arterial calcification. good diagram
 
 [@Ding2006]: Fibronectin Enhances In Vitro Vascular Calcification by Promoting Osteoblastic Differentiation of Vascular Smooth Muscle Cells Via ERK Pathway
 
@@ -179,6 +176,7 @@ osteoprotegerin
 
 ## Mechanisms Behind Medial Arterial Calcification
 
+[@Neven2011]: Cell biological and physicochemical aspects of arterial calcification - review of medial arterial calcification. good diagram
 [@Jono2000]: quantification of calcification. treatment of HSMC with phosphate. Immortal HSMC. Causes differentiation
 
 [@Addison2007]: pyrophosphate inhibits mineralization through  three mechanisms - binding to mineral, upregulating Opn and decreasing expression of TNAP
@@ -200,6 +198,11 @@ Phosphate
 ### Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1)
 [@Kato2012]: Crystal structure of Enpp1, an extracellular glycoprotein involved in bone mineralization and insulin signalin
 
+### Generalized Arterial Calcification of Infancy (GACI)
+[@Ramjan2009]: Treatment with bisphosphonates for 3 years reverses its effects.
+[@Edouard2011]: May not be necessary to treat infants with bisphosphonates for even two years.
+
+
 ### Phosphoethanolamine/Phosphocholine Phosphatase (PHOSPHO 1) and Pyridoxal Phosphate Phosphatase (PHOSPHO2)
 
 [@Kiffer-Moreira2013]: Pharmacological Inhibition of PHOSPHO1 Suppresses Vascular Smooth Muscle Cell Calcification
@@ -211,20 +214,9 @@ Phosphate
 [@LeSaux2006]: Serum Factors from Pseudoxanthoma Elasticum Patients Alter Elastic Fiber Formation In Vitro
 [@LeSaux2012]: The molecular and physiological roles of ABCC6: more than meets the eye
 
-### Sodium-dependent Phosphate Transporter 1 (PIT1)
-
-### Progressive Ankylosis Protein Homolog (ANKH)
-
-METHODS:
-
-## Other Monogenetic Diseases Related to Mechanism
-
-### Generalized Arterial Calcification of Infancy (GACI)
-[@Ramjan2009]: Treatment with bisphosphonates for 3 years reverses its effects.
-[@Edouard2011]: May not be necessary to treat infants with bisphosphonates for even two years.
-
 ### Pseudoxanthoma elasticum (PXE)
 [@Nitschke2012]: Generalized arterial calcification of infancy and pseudoxanthoma elasticum can be caused by mutations in either ENPP1 or ABCC6
+
 
 
 ### Potential Therapeutical Interventions
