@@ -49,7 +49,7 @@ html : $(HTML)
 # This generic rule accepts docx targets with corresponding Markdown 
 # source, and makes them using pandoc
 %.md.html : %.md outputFolder cpOutput
-	pandoc $< -o output/$@ -N --toc --bibliography refs.bib -s --mathjax
+	pandoc $< -o output/$@ -N --toc --bibliography refs.bib -s -S --mathjax -c components/bootstrap/docs/assets/css/bootstrap.css
 
 %.slides.pdf : %.slides
 
@@ -61,6 +61,7 @@ outputFolder :
 cpOutput :
 	cp *.bib output
 	cp -r images output
+	cp -r components output
 
 # Remove all outputs
 clean :
