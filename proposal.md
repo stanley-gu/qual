@@ -124,6 +124,8 @@ assisted by *in vitro* and model simulation results.
 
 # Background and Significance
 
+In this section, the biological and 
+
 ## Vascular Calcification
 
 Vascular calcification is the process in which hydroxyapatite mineral deposits
@@ -132,7 +134,7 @@ well-defined risk factor in significantly increased patient mortality.
 [@Shaw2003; @Chiu2010; @Blacher2001; @London2003] While once thought to be a
 passive process of deposition due to elevated electrolyte imbalances in the
 blood, vessel calcification has been discovered to be an active process that is
-similar to bone formation and remodeling. [@Bostrom1993]
+similar to bone formation and remodeling. [@Bostrom1993; @Giachelli1993]
 
 Calcification can occur in either the media (within vessel walls) or intima
 (vessel lumen interior). Intimal calcification is frequently seen in conditions
@@ -150,7 +152,7 @@ processes, CD73 function is implicated in a variety of pathological conditions,
 including immunodeficiency [@Deaglio2007], inflammation [@Colgan2006], and
 ectopic calcification. Nonsense mutations in the NT5E gene, coding for CD73,
 have been discovered to cause medial arterial calcification of the limbs, in
-otherwise health individuals. [@StHilaire2011] 
+otherwise healthy individuals. [@StHilaire2011] 
 
 
 [@Markello2011]: Vascular pathology of medial arterial calcifications in NT5E deficiency: implications for the role of adenosine in pseudoxanthoma elasticum.
@@ -169,15 +171,11 @@ osteoprotegerin
 [@Kathiresan2012]: Genetics of Human Cardiovascular Disease
 
 
-### Medial Calcification
-
 [@Neven2011]: Cell biological and physicochemical aspects of arterial calcification - review of medial arterial calcification. good diagram
 
 [@Ding2006]: Fibronectin Enhances In Vitro Vascular Calcification by Promoting Osteoblastic Differentiation of Vascular Smooth Muscle Cells Via ERK Pathway
 
-### Intimal Calcification
 
-[@Giachelli1993]: Osteopontin Is Elevated during Neointima Formation in Rat Arteries and Is a Novel Component of Human Atherosclerotic Plaques
 
 ## Mechanisms Behind Medial Arterial Calcification
 
