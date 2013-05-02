@@ -129,7 +129,7 @@ introduced. While the subject of arterial calcification is a large and diverse
 field, the focus of this background will be on the biological mechanisms of
 interest behind the NT5E mutation phenotype in designing this disease model.
 Additional reviews on the other facets of the pathobiology behind arterial
-calcification have been published. [@Demer2008; @Giachelli2000; @Giachelli2004]
+calcification have been published. [@Demer2008; @Giachelli2004]
 
 ## Vascular Calcification
 
@@ -139,7 +139,7 @@ well-defined risk factor in significantly increased patient mortality.
 [@Shaw2003; @Chiu2010; @Blacher2001; @London2003] While once thought to be a
 passive process of deposition due to elevated electrolyte imbalances in the
 blood, vessel calcification has been discovered to be an active process that is
-similar to bone formation and remodeling. [@Bostrom1993; @Giachelli1993]
+similar to bone formation and remodeling. [@Bostrom1993; @Giachelli1993; @Ding2006]
 
 Calcification can occur in either the media (within vessel walls) or intima
 (vessel lumen interior). Intimal calcification is frequently seen in conditions
@@ -155,26 +155,27 @@ and hydrolyzes adenosine monophosphate (AMP) to adenosine. [@Zimmermann1992]
 Due to the broad range of AMP and adenosine involvement in biological
 processes, CD73 function is implicated in a variety of pathological conditions,
 including immunodeficiency [@Deaglio2007], inflammation [@Colgan2006], and
-ectopic calcification. Nonsense mutations in the NT5E gene, coding for CD73,
-have been discovered to cause medial arterial calcification of the limbs, in
-otherwise healthy individuals. [@StHilaire2011] 
+ectopic calcification.
+
+Nonsense, missense, and single-nucleotide insertion–frameshift mutations in the
+NT5E gene, coding for CD73, have been discovered to cause medial arterial
+calcification of the limbs, in otherwise healthy individuals. [@StHilaire2011]
+The study by @StHilaire2011 demonstrated that cultured fibroblasts from the
+patients were deficient in CD73 activity of hydrolyzing AMP into adenosine and
+inorganic phosphate, which could be restored through CD73-deliverying viral
+vectors. In addition, a key enzyme related to calcification, tissue-nonspecific
+alkaline phosphatase (TNAP) was found to be significantly overexpressed, which
+could be reduced through adenosine supplementation *in vitro*.
 
 
 [@Markello2011]: Vascular pathology of medial arterial calcifications in NT5E deficiency: implications for the role of adenosine in pseudoxanthoma elasticum.
-
 
 [@Collin-Osdoby2004]: Regulation of calcification by RANKL and
 osteoprotegerin
 
 [@Kathiresan2012]: Genetics of Human Cardiovascular Disease
 
-
-
-[@Ding2006]: Fibronectin Enhances In Vitro Vascular Calcification by Promoting Osteoblastic Differentiation of Vascular Smooth Muscle Cells Via ERK Pathway
-
-
-
-## Mechanisms Behind Medial Arterial Calcification
+## Related Mechanisms Behind Medial Arterial Calcification
 
 [@Neven2011]: Cell biological and physicochemical aspects of arterial calcification - review of medial arterial calcification. good diagram
 [@Jono2000]: quantification of calcification. treatment of HSMC with phosphate. Immortal HSMC. Causes differentiation
@@ -183,7 +184,7 @@ osteoprotegerin
 
 Whole Mechanism:
 [@Nitschke2012a]: Genetics in arterial calcification: lessons learned from rare diseases. General review and also includes PIT2
-[@Rutsch2011]: Genetics in arterial calcification: pieces of a puzzle and cogs in a wheel. 
+[@Rutsch2011]: Genetics in arterial calcification: pieces of a puzzle and cogs in a wheel.
 
 ### Tissue Non-specific Alkaline Phosphatase (TNAP)
 
