@@ -148,7 +148,6 @@ as Monckeberg's arteriosclerosis, increases in prevalence in populations with
 increased age, diabetes mellitus, chronic kidney disease, chronic inflammation,
 and genetic disorders. [@Micheletti2008]
 
-
 ## Arterial Calcification due to Deficiency of CD73 (ACDC)
 
 Ecto-5'-nucleotidase (CD73) is located on the surface of the plasma membrane
@@ -158,15 +157,29 @@ processes, CD73 function is implicated in a variety of pathological conditions,
 including immunodeficiency [@Deaglio2007], inflammation [@Colgan2006], and
 ectopic calcification.
 
-Nonsense, missense, and single-nucleotide insertion–frameshift mutations in the
-NT5E gene, coding for CD73, have been discovered to cause medial arterial
-calcification of the limbs, in otherwise healthy individuals. [@StHilaire2011]
-The study by @StHilaire2011 demonstrated that cultured fibroblasts from the
-patients were deficient in CD73 activity of hydrolyzing AMP into adenosine and
-inorganic phosphate, which could be restored through CD73-deliverying viral
-vectors. In addition, a key enzyme related to calcification, tissue-nonspecific
-alkaline phosphatase (TNAP) was found to be significantly overexpressed, which
-could be reduced through adenosine supplementation *in vitro*.
+Using a genome-wide homozygosity mapping approach, a popularizing technique in
+cardiovascular research [@Kathiresan2012], nonsense, missense, and
+single-nucleotide insertion frameshift mutations in the NT5E gene, coding for
+CD73, have been discovered to cause medial arterial calcification of the limbs,
+in otherwise healthy individuals. [@StHilaire2011] The study by @StHilaire2011
+demonstrated that cultured fibroblasts from the patients were deficient in CD73
+activity of hydrolyzing AMP into adenosine and inorganic phosphate, which was
+shown to be restored through CD73-deliverying viral vectors.
+
+## Exploring Possible Mechanisms Behind ACDC
+
+### Tissue-Nonspecific Alkaline Phosphatase (TNAP)
+In addition, a key enzyme related to calcification, TNAP, was found to be
+significantly overexpressed on the surface of CD73-deficient cells, which could
+be reduced to normal levels through adenosine supplementation *in vitro*. TNAP
+plays a key regulatory role in maintaining proper levels of inorganic
+pyrophosphate ($PP_i$) and phosphate ($P_i$) through the hydrolysis of $PP_i$
+into $PP_i$.  [@Millan2006] The ratio of $PP_i$ to $P_i$ plays a crucial role
+in controlling the formation of hydroxyapatite [@Lomashvili2004], one of the
+primary constituents of bone and product of arterial calcification. $PP_i$
+inhibits the deposition of $P_i$ on to growth sites in hypoxyapatite crystals,
+when $PP_i$ levels fall to abnormal levels, ectopic calcification results.
+[@Narisawa2004]
 
 
 [@Markello2011]: Vascular pathology of medial arterial calcifications in NT5E deficiency: implications for the role of adenosine in pseudoxanthoma elasticum.
@@ -174,11 +187,10 @@ could be reduced through adenosine supplementation *in vitro*.
 [@Collin-Osdoby2004]: Regulation of calcification by RANKL and
 osteoprotegerin
 
-[@Kathiresan2012]: Genetics of Human Cardiovascular Disease
 
-## Related Mechanisms Behind Medial Arterial Calcification
 
-[@Neven2011]: Cell biological and physicochemical aspects of arterial calcification - review of medial arterial calcification. good diagram
+
+[@Neven2011]: Cell biological and physicochemical aspects of arterial calcification - review of medial arterial calcification. Good diagram
 [@Jono2000]: quantification of calcification. treatment of HSMC with phosphate. Immortal HSMC. Causes differentiation
 
 [@Addison2007]: pyrophosphate inhibits mineralization through  three mechanisms - binding to mineral, upregulating Opn and decreasing expression of TNAP
