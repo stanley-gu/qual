@@ -148,6 +148,7 @@ as Monckeberg's arteriosclerosis, increases in prevalence in populations with
 increased age, diabetes mellitus, chronic kidney disease, chronic inflammation,
 and genetic disorders. [@Micheletti2008]
 
+
 ## Arterial Calcification due to Deficiency of CD73 (ACDC)
 
 Ecto-5'-nucleotidase (CD73) is located on the surface of the plasma membrane
