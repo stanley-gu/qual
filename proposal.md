@@ -170,7 +170,7 @@ shown to be restored through CD73-deliverying viral vectors.
 
 In determining the mechanism of ACDC, the literature was reviewed for related
 enzymes and metabolites that are related in the pathobiology of medial vascular
-calcification (Figure \ref{fig:mechanism}). [@Rutsch2011]
+calcification (Figure \ref{fig:mechanism}). [@Rutsch2011] 
 
 ### Tissue-Nonspecific Alkaline Phosphatase (TNAP)
 
@@ -186,6 +186,11 @@ inhibits the deposition of $P_i$ on to growth sites in hypoxyapatite crystals,
 when $PP_i$ levels fall to abnormal levels, ectopic calcification results.
 [@Narisawa2004] 
 
+In both humans [@Henthorn1992] and mice [@Anderson2004] with defects in TNAP
+expression, the result is fatality shortly after birth. In the TNAP knockout mice, there was normal formation HA containing matrix vesicles, however, extracellular mineralization was impaired due to elevated $PP_i$ concentration (Figure \ref{mice-tnap-knockout}).
+
+![\label{mice-tnap-knockout}Impaired bone formation of TNAP knockout mice (B) compared to wildtype mice (A)](images/mice-tnap-knockout.png)
+
 
 [@Markello2011]: Vascular pathology of medial arterial calcifications in NT5E deficiency: implications for the role of adenosine in pseudoxanthoma elasticum.
 
@@ -197,9 +202,7 @@ osteoprotegerin
 
 [@Addison2007]: pyrophosphate inhibits mineralization through  three mechanisms - binding to mineral, upregulating Opn and decreasing expression of TNAP
 
-Whole Mechanism:
 [@Nitschke2012a]: Genetics in arterial calcification: lessons learned from rare diseases. General review and also includes PIT2
-[@Rutsch2011]: Genetics in arterial calcification: pieces of a puzzle and cogs in a wheel.
 
 ### Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1)
 
@@ -351,6 +354,7 @@ Equations \ref{eq:firstMath} - \ref{eq:lastMath}
 
 * Try reversible hill equation instead of Michaelis-Menten
 * Consider alternative mechanisms
+* TNAP is expressed on cell surface and on the surface of matrix vesicles
 
 ## Specific Aim 3
 ### Strategy and Rationale
