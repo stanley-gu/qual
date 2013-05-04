@@ -128,8 +128,8 @@ In this section, the scientific context of this biological problem will be
 introduced. While the subject of arterial calcification is a large and diverse
 field, the focus of this background will be on the biological mechanisms of
 interest behind the NT5E mutation phenotype in designing this disease model.
-Additional reviews on the other facets of the pathobiology behind arterial
-calcification have been published. [@Demer2008; @Giachelli2004]
+Additional reviews on the pathobiology behind arterial calcification have been
+published. [@Demer2008; @Giachelli2004]
 
 ## Vascular Calcification
 
@@ -142,11 +142,11 @@ blood, vessel calcification has been discovered to be an active process that is
 similar to bone formation and remodeling. [@Bostrom1993; @Giachelli1993; @Ding2006]
 
 Calcification can occur in either the media (within vessel walls) or intima
-(vessel lumen interior). Intimal calcification is frequently seen in conditions
-related to atheroschlerosis [@Nakamura2009]. Medial calcification, also known
-as Monckeberg's arteriosclerosis, increases in prevalence in populations with
-increased age, diabetes mellitus, chronic kidney disease, chronic inflammation,
-and genetic disorders. [@Micheletti2008]
+(vessel lumen interior). Intimal vascular calcification (IVC) is frequently
+seen in conditions related to atheroschlerosis [@Nakamura2009]. Medial vascular
+calcification (MVC), also known as Monckeberg's arteriosclerosis, increases in
+prevalence in populations with increased age, diabetes mellitus, chronic kidney
+disease, chronic inflammation, and genetic disorders. [@Micheletti2008]
 
 ## Arterial Calcification due to Deficiency of CD73 (ACDC)
 
@@ -160,17 +160,22 @@ ectopic calcification.
 Using a genome-wide homozygosity mapping approach, a popularizing technique in
 cardiovascular research [@Kathiresan2012], nonsense, missense, and
 single-nucleotide insertion frameshift mutations in the NT5E gene, coding for
-CD73, have been discovered to cause medial arterial calcification of the limbs,
-in otherwise healthy individuals. [@StHilaire2011] The study by @StHilaire2011
-demonstrated that cultured fibroblasts from the patients were deficient in CD73
-activity of hydrolyzing AMP into adenosine and inorganic phosphate, which was
-shown to be restored through CD73-deliverying viral vectors.
+CD73, have been discovered to cause MVC of the limbs and joints in otherwise
+healthy individuals. [@StHilaire2011] The disease phenontype was exhibited in
+patients who were homozygous for the defective gene, with the onset of symptoms
+occuring around age 20 and becoming more severe with age, causing significant
+pain and discomfort in walking. The study by @StHilaire2011 demonstrated that
+cultured fibroblasts from the patients were deficient in CD73 activity of
+hydrolyzing AMP into adenosine and inorganic phosphate, which was shown to be
+restored through CD73-deliverying viral vectors.
 
 ## Exploring Possible Mechanisms Behind ACDC
 
 In determining the mechanism of ACDC, the literature was reviewed for related
-enzymes and metabolites that are related in the pathobiology of medial vascular
-calcification (Figure \ref{fig:mechanism}). [@Rutsch2011] 
+enzymes and metabolites that are related in the pathobiology of MVC (Figure
+\ref{fig:mechanism}). [@Rutsch2011] The process of bone formation by
+osteoblasts is closely resembled by the induced osteoblast-like smooth muscle
+cells that cause MVC. [@Neven2011]
 
 ### Tissue-Nonspecific Alkaline Phosphatase (TNAP)
 
@@ -179,25 +184,26 @@ significantly overexpressed on the surface of CD73-deficient cells, which could
 be reduced to normal levels through adenosine supplementation *in vitro*. TNAP
 plays a key regulatory role in maintaining proper levels of inorganic
 pyrophosphate ($PP_i$) and phosphate ($P_i$) through the hydrolysis of $PP_i$
-into $PP_i$.  [@Millan2006] The ratio of $PP_i$ to $P_i$ plays a crucial role
-in controlling the formation of hydroxyapatite [@Lomashvili2004], one of the
+into $PP_i$.  [@Millan2006] The ratio of $PP_i$ to $P_i$ is crucial in
+controlling the formation of hydroxyapatite (HA) [@Lomashvili2004], one of the
 primary constituents of bone and product of arterial calcification. $PP_i$
-inhibits the deposition of $P_i$ on to growth sites in hypoxyapatite crystals,
-when $PP_i$ levels fall to abnormal levels, ectopic calcification results.
-[@Narisawa2004] 
+inhibits the deposition of $P_i$ on to growth sites in HA crystals, when $PP_i$
+levels fall to abnormal levels, ectopic calcification results.  [@Narisawa2004] 
 
 In both humans [@Henthorn1992] and mice [@Anderson2004] with defects in TNAP
-expression, the result is fatality shortly after birth. In the TNAP knockout mice, there was normal formation HA containing matrix vesicles, however, extracellular mineralization was impaired due to elevated $PP_i$ concentration (Figure \ref{mice-tnap-knockout}).
+expression, the result is fatality shortly after birth. In the TNAP knockout
+mice, there was normal formation HA containing matrix vesicles that are
+released by osteoblasts, however, extracellular mineralization was impaired due
+to elevated $PP_i$ concentration (Figure \ref{mice-tnap-knockout}).
 
-![\label{mice-tnap-knockout}Impaired bone formation of TNAP knockout mice (B) compared to wildtype mice (A)](images/mice-tnap-knockout.png)
-
+![\label{mice-tnap-knockout}Impaired bone formation of TNAP knockout mice (B)
+compared to wildtype mice (A)](images/mice-tnap-knockout.png)
 
 [@Markello2011]: Vascular pathology of medial arterial calcifications in NT5E deficiency: implications for the role of adenosine in pseudoxanthoma elasticum.
 
 [@Collin-Osdoby2004]: Regulation of calcification by RANKL and
 osteoprotegerin
 
-[@Neven2011]: Cell biological and physicochemical aspects of arterial calcification - review of medial arterial calcification. Good diagram
 [@Jono2000]: quantification of calcification. treatment of HSMC with phosphate. Immortal HSMC. Causes differentiation
 
 [@Addison2007]: pyrophosphate inhibits mineralization through  three mechanisms - binding to mineral, upregulating Opn and decreasing expression of TNAP
