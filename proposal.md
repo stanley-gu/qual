@@ -168,8 +168,13 @@ shown to be restored through CD73-deliverying viral vectors.
 
 ## Exploring Possible Mechanisms Behind ACDC
 
+In determining the mechanism of ACDC, the literature was reviewed for related
+enzymes and metabolites that are related in the pathobiology of medial vascular
+calcification (Figure \ref{fig:mechanism}). [@Rutsch2011]
+
 ### Tissue-Nonspecific Alkaline Phosphatase (TNAP)
-In addition, a key enzyme related to calcification, TNAP, was found to be
+
+A key enzyme related to calcification, TNAP, was found to be
 significantly overexpressed on the surface of CD73-deficient cells, which could
 be reduced to normal levels through adenosine supplementation *in vitro*. TNAP
 plays a key regulatory role in maintaining proper levels of inorganic
@@ -179,16 +184,13 @@ in controlling the formation of hydroxyapatite [@Lomashvili2004], one of the
 primary constituents of bone and product of arterial calcification. $PP_i$
 inhibits the deposition of $P_i$ on to growth sites in hypoxyapatite crystals,
 when $PP_i$ levels fall to abnormal levels, ectopic calcification results.
-[@Narisawa2004]
+[@Narisawa2004] 
 
 
 [@Markello2011]: Vascular pathology of medial arterial calcifications in NT5E deficiency: implications for the role of adenosine in pseudoxanthoma elasticum.
 
 [@Collin-Osdoby2004]: Regulation of calcification by RANKL and
 osteoprotegerin
-
-
-
 
 [@Neven2011]: Cell biological and physicochemical aspects of arterial calcification - review of medial arterial calcification. Good diagram
 [@Jono2000]: quantification of calcification. treatment of HSMC with phosphate. Immortal HSMC. Causes differentiation
@@ -199,7 +201,17 @@ Whole Mechanism:
 [@Nitschke2012a]: Genetics in arterial calcification: lessons learned from rare diseases. General review and also includes PIT2
 [@Rutsch2011]: Genetics in arterial calcification: pieces of a puzzle and cogs in a wheel.
 
-### Tissue Non-specific Alkaline Phosphatase (TNAP)
+### Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1)
+
+[@Kato2012]: Crystal structure of Enpp1, an extracellular glycoprotein involved in bone mineralization and insulin signalin
+
+### Generalized Arterial Calcification of Infancy (GACI)
+[@Ramjan2009]: Treatment with bisphosphonates for 3 years reverses its effects.
+[@Edouard2011]: May not be necessary to treat infants with bisphosphonates for even two years.
+
+[@Kiffer-Moreira2013]: Pharmacological Inhibition of PHOSPHO1 Suppresses Vascular Smooth Muscle Cell Calcification
+
+[@Roberts2005]: Probing the substrate specificities of human PHOSPHO1 and PHOSPHO2. Have a wide spectrum of phosphorylated compounds that are hydrolyzed. PHOSPHO2 hydrolyze ATP and pyrophosphate
 
 [@Henthorn1992]: Different missense mutations at the tissue-nonspecific alkaline phosphatase (TNAP) gene locus in autosomal recessive inherited forms of mild and severe hypophosphatasia
 [@Hessle2002]: Tissue-nonspecific alkaline phosphatase and plasma cell membrane glycoprotein-1 are central antagonistic
@@ -209,26 +221,13 @@ regulators of bone mineralization
 Phosphate
 [@Jono2000]: Phosphate Regulation of Vascular Smooth Muscle Cell Calcification - in vitro assays
 
-### Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1)
-[@Kato2012]: Crystal structure of Enpp1, an extracellular glycoprotein involved in bone mineralization and insulin signalin
-
-### Generalized Arterial Calcification of Infancy (GACI)
-[@Ramjan2009]: Treatment with bisphosphonates for 3 years reverses its effects.
-[@Edouard2011]: May not be necessary to treat infants with bisphosphonates for even two years.
-
-
-### Phosphoethanolamine/Phosphocholine Phosphatase (PHOSPHO 1) and Pyridoxal Phosphate Phosphatase (PHOSPHO2)
-
-[@Kiffer-Moreira2013]: Pharmacological Inhibition of PHOSPHO1 Suppresses Vascular Smooth Muscle Cell Calcification
-
-[@Roberts2005]: Probing the substrate specificities of human PHOSPHO1 and PHOSPHO2. Have a wide spectrum of phosphorylated compounds that are hydrolyzed. PHOSPHO2 hydrolyze ATP and pyrophosphate
 
 ### ATP-binding Cassette Sub-Family C Member 6 (ABCC6)
 
 [@LeSaux2006]: Serum Factors from Pseudoxanthoma Elasticum Patients Alter Elastic Fiber Formation In Vitro
 [@LeSaux2012]: The molecular and physiological roles of ABCC6: more than meets the eye
 
-### Pseudoxanthoma elasticum (PXE)
+#### Pseudoxanthoma elasticum (PXE)
 [@Nitschke2012]: Generalized arterial calcification of infancy and pseudoxanthoma elasticum can be caused by mutations in either ENPP1 or ABCC6
 
 
@@ -273,9 +272,9 @@ Phosphate
 ## Specific Aim 1
 ### Strategy and Rationale
 
-Proposed mechanism shown in Figure \ref{fig:pathway}.
+Proposed mechanism shown in Figure \ref{fig:mechanism}.
 
-![Proposed biological pathway involved in arterial calcification caused by ACDC, GACI, and PXE. \label{fig:pathway}](images/mechanism.png)
+![Proposed biological pathway involved in arterial calcification caused by ACDC, GACI, and PXE. \label{fig:mechanism}](images/mechanism.png)
 
 ### Experimental Plan
 
@@ -311,7 +310,7 @@ Equations \ref{eq:firstText} - \ref{eq:lastText}
 \frac{d[\text{Adenosine}]}{dt} = + (\text{CD73 Activity}) - (\text{Adenosine Degradation}) + (\text{Adenosine Generation})
 \end{equation}
 
-\begin{equation}
+\begin{equation}\label{eq:lastText}
 \frac{d[P_i]}{dt} = + (\text{CD73 Activity}) - (\text{TNAP Activity}) - (P_i \: \text{Degradation}) + (P_i \: \text{Generation})
 \end{equation}
 
@@ -334,7 +333,7 @@ Equations \ref{eq:firstMath} - \ref{eq:lastMath}
 \frac{d[\text{Adenosine}]}{dt} = + \frac{V_{max\text{-CD73}}[\text{AMP}]}{K_{m\text{-CD73}} + [\text{AMP}]} - \alpha_{\text{Adenosine}} + \gamma_{\text{Adenosine}}
 \end{equation}
 
-\begin{equation}
+\begin{equation}\label{eq:lastMath}
 \frac{d[P_i]}{dt} = + \frac{V_{max\text{-CD73}}[\text{AMP}]}{K_{m\text{-CD73}} + [\text{AMP}]} - \frac{V_{max\text{-TNAP}}[PP_i]}{K_{m\text{-TNAP}} + [PP_i]} - \alpha_{P_i} [P_i] + \gamma_{P_i} [P_i]
 \end{equation}
 
