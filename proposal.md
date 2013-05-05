@@ -175,7 +175,9 @@ In determining the mechanism of ACDC, the literature was reviewed for related
 enzymes and metabolites that are related in the pathobiology of MVC (Figure
 \ref{fig:mechanism}). [@Rutsch2011] The process of bone formation by
 osteoblasts is closely resembled by the induced osteoblast-like smooth muscle
-cells that cause MVC. [@Neven2011]
+cells that cause MVC. [@Neven2011] Insight into the pathological mechanism has
+come from numerous independent genetic studies that discovered molecular
+defects in rare monogenetic disorders. [@Nitschke2012a]
 
 ### Tissue-Nonspecific Alkaline Phosphatase (TNAP)
 
@@ -185,38 +187,46 @@ be reduced to normal levels through adenosine supplementation *in vitro*. TNAP
 plays a key regulatory role in maintaining proper levels of inorganic
 pyrophosphate ($PP_i$) and phosphate ($P_i$) through the hydrolysis of $PP_i$
 into $PP_i$.  [@Millan2006] The ratio of $PP_i$ to $P_i$ is crucial in
-controlling the formation of hydroxyapatite (HA) [@Lomashvili2004], one of the
-primary constituents of bone and product of arterial calcification. $PP_i$
-inhibits the deposition of $P_i$ on to growth sites in HA crystals, when $PP_i$
-levels fall to abnormal levels, ectopic calcification results.  [@Narisawa2004] 
+controlling the formation of hydroxyapatite (HA) crystal [@Lomashvili2004], one
+of the primary constituents of bone and product of arterial calcification.
+$PP_i$ inhibits the deposition of $P_i$ and calcium on to growth sites in HA
+crystals, when $PP_i$ levels fall to abnormal levels, ectopic calcification
+results.  [@Narisawa2004] 
 
-In both humans [@Henthorn1992] and mice [@Anderson2004] with defects in TNAP
+The under-expression of TNAP activity also has deleterious effects. In both
+humans [@Henthorn1992] and mice [@Anderson2004] with defects in TNAP
 expression, the result is fatality shortly after birth. In the TNAP knockout
 mice, there was normal formation HA containing matrix vesicles that are
 released by osteoblasts, however, extracellular mineralization was impaired due
-to elevated $PP_i$ concentration (Figure \ref{mice-tnap-knockout}).
+to elevated $PP_i$ levels (Figure \ref{mice-tnap-knockout}).
 
 ![\label{mice-tnap-knockout}Impaired bone formation of TNAP knockout mice (B)
 compared to wildtype mice (A)](images/mice-tnap-knockout.png)
 
 [@Markello2011]: Vascular pathology of medial arterial calcifications in NT5E deficiency: implications for the role of adenosine in pseudoxanthoma elasticum.
 
-[@Collin-Osdoby2004]: Regulation of calcification by RANKL and
-osteoprotegerin
-
 [@Jono2000]: quantification of calcification. treatment of HSMC with phosphate. Immortal HSMC. Causes differentiation
 
-[@Addison2007]: pyrophosphate inhibits mineralization through  three mechanisms - binding to mineral, upregulating Opn and decreasing expression of TNAP
+### Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1) and ANK
 
-[@Nitschke2012a]: Genetics in arterial calcification: lessons learned from rare diseases. General review and also includes PIT2
+The tiptoe-walking mouse (*ttw/ttw*) was used for many years as a disease model
+to study calcification of ligaments. Okawa et al. [@Okawa1998] showed that the
+phenotype was due to a mutation in the gene encoding for ENPP1. ENPP1 is a
+major physiological generator of extracellular $PP_i$ by hydrolyzing ATP.
+[@Kato2012] The loss the capacity for $PP_i$ to potently inhibit HA formation
+results in severe MVC beginning in infancy. ENPP1 knockout mice recapitulated
+the *ttw/ttw* phenotype and Consequently, defects in ENPP1 for humans were
+discovered to cause generalized arterial calcification of infancy (GACI).
+Treatment with bisphosphonates [@Ramjan2009], a pyrophosphate analog, can
+reverse the course of disease. Interestingly, it has been shown that stopping
+bisphosphonate supplementation at the age of 2 in infants still allows for
+healthy development [@Edouard2011], which is perhaps a result of other
+compensatory mechanisms for maintaining systemic balance of $PP_i$/$P_i$.
 
-### Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1)
+Mutations in the gene ANKH (ANK in mice) also result in a similar disease
+phenotype  [@Nurnberg2001]. ANKH is the other contributor of $PP_i$ in the
+extracellular environment, through the transport of intracellular $PP_i$.
 
-[@Kato2012]: Crystal structure of Enpp1, an extracellular glycoprotein involved in bone mineralization and insulin signalin
-
-### Generalized Arterial Calcification of Infancy (GACI)
-[@Ramjan2009]: Treatment with bisphosphonates for 3 years reverses its effects.
-[@Edouard2011]: May not be necessary to treat infants with bisphosphonates for even two years.
 
 [@Kiffer-Moreira2013]: Pharmacological Inhibition of PHOSPHO1 Suppresses Vascular Smooth Muscle Cell Calcification
 
