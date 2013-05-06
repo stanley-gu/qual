@@ -255,7 +255,11 @@ shows that a yet to be discovered substrate, or substrates, is transported
 systemically into serum, which prevents ectopic calcification. [@LeSaux2006]
 Interestingly, mutations in ENPP1 or ABCC6 can lead to PXE symptoms [@Nitschke2012], which further suggests that the mechanisms behind these diseases are inter-related.
 
-Focusing back on the adenosine-supplementation recovery in CD73-deficient cells, the mechanism in which adenosine apparently suppresses TNAP is not yet known. All adenosine receptors are G-Protein Coupled Receptors (GPCR), are one of four different pharmacological classes ($A_1$, $A_{2A}$,$A_{2B}, and $A_3$), and have a wide range of effects on the body. [@Hasko2008]
+Focusing back on the adenosine-supplementation recovery in CD73-deficient
+cells, the mechanism in which adenosine apparently suppresses TNAP is not yet
+known. All adenosine receptors are G-Protein Coupled Receptors (GPCR), are one
+of four different pharmacological classes ($A_1$, $A_{2A}$, $A_{2B}$, and
+$A_3$), and have a wide range of effects on the body. [@Hasko2008]
 
 [@Delomenede2009]: Lansoprazole is an uncompetitive inhibitor of tissue-nonspecific alkaline phosphatase (TNAP)
 
@@ -271,7 +275,9 @@ Focusing back on the adenosine-supplementation recovery in CD73-deficient cells,
 
 [@Chen1999]: Modeling gene expression with differential equations.
 
-[@Gutenkunst2007]: Systems biology models are universally "sloppy", meaning they that they contain many insensitive parameters and their behaviors are determined by relatively few number of stiff parameters.
+[@Gutenkunst2007]: Systems biology models are universally "sloppy", meaning
+they that they contain many insensitive parameters and their behaviors are
+determined by relatively few number of stiff parameters.
 
 [@Marino2008]: A methodology for performing global uncertainty and sensitivity analysis in systems biology.
 
@@ -282,6 +288,19 @@ Focusing back on the adenosine-supplementation recovery in CD73-deficient cells,
 # Experimental Design and Methods
 ## Overview
 
+Figure \ref{fig:overview} shows an overview of the specific aims.
+
+Specific Aims 1 and 2 will serve to explore the mechanism behind ACDC and will
+be performed in parallel. The results from the *in vitro* and *in silico*
+modeling will be used to inform each process.
+
+Specific Aims 2 and 3 will serve to intelligently select and design for a
+therapeutic intervention for treating the disease. Analysis of the optimized
+*in silico* model will enable the selection of the best therapeutic
+intervention to be tested in a CD73 -/- mouse model.
+
+![\label{fig:overview}Overview of Aims](images/overview.png)
+
 ## General Protocols
 
 ## Specific Aim 1
@@ -290,6 +309,8 @@ Focusing back on the adenosine-supplementation recovery in CD73-deficient cells,
 Proposed mechanism shown in Figure \ref{fig:mechanism}.
 
 ![Proposed biological pathway involved in arterial calcification caused by ACDC, GACI, and PXE. \label{fig:mechanism}](images/mechanism.png)
+
+![\label{fig:pathway}Pathway to be modeled.](images/pathway.png)
 
 ### Experimental Plan
 
