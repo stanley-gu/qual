@@ -350,29 +350,6 @@ Equations \ref{eq:firstText} - \ref{eq:lastText}
 \frac{d[P_i]}{dt} = + (\text{CD73 Activity}) - (\text{TNAP Activity}) - (P_i \: \text{Degradation}) + (P_i \: \text{Generation})
 \end{equation}
 
-Filling out with Michaelis-Menten Kinetics
-Equations \ref{eq:firstMath} - \ref{eq:lastMath}
-
-\begin{equation}\label{eq:firstMath}
-\frac{d[\text{ATP}]}{dt} = - \frac{V_{max\text{-ENPP1}}[\text{ATP}]}{K_{m\text{-ENPP1}} + [\text{ATP}]} - \alpha_{\text{ATP}} \text{[ATP]}  + \gamma_{\text{ATP}} \text{[ATP]}
-\end{equation}
-
-\begin{equation}
-\frac{d[PP_i]}{dt} = + \frac{V_{max\text{-ENPP1}}[\text{ATP}]}{K_{m\text{-ENPP1}} + [\text{ATP}]} - \frac{V_{max\text{-TNAP}}[PP_i]}{K_{m\text{-TNAP}} + [PP_i]} - \alpha_{PP_i}[PP_i] + \gamma_{PP_i}[PP_i]
-\end{equation}
-
-\begin{equation}
-\frac{d[\text{AMP}]}{dt} = + \frac{V_{max\text{-ENPP1}}[\text{ATP}]}{K_{m\text{-ENPP1}} + [\text{ATP}]} - \frac{V_{max\text{-CD73}}[\text{AMP}]}{K_{m\text{-CD73}} + [\text{AMP}]} - \alpha_{\text{AMP}}[\text{AMP}] + \gamma_{\text{AMP}}[\text{AMP}]
-\end{equation}
-
-\begin{equation}
-\frac{d[\text{Adenosine}]}{dt} = + \frac{V_{max\text{-CD73}}[\text{AMP}]}{K_{m\text{-CD73}} + [\text{AMP}]} - \alpha_{\text{Adenosine}} + \gamma_{\text{Adenosine}}
-\end{equation}
-
-\begin{equation}\label{eq:lastMath}
-\frac{d[P_i]}{dt} = + \frac{V_{max\text{-CD73}}[\text{AMP}]}{K_{m\text{-CD73}} + [\text{AMP}]} - \frac{V_{max\text{-TNAP}}[PP_i]}{K_{m\text{-TNAP}} + [PP_i]} - \alpha_{P_i} [P_i] + \gamma_{P_i} [P_i]
-\end{equation}
-
 ### Experimental Plan
 
 #### Characterize and Quantify Enzyme Kinetics Through Initial Rate Reactions
