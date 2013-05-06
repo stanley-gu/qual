@@ -191,7 +191,7 @@ controlling the formation of hydroxyapatite (HA) crystal [@Lomashvili2004], one
 of the primary constituents of bone and product of arterial calcification.
 $PP_i$ inhibits the deposition of $P_i$ and calcium on to growth sites in HA
 crystals, when $PP_i$ levels fall to abnormal levels, ectopic calcification
-results.  [@Narisawa2004] 
+results.  [@Narisawa2004;@Hessle2002] 
 
 The under-expression of TNAP activity also has deleterious effects. In both
 humans [@Henthorn1992] and mice [@Anderson2004] with defects in TNAP
@@ -210,7 +210,7 @@ compared to wildtype mice (A)](images/mice-tnap-knockout.png)
 ### Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1) and ANK
 
 The tiptoe-walking mouse (*ttw/ttw*) was used for many years as a disease model
-to study calcification of ligaments. Okawa et al. [@Okawa1998] showed that the
+to study calcification of ligaments. @Okawa1998 showed that the
 phenotype was due to a mutation in the gene encoding for ENPP1. ENPP1 is a
 major physiological generator of extracellular $PP_i$ by hydrolyzing ATP.
 [@Kato2012] The loss the capacity for $PP_i$ to potently inhibit HA formation
@@ -232,40 +232,38 @@ extracellular environment, through the transport of intracellular $PP_i$.
 
 [@Roberts2005]: Probing the substrate specificities of human PHOSPHO1 and PHOSPHO2. Have a wide spectrum of phosphorylated compounds that are hydrolyzed. PHOSPHO2 hydrolyze ATP and pyrophosphate
 
-[@Henthorn1992]: Different missense mutations at the tissue-nonspecific alkaline phosphatase (TNAP) gene locus in autosomal recessive inherited forms of mild and severe hypophosphatasia
-[@Hessle2002]: Tissue-nonspecific alkaline phosphatase and plasma cell membrane glycoprotein-1 are central antagonistic
-regulators of bone mineralization
 [@Hoemann2009]: In vitro osteogenesis assays: Influence of the primary cell source on alkaline phosphatase activity and mineralization
 [@Hotton1999]: Differential Expression and Activity of Tissue-nonspecific Alkaline Phosphatase (TNAP) in Rat Odontogenic Cells In Vivo
 Phosphate
 [@Jono2000]: Phosphate Regulation of Vascular Smooth Muscle Cell Calcification - in vitro assays
 
 
-### ATP-binding Cassette Sub-Family C Member 6 (ABCC6)
+### ATP-binding Cassette Sub-Family C Member 6 (ABCC6) and Role of Adenosine Signaling
 
-[@LeSaux2006]: Serum Factors from Pseudoxanthoma Elasticum Patients Alter Elastic Fiber Formation In Vitro
-[@LeSaux2012]: The molecular and physiological roles of ABCC6: more than meets the eye
+@StHilaire2011 discovered that by supplementing CD73 deficient cells with
+adenosine, TNAP overexpression can be brought back down to normal levels, and
+subsequently the levels of calcification detected *in vitro* were notably
+reduced. This finding suggests that delivering adenosine, which is the missing
+product from CD73, may lead to the rescue of the ACDC condition
+[@Rutsch2011;@Nitschke2012]. Dysfunctional adenosine production was also
+suggested to be the consequence of ATP-binding Cassette Sub-Family C Member
+(ABCC6) mutations [@Markello2011] that cause pseudoxanthoma elasticum (PXE), a
+disease that shares similar manifestations to ACDC [@LeSaux2000]. However,
+later studies [@Leftheriotis2011;@LeSaux2012] showed that ABBC6 does not
+transport adenosine, and suggests that its role may be more complex. Evidence
+shows that a yet to be discovered substrate, or substrates, is transported
+systemically into serum, which prevents ectopic calcification. [@LeSaux2006]
+Interestingly, mutations in ENPP1 or ABCC6 can lead to PXE symptoms [@Nitschke2012], which further suggests that the mechanisms behind these diseases are inter-related.
 
-#### Pseudoxanthoma elasticum (PXE)
-[@Nitschke2012]: Generalized arterial calcification of infancy and pseudoxanthoma elasticum can be caused by mutations in either ENPP1 or ABCC6
-
-
-
-### Potential Therapeutical Interventions
+Focusing back on the adenosine-supplementation recovery in CD73-deficient cells, the mechanism in which adenosine apparently suppresses TNAP is not yet known. All adenosine receptors are G-Protein Coupled Receptors (GPCR), are one of four different pharmacological classes ($A_1$, $A_{2A}$,$A_{2B}, and $A_3$), and have a wide range of effects on the body. [@Hasko2008]
 
 [@Delomenede2009]: Lansoprazole is an uncompetitive inhibitor of tissue-nonspecific alkaline phosphatase (TNAP)
 
-[@Hasko2008]: Adenosine receptors: therapeutic aspects for inflammatory and immune diseases
-
 [@O'Neill2010]: Recent progress in the treatment of vascular calcification. Suggests the control of phosphates for treatment
 
-## Animal Models
 [@Abedin2004]: Review of arterial calcification and mechanisms behind it. Vascular calcification may include both osteogenic and chondrogenic differentiation. In humans, it is primarily osteogenic with bone tissue formation, whereas in mice, it is primarily chondrogenic with cartilage formation. 
+
 [@Koszalka2004]: CD73 -/- Mice
-
-## Quantitative Systems Modeling in Biology
-
-### Modeling Techniques
 
 [@Bhalla2004]: Review of the different types of cell signaling models
 
@@ -278,8 +276,6 @@ Phosphate
 [@Marino2008]: A methodology for performing global uncertainty and sensitivity analysis in systems biology.
 
 [@Aldridge2006]: Physicochemical modelling of cell signalling pathways. Lauffenburger review article
-
-### Enzyme Kinetics
 
 [@Eicher2012]: Determining Enzyme Kinetics for Systems Biology with Nuclear Magnetic Resonance Spectroscopy
 
