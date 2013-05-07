@@ -205,7 +205,6 @@ compared to wildtype mice (A). [@Anderson2004]](images/mice-tnap-knockout.png)
 
 [@Markello2011]: Vascular pathology of medial arterial calcifications in NT5E deficiency: implications for the role of adenosine in pseudoxanthoma elasticum.
 
-[@Jono2000]: Quantification of calcification. Treatment of HSMC with phosphate. Immortal HSMC. Causes differentiation
 
 ### Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1) and ANK
 
@@ -314,7 +313,27 @@ Proposed mechanism shown in Figure \ref{fig:mechanism}.
 
 ### Experimental Plan
 
-#### Establish *In Vitro* Model of ACDC
+#### Establish *In Vitro* Model of ACDC and Healthy Controls
+
+Vascular smooth muscle cells (VSMCs) will be isolated and cultured
+[@mahabeleshwar2007methods] from distal arteries of C57BL/6J mice. Medial
+tissues will be separated from surgically excised vasculature. [@Jono2000]
+Small pieces of tissue (1 to 2 mm^3^) will be digested overnight in DMEM
+supplemented collagenase type I, elastase type III, and soybean trypsin
+inhibitor at 37^$\circ$^ C. The single cell suspensions will then be cultured
+for several weeks in DMEM supplemented with fetal bovine serum (FBS). The
+purity of the cultures will be assessed by immunostaining for $\alpha$-actin
+and calponin, positive indicators for smooth muscle cells. [@Liaw1995] VSMCs
+will be routinely subcultured in growth medium. For running experiments, VSMCs
+will be grown to confluency, trypsinized, counted (Invitrogen Automated Cell
+Counter), and redispersed on to microtiter plates. These cells will serve as
+the health control VSMCs.
+
+CD73 -/- knockout mice will be purchased from The Jackson Laboratory (<http://jaxmice.jax.org/>) which contain mutations in the NT5E/CD73 gene coding for the enzyme's catalytic site. [@Knofel1999] This same mouse model will be
+the *in vivo* CD73 -/- model used in Aim 3. VSMCs will be isolated and cultured from this knockout model in a similar procedure as above.
+
+[@Castrop2004]: CD73 mice sacrificed at 4-6 months, showed significantly elevated plasma alkaline phosphatase levels, consistent with the mechanism and suggests that the ACDC phenotype may be expressed
+[@Jono2000]: Quantification of calcification. Treatment of HSMC with phosphate. Immortal HSMC. Causes differentiation
 
 #### Quantify Surface Enzyme Expression
 
