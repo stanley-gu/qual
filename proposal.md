@@ -201,7 +201,7 @@ released by osteoblasts, however, extracellular mineralization was impaired due
 to elevated $PP_i$ levels (Figure \ref{mice-tnap-knockout}).
 
 ![\label{mice-tnap-knockout}Impaired bone formation of TNAP knockout mice (B)
-compared to wildtype mice (A)](images/mice-tnap-knockout.png)
+compared to wildtype mice (A). [@Anderson2004]](images/mice-tnap-knockout.png)
 
 [@Markello2011]: Vascular pathology of medial arterial calcifications in NT5E deficiency: implications for the role of adenosine in pseudoxanthoma elasticum.
 
@@ -320,7 +320,9 @@ Proposed mechanism shown in Figure \ref{fig:mechanism}.
 
 #### Quantify Enzyme Expression
 
-#### Develop Antibodies for Highly Selective Blocking and Isolation of Pathways
+#### Measure Dynamic Response of TNAP Expression with Adenosine Supplementation
+
+
 
 ### Expected Results and Proposed Alternatives
 
