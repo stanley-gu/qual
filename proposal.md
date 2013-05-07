@@ -205,7 +205,7 @@ compared to wildtype mice (A). [@Anderson2004]](images/mice-tnap-knockout.png)
 
 [@Markello2011]: Vascular pathology of medial arterial calcifications in NT5E deficiency: implications for the role of adenosine in pseudoxanthoma elasticum.
 
-[@Jono2000]: quantification of calcification. treatment of HSMC with phosphate. Immortal HSMC. Causes differentiation
+[@Jono2000]: Quantification of calcification. Treatment of HSMC with phosphate. Immortal HSMC. Causes differentiation
 
 ### Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1) and ANK
 
@@ -316,13 +316,15 @@ Proposed mechanism shown in Figure \ref{fig:mechanism}.
 
 #### Establish *In Vitro* Model of ACDC
 
+#### Quantify Surface Enzyme Expression
+
 #### Establish Metabolite Profile of ACDC Versus Disease Cells
 
-#### Quantify Enzyme Expression
+#### Determine Adenosine Signaling Mechanism
 
-#### Measure Dynamic Response of TNAP Expression with Adenosine Supplementation
+##### Combinatorial Probing of Adenosine Receptors with Agonists
 
-
+##### Perform Adenosine Signaling with Dipyridamole Presence
 
 ### Expected Results and Proposed Alternatives
 
@@ -330,43 +332,23 @@ Proposed mechanism shown in Figure \ref{fig:mechanism}.
 
 ### Strategy and Rationale
 
-Equations \ref{eq:firstText} - \ref{eq:lastText}
-
-\begin{equation}\label{eq:firstText}
-\frac{d[\text{ATP}]}{dt} = - (\text{ENPP1 Activity}) - (\text{ATP Degradation}) + (\text{ATP Generation})
-\end{equation}
-
-\begin{equation}
-\frac{d[PP_i]}{dt} = + (\text{ENPP1 Activity}) - (\text{TNAP Activity}) - (PP_i \: \text{Degradation}) + (PP_i \: \text{Generation})
-\end{equation}
-
-\begin{equation}
-\frac{d[\text{AMP}]}{dt} = + (\text{ENPP1 Activity}) - (\text{CD73 Activity}) - (\text{AMP Degradation}) + (\text{AMP Generation})
-\end{equation}
-
-\begin{equation}
-\frac{d[\text{Adenosine}]}{dt} = + (\text{CD73 Activity}) - (\text{Adenosine Degradation}) + (\text{Adenosine Generation})
-\end{equation}
-
-\begin{equation}\label{eq:lastText}
-\frac{d[P_i]}{dt} = + (\text{CD73 Activity}) - (\text{TNAP Activity}) - (P_i \: \text{Degradation}) + (P_i \: \text{Generation})
-\end{equation}
+Build pharmacodynamic and pharmacokinetic models of potential therapies to guide the design course of therapy.
 
 ### Experimental Plan
 
-#### Characterize and Quantify Enzyme Kinetics Through Initial Rate Reactions
+#### Develop Pharmacodynamic Model
 
-![Generalized process for measuring enzyme kinetics. \label{fig:kinetics}](images/kinetics.png)
+##### Adenosine Receptor Agonist
 
-#### Establish Confidence in Model Through Uncertainty Analysis and Cross Validation with Experiments
+##### Lanzoprazole
 
-* Latin Hypercube
+##### Bisphosphonate
+
+#### Develop Pharmacokinetic Model
+
+#### Develop Pharmacokinetic-Pharmacodynamic Model
 
 ### Expected Results and Proposed Alternatives
-
-* Try reversible hill equation instead of Michaelis-Menten
-* Consider alternative mechanisms
-* TNAP is expressed on cell surface and on the surface of matrix vesicles
 
 ## Specific Aim 3
 ### Strategy and Rationale
@@ -375,11 +357,9 @@ Equations \ref{eq:firstText} - \ref{eq:lastText}
 
 ### Experimental Plan
 
-#### Identification of Therapeutic Targets *In Silico*
-* Sensitivity Analysis
-* Flux Balance Analysis
+#### Establish ACDC Mouse Model
 
-#### Measurement of Therapeutic Efficacy on CD73 -/- Murine Model
+#### Conduct Predicted Dosing Plan on Mouse Model and Evaluate Efficacy
 
 ### Expected Results and Proposed Alternatives
 
