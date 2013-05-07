@@ -329,8 +329,11 @@ will be grown to confluency, trypsinized, counted (Invitrogen Automated Cell
 Counter), and redispersed on to microtiter plates. These cells will serve as
 the health control VSMCs.
 
-CD73 -/- knockout mice will be purchased from The Jackson Laboratory (<http://jaxmice.jax.org/>) which contain mutations in the NT5E/CD73 gene coding for the enzyme's catalytic site. [@Knofel1999] This same mouse model will be
-the *in vivo* CD73 -/- model used in Aim 3. VSMCs will be isolated and cultured from this knockout model in a similar procedure as above.
+CD73 -/- knockout mice will be purchased from The Jackson Laboratory
+(<http://jaxmice.jax.org/>) which contain mutations in the NT5E/CD73 gene
+coding for the enzyme's catalytic site. [@Knofel1999] This same mouse model
+will be the *in vivo* CD73 -/- model used in Aim 3. VSMCs will be isolated and
+cultured from this knockout model in a similar procedure as above.
 
 [@Castrop2004]: CD73 mice sacrificed at 4-6 months, showed significantly elevated plasma alkaline phosphatase levels, consistent with the mechanism and suggests that the ACDC phenotype may be expressed
 [@Jono2000]: Quantification of calcification. Treatment of HSMC with phosphate. Immortal HSMC. Causes differentiation
@@ -346,6 +349,17 @@ the *in vivo* CD73 -/- model used in Aim 3. VSMCs will be isolated and cultured 
 ##### Perform Adenosine Signaling with Dipyridamole Presence
 
 ### Expected Results and Proposed Alternatives
+
+While VSMC cell cultures have previously been established from *ex vivo* human
+aorta [@Jono2000], the similar process in mouse VSMC cell culture may be
+difficult due to the drastically smaller amount of "seed" tissue that can be
+extracted from each specimen to start the colony. Collecting tissue from
+multiple specimens may be necessary to initiate a sustainable culture. Other
+cell types may be used for *in vitro* experiments, @StHilaire2011 used human
+fibroblasts directly from CD73 -/- patients. However, the selection of mouse
+VSMCs that come from the same mouse strain is desired because it will likely be
+the closest relationship between cell dish experiments to whole animal across
+the experimental aims.
 
 ## Specific Aim 2
 
