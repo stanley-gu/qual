@@ -314,9 +314,9 @@ Proposed mechanism shown in Figure \ref{fig:mechanism}.
 
 ### Experimental Plan
 
-#### *In Vitro* Culture of VSMCs
+#### Establish *In Vitro* Model of ACDC
 
-#### Establish Methods for Measuring Key Metabolites
+#### Establish Metabolite Profile of ACDC Versus Disease Cells
 
 #### Quantify Enzyme Expression
 
