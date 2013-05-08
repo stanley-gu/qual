@@ -57,70 +57,67 @@ of arterial calcification and distal joint calcification (ACDC). As of the
 writing of this proposal, there is no standard treatment or therapy for
 alleviating this condition.
 
-This study proposes the development of a quantitative systems model, built
-alongside and informed through *in vitro* experimentation, for elucidating the
-mechanism behind the ACDC phenotype. This model will enable in-depth
-investigation of the medial vascular calcification pathway, consolidation and
-validation of the mechanistic understanding of the disease, and identification
-and prediction of efficacious new therapeutic interventions, which will be
-confirmed experimentally. After establishing a predictive *in silico* model of
-the biological mechanism behind ACDC, sensitivity and flux balance analysis
-will be used to identify targets within the pathway for therapy, which will be
-confirmed in a murine disease model. The general approach in building this
-mechanistic model is iterative and hypothesis driven. Experimental results will
-serve to tune and build confidence in the proposed mechanisms, leading to
-better understanding of the impact due to CD73-deficiency and potential
-treatments for the condition.  While beyond the scope of this proposal, the
-systems modeling approach introduced here may also prove useful for studying a
-number of related diseases stemming from defects within biomolecular components
-upstream and down stream of CD73.
+This proposal will outline research to determine the biological mechanism and
+investigate possible therapeutic interventions for ACDC. Work will involve *in
+vitro* and *in vivo* experimentation along with pharmacokinetic (PK) and
+pharmacodynamic (PD) modeling in order to rapidly support the design of a
+treatment plan for this disease 
 
-## Specific Aim 1: **Develop *In Vitro* Platform for Exploring ACDC Pathway.**
+## Specific Aim 1: **Determine Mechanism of Arterial Calcification Due to
+CD73-Deficiency**
 
 An *in vitro* model consisting of vascular smooth muscle cells, will serve as a
 platform for running molecular biology experiments for mechanistic exploration
 and model building. Through review of the current literature, several surface
 bound enzymes, primarily ENPP1 and TNAP, were identified as major components
 contributing to pyrophosphate depletion, leading to mineralization of the
-arterial wall, and will also be incorporated in the initial mechanistic
-hypothesis. Antibodies will be developed to specifically to bind to each of the
-surface proteins of interest, allowing for labeling and quantification of the
-enzymes, in addition to serving as a method for inhibiting specific reactions.
-This aim will achieve quantification and control over the system that will be
-modeled.
+arterial wall, and will also be incorporated in the working mechanistic
+hypothesis. Metabolic profile will be created of the ACDC phenotype, through
+quantification of surface enzyme activity and steady state extracellular
+concentrations of key metabolites. The role of adenosine signaling in the
+dysregulation of TNAP, characteristic of ACDC, will be explored through the
+interrogation of adenosine receptor classes.The combination of metabolic
+profiling and cell signaling investigation will elucidate the ACDC pathobiology
+and enable further research for therapeutic interventions.
 
-## Specific Aim 2:  **Build Quantitative Systems Model of Medial Arterial
-Calcification.**
+## Specific Aim 2:  **Build Pharmacodynamic Models of Three different
+Therapeutic Strategies and Evaluate Synergistic Potential for Combination
+Therapies**
 
-A system of coupled differential equations will be used to mathematically model
-the kinetics of the arterial calcification system. The biomolecular
-interrogation techniques from Specific Aim 1 will be used experimentally fit
-parameters within the model. Enzyme surface expression levels and trafficking
-will be determined, as it is important from a modeling perspective to quantify
-the total available enzyme levels. Endogenous metabolite generation and
-degradation rates will be measured under full blockage of the pathway.  The
-kinetics of each enzyme in the system will be measured in insolation by
-selectively blocking the activity of other enzymes in the pathway. Parameters
-will be fit through standard nonlinear regression techniques and the model will
-be built in steps through the incremental coupling of the system components.
-Once the full model has been established, uncertainty analysis will be
-performed to determine how uncertainty in the model parameters propagates to
-uncertainty in the model predictions.
+Three different theurapeutic strategies, adenosine receptor agonism,
+pyrophosphate supplementation, and TNAP inhibition, will be characterized and
+quantified in the form of pharmacodynamic (PD) models. The models will be built
+from *in vitro* experimental data exploring the effects of calcification
+reduction related to drug exposure. Furthermore, an combination therapy
+approach will be investigated for potential to maximize amelioration of disease
+burden while minimizing undesired off-target effects. Drug interaction
+experimentation and modeling will lead to integrative PD models that can serve
+as the basis of whole animal dose selection and treatment planning.
 
-## Specific Aim 3: **Investigate Potential Therapeutic Interventions for
-Treating CD73 Deficiency *In Vitro* and *In Silico* Along with Extrapolating
-the Results for *In Vivo* Study in an Established Murine Model.**
+## Specific Aim 3: **Assess Therapeutic Outcomes in an ACDC Mouse Model Guided
+by Pharmacokinetic-Pharmacodynamic Modeling**
 
-An *in vitro* and *in silico* disease model will be produced through antibody
-blocking of CD73 in cultured cells and removing the CD73 contribution in the
-mathematical model. Sensitivity and flux balance analysis will be used to
-determine which other parts of the network would be suitable therapeutic
-targets for restarting PPi/Pi balance.  An animal model of disease, CD73 -/-
-mice, will be used to perform a test of principle for phosphate balance
-recovery. Potential therapies include, but is not limited to, bisphosphonates
-(a PPi analog), adenosine anaologes, lansoprazole (inhibitor of TNAP), and
-dipyridamole (adenosine signaling inhibitor). Therapy selection will be
-assisted by *in vitro* and model simulation results.
+A pharmacokinetic (PK) model of mouse model drug uptake and clearance will be
+built from *in vivo* data. The resulting model will be coupled with the PD
+model establised in Aim 2 to form an integrated PK-PD model. The PK-PD model
+will guide dose selection and therapy planning for whole animal model
+investigation of treatment efficacy. *In vivo* assessment of the efficacy in
+devised treatment plans will be performed. The results can be a basis for
+developing therapies to ease disease burden in human ACDC patients.
+
+# Exam Question
+
+William Gahl, the NIH sleuth who has identified a number of rare diseases,
+recently found that deletion of the gene NT5E led to calcification in leg
+arteries, to arterial insufficiency, and to inability to walk. The gene codes
+for an ecto-5'-nucleotidase, CD73. Write a proposal to support research to
+define the mechanisms by which the genetic abnormality causes the disease, and
+to find out how one can treat the disease. (St.Hilaire C, Ziegler SG, Markello
+TC, Brusco A, Groden C, Gill F, Carlson-Donohoe H, Lederman RJ, Chen MY, Yang
+D, Siegenthaler MP, Arduino C, Mancini C, Freudenthal B, Stanescu HC, Zdebik
+AA, Chaganti RK, Nussbaum RL, Kleta R, Gahl WA, and Boehm M. NT5E mutations and
+arterial calcifications. New Eng J Med 364: 432-442, 2011.)
+
 
 # Background and Significance
 
@@ -619,19 +616,4 @@ may also have an added advantage for reducing the effects of osteoporosis-like
 trabecular bone weakening, which has been found in CD73 -/- mice
 [@Takedachi2012]. However, this has not yet been reported in humans.
 
-# Exam Question
-
-William Gahl, the NIH sleuth who has identified a number of rare diseases,
-recently found that deletion of the gene NT5E led to calcification in leg
-arteries, to arterial insufficiency, and to inability to walk. The gene codes
-for an ecto-5'-nucleotidase, CD73. Write a proposal to support research to
-define the mechanisms by which the genetic abnormality causes the disease, and
-to find out how one can treat the disease. (St.Hilaire C, Ziegler SG, Markello
-TC, Brusco A, Groden C, Gill F, Carlson-Donohoe H, Lederman RJ, Chen MY, Yang
-D, Siegenthaler MP, Arduino C, Mancini C, Freudenthal B, Stanescu HC, Zdebik
-AA, Chaganti RK, Nussbaum RL, Kleta R, Gahl WA, and Boehm M. NT5E mutations and
-arterial calcifications. New Eng J Med 364: 432-442, 2011.)
-
 # References
-
-
