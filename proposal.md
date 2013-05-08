@@ -368,7 +368,14 @@ complimentary DNA for each of the three enzymes, along with 18S RNA as a qPCR
 normalizer. Expression levels will be calculated by comparing the cycling
 threshold compared with the normalizer (PCR Detection System, BioRad).
 
-
+ENPP1 and TNAP enzyme activity on the cell surface will be assayed using
+colorimetric substrates, p-nitrophenyl thymidine 5′-monophosphate and nitro
+blue tetrazolium/5-bromo-4-chloro-3-indolyl phosphate, respectively (Sigma).
+[@Nam2011] After one hour incubation, the ENPP1 reaction will be stopped by
+addition of NaOH, and the absorbance through the well measured at 405 nm. The
+TNAP reaction will be stopped by washing with H~2~O and air drying. TNAP
+activity will be quantified via microscopic densitometry with image analysis
+software.
 
 ##### Expected Results and Proposed Alternatives
 
