@@ -535,7 +535,7 @@ model, the general approach will be to design a methodology for deliverying
 dosages at different concentrations and select a way to measure its effect. One
 common way to model this relationship between dose and drug effect is using the
 Hill Equation (Equation \ref{eq:hill}), where $E$ is the observed drug effect,
-$E_{max}$ is the maximum observable drug effect, $C$ is the drug concentration,
+E~max~ is the maximum observable drug effect, $C$ is the drug concentration,
 and $n$ is the cooperativeity coefficient.
 
 \begin{equation}\label{eq:hill}
@@ -559,15 +559,39 @@ effects.](images/pkpd.png)
 
 ### Experimental Plan
 
-#### Develop Pharmacodynamic Model
+#### Develop Pharmacodynamic Models of Multiple Drug Targets
 
-##### Adenosine Receptor Agonist
+An *in vitro* system will be used to characterize the PD effects of ARA,
+lanzoprazole, and bisphosphonate. Varying concentrations of each drug will be
+administered on to cell cultures daily. At the end of day 21, cells will be
+washed with phosphate-buffered saline and fixed with 10% formalin for 10
+minutes. After washing with water, calcium phosphate crystals will be stained
+with alizarin red S and calcification levels will be quantified with using
+microscopy and image analysis. 
 
-##### Lanzoprazole
-
-##### Bisphosphonate
+The data points of observed calcification levels versus dosage of drug used
+will be fitted against the parameters found in Equation \ref{eq:hill}. Since
+the untreated CD73 -/- cells are expected serve as a high control, data points
+will be subtracted from the control base level before fitting with nonlinear
+parameter optimization software (NONMEM).
 
 ##### Expected Results and Proposed Alternatives
+
+The observed drug effects on calcification are expected to form a dose-response
+curve that will fit in a Hill-type equation (Figure \ref{fig:pd}). The result
+should be a predictive model of 21-day dosing effects for each of the three
+compounds. The fitting of the parameters is not expected to be a significant
+challenge, however, different software packages may be used to perform fitting
+if the need arises. 
+
+Model fitting could prove difficult if experimental data is far too noisy or
+unreliable, which would suggest that the experimental protocol should be
+refined to provide reproducible results that ideally would mimic the onboarding
+of therapeutic on to VSMCs in live animals.
+
+![\label{fig:pd}Typical PD curve for drug effects. ](images/pd.png) 
+
+#### Explore 
 
 #### Develop Pharmacokinetic Model
 
