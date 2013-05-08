@@ -489,8 +489,11 @@ expression.
 If TNAP regulation is controlled by a means other than through the four known
 ARs, it is possible that either transport of adenosine directly into the
 cytosol via SLC29 is the mechanism of action or through agonism of a yet to be
-identified receptor. To explore these possibilities, VSMCs will be incubated with
-inhibitors of all known ARs at high enough concentrations to reasonably block any adenosine binding to them. Then, cells will be incubated with or without dipyridamole, an inhibitor of adenosine uptake. TNAP expression will be measured at time 0, 12 hours, 1, 3, and 5 days.
+identified receptor. To explore these possibilities, VSMCs will be incubated
+with inhibitors of all known ARs at high enough concentrations to reasonably
+block any adenosine binding to them. Then, cells will be incubated with or
+without dipyridamole, an inhibitor of adenosine uptake. TNAP expression will be
+measured at time 0, 12 hours, 1, 3, and 5 days.
 
 ##### Expected Results and Proposed Alternatives
 
@@ -500,14 +503,28 @@ the cell that is the ultimate fate of CD73 produced adenosine in regulating
 TNAP. If TNAP suppression is observed equally withough regard to dipyridamole,
 it would suggest that another unknown adenosine receptor is being triggered.
 
-A possibly more exotic result is the lack of any response after blocking the four known AR classes. It could be that combination of two or more AR triggers are necessary for TNAP regulation.
+A possibly more exotic result is the lack of any response after blocking the
+four known AR classes. It could be that combination of two or more AR triggers
+are necessary for TNAP regulation.
 
-Alternatively use caffeine
 ## Specific Aim 2
 
 ### Strategy and Rationale
 
-Build pharmacodynamic and pharmacokinetic models of potential therapies to guide the design course of therapy.
+This Aim will guide the rational design of three potential therapies for treating
+ACDC. The strategy that will be adopted in this aim is to create useful PK-PD
+models that encompass three different pharmacological approaches to reducing
+MVC. The three different drug approaches are AR signaling, TNAP inhibition,
+PP~i~ supplementation with bisphosphonates. A combination of *in vitro* assays
+to determine drug PD along with *in vivo* measurements to determine PK.
+
+This modeling approach will be immensely useful for simulating treatment plan
+efficacy of these three different drug classes. Furthermore, experimentation
+will be done to to create interaction PK-PD models to evaluate the efficacy of
+combination therapies. Since these three drug classes have different mechanism
+of actions, it is hopeful that a combination therapy may yield a synergistic
+effect on efficacy while minimizing safety risk due to different disposal
+pathways.
 
 ### Experimental Plan
 
@@ -515,11 +532,16 @@ Build pharmacodynamic and pharmacokinetic models of potential therapies to guide
 
 ##### Adenosine Receptor Agonist
 
+\begin{equation}\label{eq:hill}
+I = \frac{I_{max}C^n}{IC_{50}+C^n}
+\end{equation}
+
 ##### Lanzoprazole
 
 ##### Bisphosphonate
 
 #### Develop Pharmacokinetic Model
+
 
 #### Develop Pharmacokinetic-Pharmacodynamic Model
 
