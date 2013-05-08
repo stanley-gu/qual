@@ -338,17 +338,7 @@ cultured from this knockout model in a similar procedure as above.
 [@Castrop2004]: CD73 mice sacrificed at 4-6 months, showed significantly elevated plasma alkaline phosphatase levels, consistent with the mechanism and suggests that the ACDC phenotype may be expressed
 [@Jono2000]: Quantification of calcification. Treatment of HSMC with phosphate. Immortal HSMC. Causes differentiation
 
-#### Quantify Surface Enzyme Expression
-
-#### Establish Metabolite Profile of ACDC Versus Disease Cells
-
-#### Determine Adenosine Signaling Mechanism
-
-##### Combinatorial Probing of Adenosine Receptors with Agonists
-
-##### Perform Adenosine Signaling with Dipyridamole Presence
-
-### Expected Results and Proposed Alternatives
+##### Expected Results and Proposed Alternatives
 
 While VSMC cell cultures have previously been established from *ex vivo* human
 aorta [@Jono2000], the similar process in mouse VSMC cell culture may be
@@ -360,6 +350,31 @@ fibroblasts directly from CD73 -/- patients. However, the selection of mouse
 VSMCs that come from the same mouse strain is desired because it will likely be
 the closest relationship between cell dish experiments to whole animal across
 the experimental aims.
+
+#### Quantify Surface Enzyme Expression
+
+The relative expression levels of ENPP1, CD73, and TNAP will be determined
+through Western blot and real-time polymerase chain reaction (qPCR). These
+measures will create an expression-level profile of healthy and ACDC VSMCs.
+Cells will be trypsinized, lysed in the presence of protease inhibitor (Roche),
+centrifuged, and the supernatent protein quantified via the bicinchoninic acid
+assay (Pierce). A fixed amount of protein will be mixed with SDS protein gel
+loading solution, run on a 4-20% polyacrylamide gel, and electrophoresed at
+120V for 1.5 hours. After the transfer of proteins, antibodies against ENPP1,
+CD73, TNAP, and actin (baseline) will be used for quantification.
+
+
+
+##### Expected Results and Proposed Alternatives
+
+
+#### Establish Extracellular Metabolite Profile of ACDC Versus Disease Cells
+
+#### Determine Adenosine Signaling Mechanism
+
+##### Combinatorial Probing of Adenosine Receptors with Agonists
+
+##### Perform Adenosine Signaling with Dipyridamole Presence
 
 ## Specific Aim 2
 
