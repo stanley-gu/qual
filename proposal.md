@@ -484,7 +484,7 @@ repression. In the event there is no response from ARAs, the next step in the
 experimental plan is to explore other mechanisms where ADO can affect enzyme
 expression.
 
-##### Search for Additional Adenosine Signaling Mechanisms
+#### Search for Additional Adenosine Signaling Mechanisms
 
 If TNAP regulation is controlled by a means other than through the four known
 ARs, it is possible that either transport of adenosine directly into the
@@ -588,17 +588,12 @@ of therapeutic on to VSMCs in live animals.
 
 ![\label{fig:pd}Typical PD curve for drug effects. ](images/pd.png) 
 
-#### Explore 
-
-#### Develop Pharmacokinetic Model
+#### Explore Potential Synergistic Effects of Combination Therapy
 
 ##### Expected Results and Proposed Alternatives
 
-#### Develop Pharmacokinetic-Pharmacodynamic Model
-
-### Expected Results and Proposed Alternatives
-
 ## Specific Aim 3
+
 ### Strategy and Rationale
 
 [@Castrop2004]: CD73 mice sacrificed at 4-6 months, showed significantly elevated plasma alkaline phosphatase levels, consistent with the mechanism and suggests that the ACDC phenotype may be expressed
@@ -607,13 +602,25 @@ of therapeutic on to VSMCs in live animals.
 
 #### Establish ACDC Mouse Model
 
-#### Conduct Predicted Dosing Plan on Mouse Model and Evaluate Efficacy
+##### Expected Results and Proposed Alternatives
 
-### Expected Results and Proposed Alternatives
+#### Develop Pharmacokinetic Model
 
-# Summary and Future Directions Treatment of CD73-defiency with bisphosphonates
-may also have an added advantage for reducing the effects of osteoporosis-like
-trabecular bone weakening, which has been found in CD73 -/- mice
-[@Takedachi2012]. However, this has not yet been reported in humans.
+##### Expected Results and Proposed Alternatives
+
+#### Develop Pharmacokinetic-Pharmacodynamic Model
+
+##### Expected Results and Proposed Alternatives
+
+#### Conduct Dosing Plan on Mouse Model and Evaluate Efficacy
+
+##### Expected Results and Proposed Alternatives
+
+# Summary and Future Directions 
+
+Treatment of CD73-defiency with bisphosphonates may also have an added
+advantage for reducing the effects of osteoporosis-like trabecular bone
+weakening, which has been found in CD73 -/- mice [@Takedachi2012]. However,
+this has not yet been reported in humans.
 
 # References
