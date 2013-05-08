@@ -410,7 +410,10 @@ may be taken again during adenosine agonist addition to further investigate.
 #### Establish Extracellular Metabolite Profile of ACDC Versus Disease Cells
 
 The substrates and products in the hypothesized metabolic pathway involved in
-ACDC are ATP, AMP, ADO, PPi, and Pi. Steady state metabolite profiles of ACDC and control cell types will provide insight to the pathobiology of this condition. MVC occurs through HA crystal formation, which is dependent on extracellular concentrations of chemical species, namely PP~i~.
+ACDC are ATP, AMP, ADO, PPi, and Pi. Steady state metabolite profiles of ACDC
+and control cell types will provide insight to the pathobiology of this
+condition. MVC occurs through HA crystal formation, which is dependent on
+extracellular concentrations of chemical species, namely PP~i~.
 
 Cell cultures will be allowed to reach steady state metabolite levels over 24
 hours after media change. Sequential readings will be taken to ensure that 24
@@ -420,7 +423,7 @@ Nucleotides ATP, AMP, and ADO will be measured using high-performance liquid
 chromatography (HPLC) as described in @Ciancaglini2010.  PP~i~ will be measured
 enzymatically [@Lomashvili2004] by sampling the extracellular media. As in the
 CD73 activity assay, P~i~ will be measured using the SensoLyte MG Phosphate
-Assay Kit (AnaSpec).  
+Assay Kit (AnaSpec).
 
 ##### Expected Results and Proposed Alternatives
 
@@ -526,22 +529,49 @@ of actions, it is hopeful that a combination therapy may yield a synergistic
 effect on efficacy while minimizing safety risk due to different disposal
 pathways.
 
+PD is the study of the effect a drug has on a biological system, as opposed to
+PK, which focuses on the effect the body has on the drug. In building a PD
+model, the general approach will be to design a methodology for deliverying
+dosages at different concentrations and select a way to measure its effect. One
+common way to model this relationship between dose and drug effect is using the
+Hill Equation (Equation \ref{eq:hill}), where $E$ is the observed drug effect,
+$E_{max}$ is the maximum observable drug effect, $C$ is the drug concentration,
+and $n$ is the cooperativeity coefficient.
+
+\begin{equation}\label{eq:hill}
+E = \frac{E_{max}C^n}{EC_{50}+C^n}
+\end{equation}
+
+This PD dose-effect model will be directly coupled with the concentrations in
+the effect compartment within a PK model. The general modeling approach that is
+adopted in this proposal is to start as simple as reasonable and expand in
+response to new data that suggests a more complicated system would be
+appropriate. A single compartment PK model would be used as a starting point,
+however, ACDC symptoms manifest in the peripheral regions of patients, which
+suggest that perhaps a two-compartment model may be used if it significantly
+fits the experimental data better (Figure \ref{fig:pkpd}).
+
+![\label{fig:pkpd}Two-compartment PK model directly linked to PD model.
+Compartments V1 and V2 represent the circulating serum and the peripheral
+tissues that the drug is transported in to. Concentration of drug within the
+effect compartment, in this case V2, is directly fed into the PD model of drug
+effects.](images/pkpd.png)
+
 ### Experimental Plan
 
 #### Develop Pharmacodynamic Model
 
 ##### Adenosine Receptor Agonist
 
-\begin{equation}\label{eq:hill}
-I = \frac{I_{max}C^n}{IC_{50}+C^n}
-\end{equation}
-
 ##### Lanzoprazole
 
 ##### Bisphosphonate
 
+##### Expected Results and Proposed Alternatives
+
 #### Develop Pharmacokinetic Model
 
+##### Expected Results and Proposed Alternatives
 
 #### Develop Pharmacokinetic-Pharmacodynamic Model
 
