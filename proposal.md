@@ -363,6 +363,11 @@ loading solution, run on a 4-20% polyacrylamide gel, and electrophoresed at
 120V for 1.5 hours. After the transfer of proteins, antibodies against ENPP1,
 CD73, TNAP, and actin (baseline) will be used for quantification.
 
+RNA will be isolated from VSMCs through the use of the RNeasy kit (Qiagen), and
+complimentary DNA for each of the three enzymes, along with 18S RNA as a qPCR
+normalizer. Expression levels will be calculated by comparing the cycling
+threshold compared with the normalizer (PCR Detection System, BioRad).
+
 
 
 ##### Expected Results and Proposed Alternatives
