@@ -305,6 +305,11 @@ intervention to be tested in a CD73 -/- mouse model.
 ## Specific Aim 1
 ### Strategy and Rationale
 
+While review of the literature has a provided a thus far consistent hypothesis,
+based on PP~i~ depletion caused adenosine, signal disruption that is proposed
+here, Aim 1 will pursue further molecular biology experiments to support or
+invalidate the working model.
+
 Proposed mechanism shown in Figure \ref{fig:mechanism}.
 
 ![Proposed biological pathway involved in arterial calcification caused by ACDC, GACI, and PXE. \label{fig:mechanism}](images/mechanism.png)
@@ -375,19 +380,80 @@ blue tetrazolium/5-bromo-4-chloro-3-indolyl phosphate, respectively (Sigma).
 addition of NaOH, and the absorbance through the well measured at 405 nm. The
 TNAP reaction will be stopped by washing with H~2~O and air drying. TNAP
 activity will be quantified via microscopic densitometry with image analysis
-software.
+software. CD73 activity will be quantified as according to @StHilaire2011.
+VSMCs will be washed with 2 mM magnesium chloride, 120 mM sodium chloride, 5 mM
+potassium chloride, 10 mM glucose, and 20 mM HEPES. Incubation buffer,
+consisting of the wash solution supplemented with 2 mM AMP, will be added, and
+the cells incubated at 37^$\circ$^ C for 10 minutes. Inorganic phosphate will
+be measured with the SensoLyte MG Phosphate Assay Kit (AnaSpec). Inorganic
+phosphate measurements will be normalized to protein levels.
 
 ##### Expected Results and Proposed Alternatives
 
+The expression levels of TNAP will be expected to be much higher than normal,
+which was shown in fibroblasts by @StHilaire2011. Functional CD73 levels should
+be non-existent in the NT5E mutant cells. The working hypothesis of this
+proposal is that adenosine signaling is significantly reduced by the lack of
+CD73 function, which expression inhibition of TNAP. ENPP1 levels have not been
+reported to change with CD73 mutation, so any differences in expression would
+be an interesting finding, as it may indicate that the excessive extracellular
+AMP that is left unconsumed by CD73 may play a role signaling role as well.
+While AMP has mostly been reported as merely a precursor to adenosine
+signaling, orphan GPCRs have been discovered [@Inbe2004] that can respond to
+both AMP and adenosine.
+
+The enzyme RNA expression levels are expected to correspond with extracellular
+activity. Discrepancies in these measures may indicate that adenosine signaling
+has some effect on surface protein recycling or expression. These measurements
+may be taken again during adenosine agonist addition to further investigate.
 
 #### Establish Extracellular Metabolite Profile of ACDC Versus Disease Cells
 
-#### Determine Adenosine Signaling Mechanism
+The substrates and products in the hypothesized metabolic pathway involved in
+ACDC are ATP, AMP, ADO, PPi, and Pi. Steady state metabolite profiles of ACDC and control cell types will provide insight to the pathobiology of this condition. MVC occurs through HA crystal formation, which is dependent on extracellular concentrations of chemical species, namely PP~i~.
+
+Cell cultures will be allowed to reach steady state metabolite levels over 24
+hours after media change. Sequential readings will be taken to ensure that 24
+hours is sufficient time to reach steady state values.
+
+Nucleotides ATP, AMP, and ADO will be measured using high-performance liquid
+chromatography (HPLC) as described in @Ciancaglini2010.  PP~i~ will be measured
+enzymatically [@Lomashvili2004] by sampling the extracellular media. As in the
+CD73 activity assay, P~i~ will be measured using the SensoLyte MG Phosphate
+Assay Kit (AnaSpec).  
+
+##### Expected Results and Proposed Alternatives
+
+One of the key metabolite levels to be determined is PP~i~. The working
+hypothesis is that ACDC is the result of depressed PP~i~ due to increased TNAP
+expression. It has been shown that healthy *ex vivo* rat VSMCs after 3 days of
+culture generate PP~i~ endogenously to reach a level of 0.44 $\mu$M in medium,
+without any addition of PP~i~. [@Lomashvili2004] Depletion of PP~i~ resulted in
+spontaneous calcification. In injured aortic cultures, higher levels of
+pyrophosphate, 5-10 $\mu$M was shown to inhibit calcification, although these
+high levels necessary for calcification inhibition is likely necessary due to
+increased TNAP expression in injured tissue. In healthy humans, 3.26 +/- 0.17
+$\mu$M serum levels of PP~i~ were measured. [@Lomashvili2005] Thus, it will be
+expected that normal VSMCs will equilibrate with the media at around 1 $\mu$M
+PP~i~, whereas CD73 -/- VSMCs will be significantly less.  Failing to find
+decreased levels of PP~i~ could suggest that disrupted regulator of
+mineralization could be caused by the absence of a different HA inhibitor, such
+as osteopontin. [@Sapir-Koren2011]
+
+Differences in other metabolite concentrations would suggest other compensatory
+mechanisms are upregulated and could direct further experiments to shed light
+on the discrepancy.
 
 ##### Combinatorial Probing of Adenosine Receptors with Agonists
 
+One of the key goals of this aim is to elucidate the adenosine signaling
+mechanism for regulating TNAP expression.
+
+##### Expected Results and Proposed Alternatives
+
 ##### Perform Adenosine Signaling with Dipyridamole Presence
 
+##### Expected Results and Proposed Alternatives
 ## Specific Aim 2
 
 ### Strategy and Rationale
@@ -423,7 +489,10 @@ Build pharmacodynamic and pharmacokinetic models of potential therapies to guide
 
 ### Expected Results and Proposed Alternatives
 
-# Summary and Future Directions
+# Summary and Future Directions Treatment of CD73-defiency with bisphosphonates
+may also have an added advantage for reducing the effects of osteoporosis-like
+trabecular bone weakening, which has been found in CD73 -/- mice
+[@Takedachi2012]. However, this has not yet been reported in humans.
 
 # Exam Question
 
