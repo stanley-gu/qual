@@ -374,7 +374,7 @@ normalizer. Expression levels will be calculated by comparing the cycling
 threshold compared with the normalizer (PCR Detection System, BioRad).
 
 ENPP1 and TNAP enzyme activity on the cell surface will be assayed using
-colorimetric substrates, p-nitrophenyl thymidine 5′-monophosphate and nitro
+colorimetric substrates, p-nitrophenyl thymidine 5'-monophosphate and nitro
 blue tetrazolium/5-bromo-4-chloro-3-indolyl phosphate, respectively (Sigma).
 [@Nam2011] After one hour incubation, the ENPP1 reaction will be stopped by
 addition of NaOH, and the absorbance through the well measured at 405 nm. The
@@ -435,10 +435,10 @@ high levels necessary for calcification inhibition is likely necessary due to
 increased TNAP expression in injured tissue. In healthy humans, 3.26 +/- 0.17
 $\mu$M serum levels of PP~i~ were measured. [@Lomashvili2005] Thus, it will be
 expected that normal VSMCs will equilibrate with the media at around 1 $\mu$M
-PP~i~, whereas CD73 -/- VSMCs will be significantly less.  Failing to find
+PP~i~, whereas CD73 -/- VSMCs will be significantly less. Failing to find
 decreased levels of PP~i~ could suggest that disrupted regulator of
-mineralization could be caused by the absence of a different HA inhibitor, such
-as osteopontin. [@Sapir-Koren2011]
+mineralization could be a different HA inhibitor, such as osteopontin.
+[@Sapir-Koren2011]
 
 Differences in other metabolite concentrations would suggest other compensatory
 mechanisms are upregulated and could direct further experiments to shed light
@@ -446,14 +446,63 @@ on the discrepancy.
 
 ##### Combinatorial Probing of Adenosine Receptors with Agonists
 
-One of the key goals of this aim is to elucidate the adenosine signaling
-mechanism for regulating TNAP expression.
+One of the key goals in this Aim is to elucidate the adenosine signaling
+mechanism for regulating TNAP expression. There are four pharmacological
+classes of adenosine receptors (ARs), A~1~, A~2A~, A~2B~, and A~3~. Toward the
+goal of developing a potential therapeutic by replacement of the missing
+adenosine signal, and to understanding the biological repercussions and
+potential off-target effects, it is necessary to identify the specific
+AR which, when activated, inhibits TNAP expression.
+
+A combinatorial approach of activating a single type of adenosine receptor,
+while inhibiting all others, will be used. Four adenosine receptor agonists
+(ARAs) will be selected, CPA, CGS21680, BAY 60-6583, and IB-MECA, and four
+adenosine receptor antagonists (ARANTs) DPCPX, CSC, MRS1754, and MRS1220, will
+be used to selectively investigate A~1~, A~2A~, A~2B~, and A~3~ effects on TNAP
+expression, respectively. [@Hasko2008] Each ARA will be incubated at its EC90
+value in a microtiter plate with three ARANTs onboard, at their IC90 values,
+for the other AR types. This will be performed for control and CD73 -/- VSMCs.
+TNAP activity levels will be quantified at time 0, 12 hours, 1 day, 3 days, and
+5 days.
 
 ##### Expected Results and Proposed Alternatives
 
-##### Perform Adenosine Signaling with Dipyridamole Presence
+ARs have a wide range of physiological effects when stimulated. Identifying the
+specific activation site for TNAP repression will greatly aid in the
+development of a treatment for ACDC. While it is possible that any of the four
+ARs may be responsible for a signal cascade that regulates TNAP, A~2B~ is
+probably an unlikely candidate as it a low affinity AR, and is usually only
+triggered at extremely high physiological levels of adenosine release, such as
+in the case of cell apoptosis. A~1~ and A~3~ decrease whereas A~2~ increases
+intracellular cAMP. Tying TNAP expression to cAMP will add it a long list of
+regulatory functions of cAMP.
+
+Since AR siginaling is an active field of study for many biomedical
+indications, there is a plethora of ARAs and ARANTs that may be used as
+alternatives if there are difficulties in eliciting a response measured by TNAP
+repression. In the event there is no response from ARAs, the next step in the
+experimental plan is to explore other mechanisms where ADO can affect enzyme
+expression.
+
+##### Search for Additional Adenosine Signaling Mechanisms
+
+If TNAP regulation is controlled by a means other than through the four known
+ARs, it is possible that either transport of adenosine directly into the
+cytosol via SLC29 is the mechanism of action or through agonism of a yet to be
+identified receptor. To explore these possibilities, VSMCs will be incubated with
+inhibitors of all known ARs at high enough concentrations to reasonably block any adenosine binding to them. Then, cells will be incubated with or without dipyridamole, an inhibitor of adenosine uptake. TNAP expression will be measured at time 0, 12 hours, 1, 3, and 5 days.
 
 ##### Expected Results and Proposed Alternatives
+
+If TNAP suppression is observed in the absence of dipyridamole, and not in its
+presence, this would suggest that it is the direct transport of adenosine into
+the cell that is the ultimate fate of CD73 produced adenosine in regulating
+TNAP. If TNAP suppression is observed equally withough regard to dipyridamole,
+it would suggest that another unknown adenosine receptor is being triggered.
+
+A possibly more exotic result is the lack of any response after blocking the four known AR classes. It could be that combination of two or more AR triggers are necessary for TNAP regulation.
+
+Alternatively use caffeine
 ## Specific Aim 2
 
 ### Strategy and Rationale
