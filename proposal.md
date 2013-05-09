@@ -667,7 +667,7 @@ administered on to cell cultures daily. At the end of day 21, cells will be
 washed with phosphate-buffered saline and fixed with 10% formalin for 10
 minutes. After washing with water, calcium phosphate crystals will be stained
 with alizarin red S and calcification levels will be quantified with using
-microscopy and image analysis. 
+microscopy and image analysis.
 
 The data points of observed calcification levels versus dosage of drug used
 will be fitted against the parameters found in Equation \ref{eq:hill}. Since
@@ -682,7 +682,7 @@ curve that will fit in a Hill-type equation (Figure \ref{fig:pd}). The result
 should be a predictive model of 21-day dosing effects for each of the three
 compounds. The fitting of the parameters is not expected to be a significant
 challenge, however, different software packages may be used to perform fitting
-if the need arises. 
+if the need arises.
 
 Model fitting could prove difficult if experimental data is far too noisy or
 unreliable, which would suggest that the experimental protocol should be
@@ -692,7 +692,7 @@ of therapeutic on to VSMCs in live animals.
 
 #### Explore Potential Synergistic Effects of Combination Therapy
 
-One of the powers of The main purpose of 
+
 
 ##### Expected Results and Proposed Alternatives
 
