@@ -366,15 +366,6 @@ based on PP~i~ depletion caused adenosine, signal disruption that is proposed
 here, Aim 1 will pursue further molecular biology experiments to support or
 invalidate the working model.
 
-Proposed mechanism shown in Figure \ref{fig:mechanism}.
-
-\begin{SCfigure}
-	\centering
-		\includegraphics[width=.75\textwidth]{images/mechanism.png}
-		\caption{\label{fig:mechanism}Hypothesis of biological pathway involved
-		in arterial calcification caused by ACDC. }
-\end{SCfigure}
-
 \begin{SCfigure}
 	\centering
 		\includegraphics[width=.75\textwidth]{images/ado-signaling.png}
