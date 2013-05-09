@@ -53,15 +53,18 @@ Recently, the human gene *NT53* that encodes CD73, the enzyme responsible for
 converting extracellular AMP to adenosine, has been implicated as a key
 component behind the metabolic pathway for inhibiting medial vascular
 calcification. Individuals with mutations in NT5E result in a disease phenotype
-of arterial calcification and distal joint calcification (ACDC). As of the
-writing of this proposal, there is no standard treatment or therapy for
-alleviating this condition.
+of arterial calcification and distal joint calcification (ACDC). Preliminary
+research has suggested that dysfunctional adenosine signaling and pyrophosphate
+depletion are responsible for the onset of ACDC. However, the lack of
+systematic and quantitative studies on all the key components involved in the
+disease pathway has hampered development of effective treatments.
 
-This proposal will outline research to determine the biological mechanism and
-investigate possible therapeutic interventions for ACDC. Work will involve *in
-vitro* and *in vivo* experimentation along with pharmacokinetic (PK) and
-pharmacodynamic (PD) modeling in order to rapidly support the design of a
-treatment plan for this disease 
+Here we propose research to systematically investigate the roles of key
+biomolecular players in ACDC pathobiology and employ quantitative modeling to
+define the biological mechanisms and enable the rational design of treatment
+options for this disease. The methodology developed through this research is
+expected to provide insights to the mechanism of vascular calcification and
+treatment of related diseases.
 
 ## Specific Aim 1: **Determine Mechanism of Arterial Calcification Due to
 CD73-Deficiency**
@@ -69,16 +72,16 @@ CD73-Deficiency**
 An *in vitro* model consisting of vascular smooth muscle cells, will serve as a
 platform for running molecular biology experiments for mechanistic exploration
 and model building. Through review of the current literature, several surface
-bound enzymes, primarily ENPP1 and TNAP, were identified as major components
-contributing to pyrophosphate depletion, leading to mineralization of the
-arterial wall, and will also be incorporated in the working mechanistic
-hypothesis. Metabolic profile will be created of the ACDC phenotype, through
-quantification of surface enzyme activity and steady state extracellular
-concentrations of key metabolites. The role of adenosine signaling in the
-dysregulation of TNAP, characteristic of ACDC, will be explored through the
-interrogation of adenosine receptor classes.The combination of metabolic
-profiling and cell signaling investigation will elucidate the ACDC pathobiology
-and enable further research for therapeutic interventions.
+bound enzymes, such as ENPP1 and TNAP, were identified as major components
+contributing to biological processes leading to mineralization of the arterial
+wall, and will also be incorporated in the working mechanistic hypothesis.
+Metabolic profile will be created of the ACDC phenotype, through quantification
+of surface enzyme activity and steady state extracellular concentrations of key
+metabolites. The role of adenosine signaling in the dysregulation of TNAP,
+characteristic of ACDC, will be explored through the interrogation of adenosine
+receptor classes. The combination of metabolic profiling and cell signaling
+investigation is expected to elucidate the ACDC pathobiology and enable further
+research for therapeutic interventions.
 
 ## Specific Aim 2:  **Build Pharmacodynamic Models of Three different
 Therapeutic Strategies and Evaluate Synergistic Potential for Combination
@@ -88,7 +91,7 @@ Three different theurapeutic strategies, adenosine receptor agonism,
 pyrophosphate supplementation, and TNAP inhibition, will be characterized and
 quantified in the form of pharmacodynamic (PD) models. The models will be built
 from *in vitro* experimental data exploring the effects of calcification
-reduction related to drug exposure. Furthermore, an combination therapy
+reduction related to drug exposure. Furthermore, a combination therapy
 approach will be investigated for potential to maximize amelioration of disease
 burden while minimizing undesired off-target effects. Drug interaction
 experimentation and modeling will lead to integrative PD models that can serve
@@ -102,8 +105,8 @@ built from *in vivo* data. The resulting model will be coupled with the PD
 model establised in Aim 2 to form an integrated PK-PD model. The PK-PD model
 will guide dose selection and therapy planning for whole animal model
 investigation of treatment efficacy. *In vivo* assessment of the efficacy in
-devised treatment plans will be performed. The results can be a basis for
-developing therapies to ease disease burden in human ACDC patients.
+devised treatment plans will be performed. The results are expected to be a
+basis for developing therapies to ease disease burden in human ACDC patients.
 
 # Exam Question
 
@@ -112,12 +115,7 @@ recently found that deletion of the gene NT5E led to calcification in leg
 arteries, to arterial insufficiency, and to inability to walk. The gene codes
 for an ecto-5'-nucleotidase, CD73. Write a proposal to support research to
 define the mechanisms by which the genetic abnormality causes the disease, and
-to find out how one can treat the disease. (St.Hilaire C, Ziegler SG, Markello
-TC, Brusco A, Groden C, Gill F, Carlson-Donohoe H, Lederman RJ, Chen MY, Yang
-D, Siegenthaler MP, Arduino C, Mancini C, Freudenthal B, Stanescu HC, Zdebik
-AA, Chaganti RK, Nussbaum RL, Kleta R, Gahl WA, and Boehm M. NT5E mutations and
-arterial calcifications. New Eng J Med 364: 432-442, 2011.)
-
+to find out how one can treat the disease. [@StHilaire2011]
 
 # Background and Significance
 
@@ -195,13 +193,16 @@ humans [@Henthorn1992] and mice [@Anderson2004] with defects in TNAP
 expression, the result is fatality shortly after birth. In the TNAP knockout
 mice, there was normal formation HA containing matrix vesicles that are
 released by osteoblasts, however, extracellular mineralization was impaired due
-to elevated $PP_i$ levels (Figure \ref{mice-tnap-knockout}).
+to elevated $PP_i$ levels (Figure \ref{mice-tnap-knockout}, [@Anderson2004]).
 
-![\label{mice-tnap-knockout}Impaired bone formation of TNAP knockout mice (B)
-compared to wildtype mice (A). [@Anderson2004]](images/mice-tnap-knockout.png)
+\begin{wrapfigure}{r}{0.5\textwidth}
+\centering
+\includegraphics[width=.5\textwidth]{images/mice-tnap-knockout.png}
+\caption{Impaired bone formation of TNAP knockout mice (B) compared to wildtype
+mice (A).\label{mice-tnap-knockout}} 
+\end{wrapfigure}
 
 [@Markello2011]: Vascular pathology of medial arterial calcifications in NT5E deficiency: implications for the role of adenosine in pseudoxanthoma elasticum.
-
 
 ### Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1) and ANK
 
@@ -229,10 +230,10 @@ extracellular environment, through the transport of intracellular $PP_i$.
 [@Roberts2005]: Probing the substrate specificities of human PHOSPHO1 and PHOSPHO2. Have a wide spectrum of phosphorylated compounds that are hydrolyzed. PHOSPHO2 hydrolyze ATP and pyrophosphate
 
 [@Hoemann2009]: In vitro osteogenesis assays: Influence of the primary cell source on alkaline phosphatase activity and mineralization
-[@Hotton1999]: Differential Expression and Activity of Tissue-nonspecific Alkaline Phosphatase (TNAP) in Rat Odontogenic Cells In Vivo
-Phosphate
-[@Jono2000]: Phosphate Regulation of Vascular Smooth Muscle Cell Calcification - in vitro assays
 
+[@Hotton1999]: Differential Expression and Activity of Tissue-nonspecific Alkaline Phosphatase (TNAP) in Rat Odontogenic Cells In Vivo Phosphate
+
+[@Jono2000]: Phosphate Regulation of Vascular Smooth Muscle Cell Calcification - in vitro assays
 
 ### ATP-binding Cassette Sub-Family C Member 6 (ABCC6) and Role of Adenosine Signaling
 
@@ -280,6 +281,8 @@ determined by relatively few number of stiff parameters.
 [@Aldridge2006]: Physicochemical modelling of cell signalling pathways. Lauffenburger review article
 
 [@Eicher2012]: Determining Enzyme Kinetics for Systems Biology with Nuclear Magnetic Resonance Spectroscopy
+
+## Significance
 
 # Experimental Design and Methods
 ## Overview
@@ -590,7 +593,15 @@ of therapeutic on to VSMCs in live animals.
 
 #### Explore Potential Synergistic Effects of Combination Therapy
 
+One of the powers of The main purpose of 
+
 ##### Expected Results and Proposed Alternatives
+
+Antagonistic: Adenosine increases TNAP turnover, thus TNAP inhibition will be less effective
+
+Additive: same mechanism, 50% repression of TNAP, 50% less repression of 
+
+Synergistic: 
 
 ## Specific Aim 3
 

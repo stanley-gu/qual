@@ -34,7 +34,7 @@ html : $(HTML)
 $(PDFS) : | $(OUTPUTDIR)
 
 $(OUTPUTDIR)/%.pdf : %.md
-	pandoc $< -o $@ -N -H header.latex --bibliography refs.bib
+	pandoc $< -o $@ -N -H header.latex --bibliography refs.bib --template=latex.tex
 
 $(OUTPUTDIR)/%.aux : %.md.tex
 	-cd output; latex $<; bibtex $@; latex $<;
