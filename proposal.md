@@ -214,12 +214,11 @@ mice, there was normal formation HA containing matrix vesicles that are
 released by osteoblasts, however, extracellular mineralization was impaired due
 to elevated $PP_i$ levels (Figure \ref{mice-tnap-knockout}, [@Anderson2004]).
 
-\begin{wrapfigure}{r}{0.5\textwidth}
-\centering
-\includegraphics[width=.5\textwidth]{images/mice-tnap-knockout.png}
-\caption{Impaired bone formation of TNAP knockout mice (B) compared to wildtype
-mice (A).\label{mice-tnap-knockout}} 
-\end{wrapfigure}
+\begin{SCfigure}
+	\centering
+		\includegraphics[width=.5\textwidth]{images/mice-tnap-knockout.png}
+		\caption{Impaired bone formation of TNAP knockout mice (B) compared to wildtype mice (A).\label{mice-tnap-knockout}} 
+\end{SCfigure}
 
 [@Markello2011]: Vascular pathology of medial arterial calcifications in NT5E deficiency: implications for the role of adenosine in pseudoxanthoma elasticum.
 
@@ -307,7 +306,11 @@ determined by relatively few number of stiff parameters.
 # Experimental Design and Methods
 ## Overview
 
+The 
+
 Figure \ref{fig:overview} shows an overview of the specific aims.
+
+
 
 Specific Aims 1 and 2 will serve to explore the mechanism behind ACDC and will
 be performed in parallel. The results from the *in vitro* and *in silico*
@@ -318,7 +321,11 @@ therapeutic intervention for treating the disease. Analysis of the optimized
 *in silico* model will enable the selection of the best therapeutic
 intervention to be tested in a CD73 -/- mouse model.
 
-![\label{fig:overview}Overview of Aims](images/overview.png)
+\begin{SCfigure}
+	\centering
+		\includegraphics[width=.8\textwidth]{images/overview.png}
+		\caption{\label{fig:overview}Overview of Specific Aims.}
+\end{SCfigure}
 
 ## Specific Aim 1
 ### Strategy and Rationale
@@ -330,9 +337,12 @@ invalidate the working model.
 
 Proposed mechanism shown in Figure \ref{fig:mechanism}.
 
-![Proposed biological pathway involved in arterial calcification caused by ACDC, GACI, and PXE. \label{fig:mechanism}](images/mechanism.png)
+\begin{SCfigure}
+	\centering
+		\includegraphics[width=.8\textwidth]{images/mechanism.png}
+		\caption{\label{fig:mechanism}Hypothesis of biological pathway involved in arterial calcification caused by ACDC.}
+\end{SCfigure}
 
-![\label{fig:pathway}Pathway to be modeled.](images/pathway.png)
 
 ### Experimental Plan
 
@@ -569,11 +579,27 @@ however, ACDC symptoms manifest in the peripheral regions of patients, which
 suggest that perhaps a two-compartment model may be used if it significantly
 fits the experimental data better (Figure \ref{fig:pkpd}).
 
-![\label{fig:pkpd}Two-compartment PK model directly linked to PD model.
 Compartments V1 and V2 represent the circulating serum and the peripheral
 tissues that the drug is transported in to. Concentration of drug within the
 effect compartment, in this case V2, is directly fed into the PD model of drug
-effects.](images/pkpd.png)
+effects.](images/.png)
+
+\begin{SCfigure}
+	\centering
+		\includegraphics[width=.8\textwidth]{images/pkpd.png}
+		\caption{\label{fig:pkpd}Two-compartment PK model directly linked to PD model.
+Compartments V1 and V2 represent the circulating serum and the peripheral
+tissues that the drug is transported in to. Concentration of drug within the
+effect compartment, in this case V2, is directly fed into the PD model of drug
+effects.}
+\end{SCfigure}
+
+Main purposes of this Aim is to aid therapy planning and design through
+quantiative PD models of several treatment strategies and to explore the
+possible benefits of combination therapies.
+
+Several reasons for wanting combination therapies
+Reduce 
 
 ### Experimental Plan
 
@@ -607,7 +633,12 @@ unreliable, which would suggest that the experimental protocol should be
 refined to provide reproducible results that ideally would mimic the onboarding
 of therapeutic on to VSMCs in live animals.
 
-![\label{fig:pd}Typical PD curve for drug effects. ](images/pd.png) 
+\begin{SCfigure}
+	\centering
+		\includegraphics[width=.5\textwidth]{images/pd.png}
+		\caption{\label{fig:pd}Typical PD curve for drug effects.}
+\end{SCfigure}
+
 
 #### Explore Potential Synergistic Effects of Combination Therapy
 
