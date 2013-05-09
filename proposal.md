@@ -236,13 +236,15 @@ humans [@Henthorn1992] and mice [@Anderson2004] with defects in TNAP
 expression, the result is fatality shortly after birth. In the TNAP knockout
 mice, there was normal formation HA containing matrix vesicles that are
 released by osteoblasts, however, extracellular mineralization was impaired due
-to elevated $PP_i$ levels (Figure \ref{mice-tnap-knockout}, [@Anderson2004]).
+to elevated $PP_i$ levels (Figure \ref{mice-tnap-knockout}, @Anderson2004).
 
 \begin{SCfigure}
 	\centering
 		\includegraphics[width=.5\textwidth]{images/mice-tnap-knockout.png}
 		\caption{Impaired bone formation of TNAP knockout mice (B) compared to
-		wildtype mice (A).\label{mice-tnap-knockout}} 
+		wildtype mice (A). During early development, the lack of TNAP results
+		in excessive extracellular PP\textsubscript{i} and inhibiting
+		mineralization.\label{mice-tnap-knockout}} 
 \end{SCfigure}
 
 [@Markello2011]: Vascular pathology of medial arterial calcifications in NT5E deficiency: implications for the role of adenosine in pseudoxanthoma elasticum.
@@ -264,8 +266,9 @@ healthy development [@Edouard2011], which is perhaps a result of other
 compensatory mechanisms for maintaining systemic balance of $PP_i$/$P_i$.
 
 Mutations in the gene ANKH (ANK in mice) also result in a similar disease
-phenotype  [@Nurnberg2001]. ANKH is the other contributor of $PP_i$ in the
-extracellular environment, through the transport of intracellular $PP_i$.
+phenotype  [@Nurnberg2001]. Apart from ENPP1, ANKH is the other contributor of
+$PP_i$ in the extracellular environment, through the transport of intracellular
+$PP_i$.
 
 
 [@Kiffer-Moreira2013]: Pharmacological Inhibition of PHOSPHO1 Suppresses Vascular Smooth Muscle Cell Calcification
@@ -349,7 +352,10 @@ intervention to be tested in a CD73 -/- mouse model.
 \begin{SCfigure}
 	\centering
 		\includegraphics[width=.8\textwidth]{images/overview.png}
-		\caption{\label{fig:overview}Overview of Specific Aims.}
+		\caption{\label{fig:overview}Overview of Specific Aims outlining
+		overall purpose, approach, and focus of each Aim. Scale bar indicates
+		if research is conducted on the cell, tissue (collections of cells), or
+		organism level.}
 \end{SCfigure}
 
 ## Specific Aim 1
@@ -366,7 +372,7 @@ Proposed mechanism shown in Figure \ref{fig:mechanism}.
 	\centering
 		\includegraphics[width=.75\textwidth]{images/mechanism.png}
 		\caption{\label{fig:mechanism}Hypothesis of biological pathway involved
-		in arterial calcification caused by ACDC.}
+		in arterial calcification caused by ACDC. }
 \end{SCfigure}
 
 \begin{SCfigure}
