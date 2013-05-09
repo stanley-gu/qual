@@ -364,9 +364,9 @@ based on PP~i~ depletion caused adenosine, signal disruption that is proposed
 here, Aim 1 will pursue further molecular biology experiments to support or
 invalidate the working model.
 
-\begin{SCfigure}
+\begin{figure}
 	\centering
-		\includegraphics[width=.75\textwidth]{images/ado-signaling.png}
+		\includegraphics[width=\textwidth]{images/ado-signaling.png}
 		\caption{\label{fig:signaling} Components in determining ADO signaling
 		mechanism in ACDC. SLC29 is a transport protein that moves
 		extracellular ADO into the cytosol. ADO uptake by SLC29 is inhibited by
@@ -375,7 +375,7 @@ invalidate the working model.
 		ARA and inhibited by its respective ARANT. These components together
 		allow for experimental probing to pinpoint the exact adenosine
 		signaling mechanism that regulates TNAP expression.}
-\end{SCfigure}
+\end{figure}
 
 ### Experimental Plan
 
@@ -600,7 +600,7 @@ E~max~ is the maximum observable drug effect, $C$ is the drug concentration,
 and $n$ is the cooperativeity coefficient.
 
 \begin{equation}\label{eq:hill}
-E = \frac{E_{max}C^n}{EC_{50}+C^n}
+E = \frac{E_{max}^nC^n}{EC_{50}+C^n}
 \end{equation}
 
 This PD dose-effect model will be directly coupled with the concentrations in
@@ -615,7 +615,12 @@ fits the experimental data better (Figure \ref{fig:pkpd}).
 \begin{SCfigure}
 	\centering
 		\includegraphics[width=.5\textwidth]{images/pd.png}
-		\caption{\label{fig:pd}Typical PD curve for drug effects.}
+		\caption{\label{fig:pd}A Hill-type PD curve for modeling dose response
+		from empirical data, based on Equation \ref{eq:hill}. The parameters
+		that tune the characteristics of this curve are $E_{max}$, $EC_{50}$,
+		and $n$. $E_{max}$ is the concentration that produces half of the
+		maximal effect. $E_{max}$ is the maximal effect for the system. $n$ is
+		the Hill coefficient which changes the steepness of the curve.}
 \end{SCfigure}
 
 Main purposes of this Aim is to aid therapy planning and design through
