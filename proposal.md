@@ -247,8 +247,6 @@ to elevated $PP_i$ levels (Figure \ref{mice-tnap-knockout}, @Anderson2004).
 		mineralization.\label{mice-tnap-knockout}} 
 \end{SCfigure}
 
-[@Markello2011]: Vascular pathology of medial arterial calcifications in NT5E deficiency: implications for the role of adenosine in pseudoxanthoma elasticum.
-
 ### Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1) and ANK
 
 The tiptoe-walking mouse (*ttw/ttw*) was used for many years as a disease model
@@ -353,7 +351,7 @@ intervention to be tested in a CD73 -/- mouse model.
 	\centering
 		\includegraphics[width=.8\textwidth]{images/overview.png}
 		\caption{\label{fig:overview}Overview of Specific Aims outlining
-		overall purpose, approach, and focus of each Aim. Scale bar indicates
+		overall purpose, approach, and focus of each Aim. Scale indicates
 		if research is conducted on the cell, tissue (collections of cells), or
 		organism level.}
 \end{SCfigure}
@@ -369,10 +367,15 @@ invalidate the working model.
 \begin{SCfigure}
 	\centering
 		\includegraphics[width=.75\textwidth]{images/ado-signaling.png}
-		\caption{\label{fig:signaling}}
+		\caption{\label{fig:signaling} Components in determining ADO signaling
+		mechanism in ACDC. SLC29 is a transport protein that moves
+		extracellular ADO into the cytosol. ADO uptake by SLC29 is inhibited by
+		dipyridamole. A1, A2A, A2B, and A3 are the four major classifications
+		of GPCRs triggered by ADO. Each receptor is triggered by its respective
+		ARA and inhibited by its respective ARANT. These components together
+		allow for experimental probing to pinpoint the exact adenosine
+		signaling mechanism that regulates TNAP expression.}
 \end{SCfigure}
-
-
 
 ### Experimental Plan
 
