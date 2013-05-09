@@ -117,14 +117,27 @@ for an ecto-5'-nucleotidase, CD73. Write a proposal to support research to
 define the mechanisms by which the genetic abnormality causes the disease, and
 to find out how one can treat the disease. [@StHilaire2011]
 
-# Background and Significance
+# Background
 
-In this section, the scientific context of this biological problem will be
-introduced. While the subject of arterial calcification is a large and diverse
-field, the focus of this background will be on the biological mechanisms of
-interest behind the NT5E mutation phenotype in designing this disease model.
-Additional reviews on the pathobiology behind arterial calcification have been
-published. [@Demer2008; @Giachelli2004]
+## Significance
+
+NT5E mutations leading to CD73-deficiency and the ACDC condition is a serious
+disease burden, impairing mobility and causing great pain for those affected,
+for which there is no accepted course of treatment. While initial the discovery
+and investigations [@StHilaire2011;@Markello2011] of this disease has provided
+valuable insights on some of the biomolecular players involved, highly
+systematic and quantiative studies have been lacking to fully describe the
+pathobiological mechanism in detail and allow for rational design of
+therapeutic treatment plans.
+
+Therefore, the purpose of this research is to address the knowledge gaps in the
+understanding of ACDC progression as well as provide insights on courses of
+treatment. Molecular biology experimentation and quantative systems modeling
+will be the tools used in this approach for building understanding of the
+disease and gaining confidence in reasonable approaches to combat the disease.
+Furthermore, the biological knowledge gained and modeling approaches used in
+this work is expected to be useful in the understanding for other ectopic
+calcification diseases.
 
 ## Vascular Calcification
 
@@ -143,6 +156,12 @@ calcification (MVC), also known as Monckeberg's arteriosclerosis, increases in
 prevalence in populations with increased age, diabetes mellitus, chronic kidney
 disease, chronic inflammation, and genetic disorders. [@Micheletti2008]
 
+While the subject of arterial calcification is a large and diverse
+field, the focus of this background will be on the biological mechanisms of
+interest behind the NT5E mutation phenotype in designing this disease model.
+Additional reviews on the pathobiology behind arterial calcification have been
+published. [@Demer2008; @Giachelli2004]
+
 ## Arterial Calcification due to Deficiency of CD73 (ACDC)
 
 Ecto-5'-nucleotidase (CD73) is located on the surface of the plasma membrane
@@ -150,7 +169,7 @@ and hydrolyzes adenosine monophosphate (AMP) to adenosine. [@Zimmermann1992]
 Due to the broad range of AMP and adenosine involvement in biological
 processes, CD73 function is implicated in a variety of pathological conditions,
 including immunodeficiency [@Deaglio2007], inflammation [@Colgan2006], and
-ectopic calcification.
+ectopic calcification [@StHilaire2011].
 
 Using a genome-wide homozygosity mapping approach, a popularizing technique in
 cardiovascular research [@Kathiresan2012], nonsense, missense, and
@@ -250,7 +269,9 @@ later studies [@Leftheriotis2011;@LeSaux2012] showed that ABBC6 does not
 transport adenosine, and suggests that its role may be more complex. Evidence
 shows that a yet to be discovered substrate, or substrates, is transported
 systemically into serum, which prevents ectopic calcification. [@LeSaux2006]
-Interestingly, mutations in ENPP1 or ABCC6 can lead to PXE symptoms [@Nitschke2012], which further suggests that the mechanisms behind these diseases are inter-related.
+Interestingly, mutations in ENPP1 or ABCC6 can lead to PXE symptoms
+[@Nitschke2012], which further suggests that the mechanisms behind these
+diseases are inter-related.
 
 Focusing back on the adenosine-supplementation recovery in CD73-deficient
 cells, the mechanism in which adenosine apparently suppresses TNAP is not yet
@@ -282,7 +303,6 @@ determined by relatively few number of stiff parameters.
 
 [@Eicher2012]: Determining Enzyme Kinetics for Systems Biology with Nuclear Magnetic Resonance Spectroscopy
 
-## Significance
 
 # Experimental Design and Methods
 ## Overview
@@ -299,8 +319,6 @@ therapeutic intervention for treating the disease. Analysis of the optimized
 intervention to be tested in a CD73 -/- mouse model.
 
 ![\label{fig:overview}Overview of Aims](images/overview.png)
-
-## General Protocols
 
 ## Specific Aim 1
 ### Strategy and Rationale
