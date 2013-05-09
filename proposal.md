@@ -620,7 +620,7 @@ fits the experimental data better (Figure \ref{fig:pkpd}).
 		that tune the characteristics of this curve are $E_{max}$, $EC_{50}$,
 		and $n$. $E_{max}$ is the concentration that produces half of the
 		maximal effect. $E_{max}$ is the maximal effect for the system. $n$ is
-		the Hill coefficient which changes the steepness of the curve.}
+		the Hill coefficient, which affects the steepness of the curve.}
 \end{SCfigure}
 
 Main purposes of this Aim is to aid therapy planning and design through
@@ -633,9 +633,29 @@ Reduce
 \begin{figure}
 	\centering
 		\includegraphics[width=\textwidth]{images/combination.png}
-		\caption{\label{fig:combination} }
+		\caption{\label{fig:combination} Example of additivity and synergy with
+		dual inhibitors acting on the same pathway. \textbf{(a)} Regulatory
+		scheme of a single linear pathway. Inhibitors I\textsubscript{1} and
+		I\textsubscript{2} or I\textsubscript{1} and I\textsubscript{3} act on
+		the same target molecule, receptor B. \textbf{(b)} A simplified
+		reaction scheme for \textbf{a}. Binding of the second inhibitor either
+		prevents inhibitor I\textsubscript{1} from binding (I\textsubscript{1},
+		mutually exclusive model) or does not affect binding of
+		I\textsubscript{1} (I\textsubscript{3}, mutually nonexclusive model).
+		\textbf{(c,d)} Simulated dose-response curves, in which C is activated
+		by A in the presence of inhibitor I\textsubscript{1},
+		I\textsubscript{2} or the combination. The mutually exclusive
+		combination follows the Loewe additivity model, confirming the
+		assumption of a similar mode of action. \textbf{(e,f)} Simulated
+		dose-response curves, in which C is activated by A in the presence of
+		inhibitor I\textsubscript{1}, I\textsubscript{3} or the combination.
+		The mutually nonexclusive combination inhibited activation of C to a
+		greater extent than the expected Bliss independence curve. The enhanced
+		sequestering of B into a long-lasting nonactive triplex
+		[I\textsubscript{1}:I\textsubscript{3}:B] was responsible for the
+		synergistic effect on activation of C. Adapted from Fitzgerald et al.
+		(2006).}
 \end{figure}
-
 
 ### Experimental Plan
 
