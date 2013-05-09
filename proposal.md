@@ -171,6 +171,16 @@ processes, CD73 function is implicated in a variety of pathological conditions,
 including immunodeficiency [@Deaglio2007], inflammation [@Colgan2006], and
 ectopic calcification [@StHilaire2011].
 
+\begin{SCfigure}
+	\centering
+		\includegraphics[width=.5\textwidth]{images/acdc-sthilare.png}
+		\caption{Radiographs of popliteal arteries of individuals from three
+		different families. A similar phenotype is seen from the three distinct
+		NT5E mutation types. ACDC is a painful condition that impairs mobility
+		of the limbs. Symptoms typically begin when patients are in their 20s
+		and progresses with age.\label{fig:acdc}} 
+\end{SCfigure}
+
 Using a genome-wide homozygosity mapping approach, a popularizing technique in
 cardiovascular research [@Kathiresan2012], nonsense, missense, and
 single-nucleotide insertion frameshift mutations in the NT5E gene, coding for
@@ -192,6 +202,20 @@ osteoblasts is closely resembled by the induced osteoblast-like smooth muscle
 cells that cause MVC. [@Neven2011] Insight into the pathological mechanism has
 come from numerous independent genetic studies that discovered molecular
 defects in rare monogenetic disorders. [@Nitschke2012a]
+
+\begin{SCfigure}
+	\centering
+		\includegraphics[width=.5\textwidth]{images/pathway-sthilaire.png}
+		\caption{\label{fig:pathway-sthilaire} Hypothetical mechanism for
+		calcification regulation by CD73 activity. On the surface of vascular
+		cells, ENPP1 converts ATP to AMP and PP\textsubscript{i}, an inhibitor
+		of calcification. Further downstream, CD73 produces adenosine and
+		P\textsubscript{i} from AMP. TNAP coverts PP\textsubscript{i} to
+		P\textsubscript{i}, promoting calcification. Adenosine signaling to the
+		cell is an inhibitor of TNAP expression. Thus, when CD73 activity is
+		deficient, adenosine signaling drops, TNAP inhibition releases, and
+		PP\textsubscript{i} levels deplete from TNAP over-activity.}
+\end{SCfigure}
 
 ### Tissue-Nonspecific Alkaline Phosphatase (TNAP)
 
@@ -217,7 +241,8 @@ to elevated $PP_i$ levels (Figure \ref{mice-tnap-knockout}, [@Anderson2004]).
 \begin{SCfigure}
 	\centering
 		\includegraphics[width=.5\textwidth]{images/mice-tnap-knockout.png}
-		\caption{Impaired bone formation of TNAP knockout mice (B) compared to wildtype mice (A).\label{mice-tnap-knockout}} 
+		\caption{Impaired bone formation of TNAP knockout mice (B) compared to
+		wildtype mice (A).\label{mice-tnap-knockout}} 
 \end{SCfigure}
 
 [@Markello2011]: Vascular pathology of medial arterial calcifications in NT5E deficiency: implications for the role of adenosine in pseudoxanthoma elasticum.
@@ -339,9 +364,17 @@ Proposed mechanism shown in Figure \ref{fig:mechanism}.
 
 \begin{SCfigure}
 	\centering
-		\includegraphics[width=.8\textwidth]{images/mechanism.png}
-		\caption{\label{fig:mechanism}Hypothesis of biological pathway involved in arterial calcification caused by ACDC.}
+		\includegraphics[width=.75\textwidth]{images/mechanism.png}
+		\caption{\label{fig:mechanism}Hypothesis of biological pathway involved
+		in arterial calcification caused by ACDC.}
 \end{SCfigure}
+
+\begin{SCfigure}
+	\centering
+		\includegraphics[width=.75\textwidth]{images/ado-signaling.png}
+		\caption{\label{fig:signaling}}
+\end{SCfigure}
+
 
 
 ### Experimental Plan
@@ -579,19 +612,10 @@ however, ACDC symptoms manifest in the peripheral regions of patients, which
 suggest that perhaps a two-compartment model may be used if it significantly
 fits the experimental data better (Figure \ref{fig:pkpd}).
 
-Compartments V1 and V2 represent the circulating serum and the peripheral
-tissues that the drug is transported in to. Concentration of drug within the
-effect compartment, in this case V2, is directly fed into the PD model of drug
-effects.](images/.png)
-
 \begin{SCfigure}
 	\centering
-		\includegraphics[width=.8\textwidth]{images/pkpd.png}
-		\caption{\label{fig:pkpd}Two-compartment PK model directly linked to PD model.
-Compartments V1 and V2 represent the circulating serum and the peripheral
-tissues that the drug is transported in to. Concentration of drug within the
-effect compartment, in this case V2, is directly fed into the PD model of drug
-effects.}
+		\includegraphics[width=.5\textwidth]{images/pd.png}
+		\caption{\label{fig:pd}Typical PD curve for drug effects.}
 \end{SCfigure}
 
 Main purposes of this Aim is to aid therapy planning and design through
@@ -600,6 +624,13 @@ possible benefits of combination therapies.
 
 Several reasons for wanting combination therapies
 Reduce 
+
+\begin{figure}
+	\centering
+		\includegraphics[width=\textwidth]{images/combination.png}
+		\caption{\label{fig:combination} }
+\end{figure}
+
 
 ### Experimental Plan
 
@@ -633,12 +664,6 @@ unreliable, which would suggest that the experimental protocol should be
 refined to provide reproducible results that ideally would mimic the onboarding
 of therapeutic on to VSMCs in live animals.
 
-\begin{SCfigure}
-	\centering
-		\includegraphics[width=.5\textwidth]{images/pd.png}
-		\caption{\label{fig:pd}Typical PD curve for drug effects.}
-\end{SCfigure}
-
 
 #### Explore Potential Synergistic Effects of Combination Therapy
 
@@ -655,6 +680,24 @@ Synergistic:
 ## Specific Aim 3
 
 ### Strategy and Rationale
+
+\begin{SCfigure}
+	\centering
+		\includegraphics[width=.5\textwidth]{images/pkpd-derendorf.png}
+		\caption{\label{fig:pkpd-derendorf}PK-PD modeling as a combination of
+		PK and PD modeling.}
+\end{SCfigure}
+
+\begin{SCfigure}
+	\centering
+		\includegraphics[width=.5\textwidth]{images/pkpd.png}
+		\caption{\label{fig:pkpd}Two-compartment PK model directly linked to PD
+		model. Compartments V1 and V2 represent the circulating serum and the
+		peripheral tissues that the drug is transported in to. Concentration of
+		drug within the effect compartment, in this case V2, is directly fed
+		into the PD model of drug effects.}
+\end{SCfigure}
+
 
 [@Castrop2004]: CD73 mice sacrificed at 4-6 months, showed significantly elevated plasma alkaline phosphatase levels, consistent with the mechanism and suggests that the ACDC phenotype may be expressed
 

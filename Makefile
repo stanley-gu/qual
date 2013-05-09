@@ -47,7 +47,7 @@ $(OUTPUTDIR)/%.docx : %.md
 # This generic rule accepts docx targets with corresponding Markdown 
 # source, and makes them using pandoc
 $(OUTPUTDIR)/%.tex : %.md
-	pandoc -s $< -o $@ -N -H header.latex --bibliography refs.bib --biblatex
+	pandoc -s $< -o $@ -N -H header.latex --bibliography refs.bib --template=latex.tex --biblatex
 
 # This generic rule accepts docx targets with corresponding Markdown 
 # source, and makes them using pandoc
