@@ -709,8 +709,9 @@ Synergistic:
 \begin{SCfigure}
 	\centering
 		\includegraphics[width=.5\textwidth]{images/pkpd-derendorf.png}
-		\caption{\label{fig:pkpd-derendorf}PK-PD modeling as a combination of
-		PK and PD modeling.}
+		\caption{\label{fig:pkpd-derendorf}A PK-PD model integrates
+		relationships between where the drug goes the upon entering the body
+		(PK) with the dose dependent effect the drug has on the body (PD).}
 \end{SCfigure}
 
 \begin{SCfigure}
