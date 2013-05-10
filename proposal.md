@@ -627,6 +627,8 @@ Main purposes of this Aim is to aid therapy planning and design through
 quantiative PD models of several treatment strategies and to explore the
 possible benefits of combination therapies.
 
+
+
 Several reasons for wanting combination therapies
 Reduce 
 
@@ -689,12 +691,19 @@ unreliable, which would suggest that the experimental protocol should be
 refined to provide reproducible results that ideally would mimic the onboarding
 of therapeutic on to VSMCs in live animals.
 
-
 #### Explore Potential Synergistic Effects of Combination Therapy
 
+Each of the three therapeutics, ARA, bisphosphonate, and lansoprazole, will be investigated pairwise for combinatorial PD effects in a manner that is similar to determining the PD for a single compound.
 
+Drug combination will be evaluated for presence antagonism (negative interaction), additive (no interaction), or synergy (positive interaction) using the *combination index* metric (Equation \ref{eq:comboIndex}).
+
+\begin{equation}\label{eq:comboIndex}
+    \text{Combination Index} = \frac{[CI_1]_{X%}}{[I_1]_{X%}} + \frac{[CI_2]_{X%}}{[I_2]_{X%}}
+\end{equation}
 
 ##### Expected Results and Proposed Alternatives
+
+The drug compounds tested will each have a different 
 
 Antagonistic: Adenosine increases TNAP turnover, thus TNAP inhibition will be less effective
 
