@@ -39,7 +39,7 @@ Dr.~Paul \textsc{Wiggins} \\
 \end{titlepage}
 
 \tableofcontents
-
+\listoffigures
 \newpage
 
 # Abstract and Specific Aims
@@ -83,19 +83,20 @@ receptor classes. The combination of metabolic profiling and cell signaling
 investigation is expected to elucidate the ACDC pathobiology and enable further
 research for therapeutic interventions.
 
-## Specific Aim 2:  **Build Pharmacodynamic Models of Three different
+## Specific Aim 2:  **Build Pharmacodynamic Models of different
 Therapeutic Strategies and Evaluate Synergistic Potential for Combination
 Therapies**
 
-Three different theurapeutic strategies, adenosine receptor agonism,
-pyrophosphate supplementation, and TNAP inhibition, will be characterized and
-quantified in the form of pharmacodynamic (PD) models. The models will be built
-from *in vitro* experimental data exploring the effects of calcification
-reduction related to drug exposure. Furthermore, a combination therapy
-approach will be investigated for potential to maximize amelioration of disease
-burden while minimizing undesired off-target effects. Drug interaction
-experimentation and modeling will lead to integrative PD models that can serve
-as the basis of whole animal dose selection and treatment planning.
+Four different theurapeutic strategies, adenosine receptor agonism,
+pyrophosphate supplementation, adenosine uptake suppresion, and TNAP
+inhibition, will be characterized and quantified in the form of pharmacodynamic
+(PD) models. The models will be built from *in vitro* experimental data
+exploring the effects of calcification reduction related to drug exposure.
+Furthermore, a combination therapy approach will be investigated for potential
+to maximize amelioration of disease burden while minimizing undesired
+off-target effects. Drug interaction experimentation and modeling will lead to
+integrative PD models that can serve as the basis of whole animal dose
+selection and treatment planning.
 
 ## Specific Aim 3: **Assess Therapeutic Outcomes in an ACDC Mouse Model Guided
 by Pharmacokinetic-Pharmacodynamic Modeling**
@@ -575,20 +576,24 @@ are necessary for TNAP regulation.
 
 ### Strategy and Rationale
 
-This Aim will guide the rational design of three potential therapies for treating
-ACDC. The strategy that will be adopted in this aim is to create useful PK-PD
-models that encompass three different pharmacological approaches to reducing
-MVC. The three different drug approaches are AR signaling, TNAP inhibition,
-PP~i~ supplementation with bisphosphonates. A combination of *in vitro* assays
-to determine drug PD along with *in vivo* measurements to determine PK.
+The overarching purpose behind this proposed research is to gain enough
+knowledge on ACDC pathobiology and potential therapies in order to rapidly
+bring treatment options to patients. This Aim will build from the
+mechanistic understanding of ACDC obtained from Aim 1 and rationally design
+potential therapies in a combined experimental and quantitative modeling
+approach.
 
-This modeling approach will be immensely useful for simulating treatment plan
-efficacy of these three different drug classes. Furthermore, experimentation
-will be done to to create interaction PK-PD models to evaluate the efficacy of
-combination therapies. Since these three drug classes have different mechanism
-of actions, it is hopeful that a combination therapy may yield a synergistic
-effect on efficacy while minimizing safety risk due to different disposal
-pathways.
+Due to the lack of PD data in reversing medial calcification, the task for this
+Aim is to build PD models from dose-effect experiments using an assortment of
+strategically selected drug compounds and their use in combination.
+
+While PD models can be built from *in vitro* or *in vivo* experimental data, an
+*in vitro* approach was selected because of the large number of experimental
+conditions that need to be tested in order to generate single and combinatorial
+drug dosing data for PD modeling. Cell-based assays are more amenable to
+enhancement with high-throughput techniques compared to live animal
+experiments. Thus, since time needed for data generation is likely to be a
+bottleneck, PD experiments will be done with the VSMC model built in Aim 1.
 
 PD is the study of the effect a drug has on a biological system, as opposed to
 PK, which focuses on the effect the body has on the drug. In building a PD
@@ -597,20 +602,11 @@ dosages at different concentrations and select a way to measure its effect. One
 common way to model this relationship between dose and drug effect is using the
 Hill Equation (Equation \ref{eq:hill}), where $E$ is the observed drug effect,
 E~max~ is the maximum observable drug effect, $C$ is the drug concentration,
-and $n$ is the cooperativeity coefficient.
+and $n$ is the Hill coefficient (Figure \ref{fig:pd}).
 
 \begin{equation}\label{eq:hill}
 E = \frac{E_{max}^nC^n}{EC_{50}+C^n}
 \end{equation}
-
-This PD dose-effect model will be directly coupled with the concentrations in
-the effect compartment within a PK model. The general modeling approach that is
-adopted in this proposal is to start as simple as reasonable and expand in
-response to new data that suggests a more complicated system would be
-appropriate. A single compartment PK model would be used as a starting point,
-however, ACDC symptoms manifest in the peripheral regions of patients, which
-suggest that perhaps a two-compartment model may be used if it significantly
-fits the experimental data better (Figure \ref{fig:pkpd}).
 
 \begin{SCfigure}
 	\centering
@@ -623,14 +619,74 @@ fits the experimental data better (Figure \ref{fig:pkpd}).
 		the Hill coefficient, which affects the steepness of the curve.}
 \end{SCfigure}
 
-Main purposes of this Aim is to aid therapy planning and design through
-quantiative PD models of several treatment strategies and to explore the
-possible benefits of combination therapies.
+Toward the goal of moving towards treatment options, this study will focus on
+drug options that are already used for other indications, rather than create an
+entirely new drug or biologic. Four different pharmacological strategies will
+be investigated for ACDC therapy: AR signaling, TNAP inhibition, PP~i~
+supplementation, adenosine uptake blockage. The ARA identified in Aim 1 will be
+used to induce the adenosine signaling pathway for the inhibition of TNAP
+expression. Lansoprazole, a inhibitor of TNAP activity [@Delomenede2009], will
+be used to bind to the TNAP-PP~i~ complex to reduce PP~i~ hydrolysis. PP~i~
+will be supplemented through treatment with bisphosphonates [@Fleisch1998],
+PP~i~ analogs that are highly resistant to hydrolysis by TNAP. Adenosine uptake
+by the cell will be inhibited with dipyridamole [@Hayashi1985], thus allowing
+for increased residence time and signaling of extracellular adenosine.
 
+In the case with many complex diseases, such as cancer, often times a
+one-gene-one-drug target approach is ineffective in perturbing the system
+enough to get much therapeutic benefit. [@Fitzgerald2006] Arterial
+calcification involves many physiological processes and is characterized by
+redundancy and homeostasis. Combination therapy may be highly advantageous for
+1) lowering the doses of drugs with non-overlapping toxicity and similar
+efficacy with fewer side effects, 2) sensitize cells to the action of a drug
+through the use of another drug, and 3) exploiting additive or
+greater-than-additive effects to achieve higher potency. Thus, PD effects for
+these four approaches will be studied in combination.
 
+The mechanism of action for these different therapeutic strategies are
+complementary to each other and additive or *synergistic* (more than additive).
+Two common models for predicting the additive response of a combination
+therapy, *Loewe additivity* [@loewe1953problem] and *Bliss independence*
+[@bliss1956calculation]. In Loewe additivity, the relative effect of each
+compound is added together in equipotent dose ratios. A trivial case of Loewe
+additivity is when the multiple compounds are actually the same drug. The
+assumption in Loewe additivity is that mechanism of action is mutually
+exclusive, for example, two ligands that can fit the same receptor. In Bliss
+independence, the assumption is that the two effects act through independent
+mechanisms, and thus the combined effect is a union of the two
+probabilistically independent events, and relative effects are multiplied. When
+results are different from either of these two applications, the combined
+effect is either antagonistic (less than expected) or synergistic (more than
+expected). Vertical synergy refers to the increased effect given the same
+relative dosage, and horizontal synergy refers to the decreased dosage
+necessary to achieve the same effect.
 
-Several reasons for wanting combination therapies
-Reduce 
+Figure \ref{fig:combination} shows a simple simulated example of additivity and
+synergy, which illustrates the possible results from the proposed combination
+PD experiments and how they may be analyzed. The simple linear pathway is shown
+in Figure \ref{fig:combination}(a,b). Figure \ref{fig:combination}(c,d) show
+the effect of two mutually exclusive inhibitors, which is consistent with the
+Loewe additivity prediction generated from each of the inhibitors acting alone.
+Figure \ref{fig:combination}(e,f) shows mutually non-exclusive inhibition,
+where both inhibitors can bind to the receptor. While Bliss independence might
+be reasonable assumption in this case, the result in this case is synergy.
+While Bliss independence treats the double binding as redundant, the net effect
+is that enzyme activity is inhibited for longer times due to cooperative
+suppression by the two inhibitors. Figure \ref{fig:combination}(g-j) shows the
+efficacy surfaces from plotting the two dosages. This demonstrates how this
+synergistic effect can great increase the therapeutic window for efficacy while
+remaining below toxicity thresholds.
+
+These simulated results illustrates the rationale behind pursuing this
+combinatorial approach. Furthermore, while the mechanism in the simulated
+example is explicitly known and our experimental approach is more of a black
+box, the results from bination experiments can serve to support or refine our
+current mechanistic understanding.
+
+It is clear that without proper planning, running combination studies can be
+very labor intensive. Therefore, individual PD experiments will be performed
+first, and dosages will be evenly sampled from the dynamic range of the
+compound, a process resembling the Latin Hypercube method [@Marino2008]. 
 
 \begin{figure}
 	\centering
@@ -655,8 +711,17 @@ Reduce
 		greater extent than the expected Bliss independence curve. The enhanced
 		sequestering of B into a long-lasting nonactive triplex
 		[I\textsubscript{1}:I\textsubscript{3}:B] was responsible for the
-		synergistic effect on activation of C. Adapted from Fitzgerald et al.
-		(2006).}
+		synergistic effect on activation of C. \textbf{(g-j)} Response surfaces for
+		the mutually nonexclusive inhibitors from a checkerboard of 400 dose
+		pairs: Loewe additivity \textbf{(g)}, Bliss independence \textbf{(h)}
+		and the simulated combination \textbf{(i)}. Hypothetical toxic dose
+		(TD) thresholds limit the amount of inhibition the inhibitors can
+		achieve individually. In combination, the inhibitors achieve
+		hypothetical therapeutic efficacy (95\% inhibition, marked as *) without
+		reaching the TD. The region of synergistic inhibition was highlighted
+		by subtracting the inhibition in i from the Bliss independence surface,
+		identifying a sweet spot where the extra inhibition exceeded 50\%
+		\textbf{(j)}. Adapted from Fitzgerald et al. (2006).}
 \end{figure}
 
 ### Experimental Plan
@@ -664,12 +729,12 @@ Reduce
 #### Develop Pharmacodynamic Models of Multiple Drug Targets
 
 An *in vitro* system will be used to characterize the PD effects of ARA,
-lanzoprazole, and bisphosphonate. Varying concentrations of each drug will be
-administered on to cell cultures daily. At the end of day 21, cells will be
-washed with phosphate-buffered saline and fixed with 10% formalin for 10
-minutes. After washing with water, calcium phosphate crystals will be stained
-with alizarin red S and calcification levels will be quantified with using
-microscopy and image analysis.
+lanzoprazole, dipyridamole, and bisphosphonate. Varying concentrations of each
+drug will be administered on to cell cultures daily. At the end of day 21,
+cells will be washed with phosphate-buffered saline and fixed with 10% formalin
+for 10 minutes. After washing with water, calcium phosphate crystals will be
+stained with alizarin red S and calcification levels will be quantified with
+using microscopy and image analysis.
 
 The data points of observed calcification levels versus dosage of drug used
 will be fitted against the parameters found in Equation \ref{eq:hill}. Since
@@ -681,7 +746,7 @@ parameter optimization software (NONMEM).
 
 The observed drug effects on calcification are expected to form a dose-response
 curve that will fit in a Hill-type equation (Figure \ref{fig:pd}). The result
-should be a predictive model of 21-day dosing effects for each of the three
+should be a predictive model of 21-day dosing effects for each of the
 compounds. The fitting of the parameters is not expected to be a significant
 challenge, however, different software packages may be used to perform fitting
 if the need arises.
@@ -689,31 +754,64 @@ if the need arises.
 Model fitting could prove difficult if experimental data is far too noisy or
 unreliable, which would suggest that the experimental protocol should be
 refined to provide reproducible results that ideally would mimic the onboarding
-of therapeutic on to VSMCs in live animals.
+of therapeutic on to VSMCs in live animals. The Latin Hypercube method
+[@Marino2008] will be used to quantify the uncertainty in model predictions.
+Thus, bounds can be placed on the PD model predictions and experimental
+reproducibility.
 
 #### Explore Potential Synergistic Effects of Combination Therapy
 
-Each of the three therapeutics, ARA, bisphosphonate, and lansoprazole, will be investigated pairwise for combinatorial PD effects in a manner that is similar to determining the PD for a single compound.
+Each of the four therapeutics, ARA, bisphosphonate, dipyridamole, and
+lansoprazole, will be investigated pairwise for combinatorial PD effects in a
+manner that is similar to determining the PD for a single compound.
 
-Drug combination will be evaluated for presence antagonism (negative interaction), additive (no interaction), or synergy (positive interaction) using the *combination index* metric (Equation \ref{eq:comboIndex}).
+Drug combination will be evaluated for presence antagonism (negative
+interaction), additive (no interaction), or synergy (positive interaction)
+using the *combination index* metric (Equation \ref{eq:comboIndex}, @Fitzgerald2006).
 
 \begin{equation}\label{eq:comboIndex}
-    \text{Combination Index} = \frac{[CI_1]_{X%}}{[I_1]_{X%}} + \frac{[CI_2]_{X%}}{[I_2]_{X%}}
+    \text{Combination Index} = \frac{[CI_1]_{X\%}}{[I_1]_{X\%}} + \frac{[CI_2]_{X\%}}{[I_2]_{X\%}}
 \end{equation}
+
+The *combination index* is the sum where for a given relative effect of $X\%$,
+$I_1$ and $I_2$ are the concentrations needed to individually induce the $X\%$
+effect, $CI_1$ and $CI_2$ are the combined concentrations required for the same
+effect. The combination index may be interpreted as less than 1 indicates
+antagonism, equal to 1 indicates additive, and greater than 1 indicates
+synergy. Once the combination index has been discovered and determined to be
+across dose ranges for the, a combined dose effect model may be solved through
+nonlinear optimization. [@Chou1984;@Michaud1996]
 
 ##### Expected Results and Proposed Alternatives
 
-The drug compounds tested will each have a different 
+While it is uncertain what the combination indices may be, the drug compounds
+tested each are thought to act on the calcification pathway at different
+levels. Thus, it is possible that the criteria of mutual exclusivity in Bliss
+independence behavior is met, resulting in 
+
+Dipyridamole combined with ARA is expected to have drastic synergistic effects.
+Adenosine and adenosine analogs have been shown to be rapidly be absorbed by
+the body. [@Zannikos2001] Dipyridamole should have little affect alone, since
+there is expected to be little adenosine production in CD73 -/- cells. However,
+it can be expected to greatly increase the extracellular half-life of ARA,
+providing more for adenosine signaling action. 
+
+In terms of 
 
 Antagonistic: Adenosine increases TNAP turnover, thus TNAP inhibition will be less effective
-
-Additive: same mechanism, 50% repression of TNAP, 50% less repression of 
-
-Synergistic: 
 
 ## Specific Aim 3
 
 ### Strategy and Rationale
+This PD dose-effect model will be directly coupled with the concentrations in
+the effect compartment within a PK model. The general modeling approach that is
+adopted in this proposal is to start as simple as reasonable and expand in
+response to new data that suggests a more complicated system would be
+appropriate. A single compartment PK model would be used as a starting point,
+however, ACDC symptoms manifest in the peripheral regions of patients, which
+suggest that perhaps a two-compartment model may be used if it significantly
+fits the experimental data better (Figure \ref{fig:pkpd}).
+
 
 \begin{SCfigure}
 	\centering
