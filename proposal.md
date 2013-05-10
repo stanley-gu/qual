@@ -721,7 +721,7 @@ compound, a process resembling the Latin Hypercube method [@Marino2008].
 		reaching the TD. The region of synergistic inhibition was highlighted
 		by subtracting the inhibition in i from the Bliss independence surface,
 		identifying a sweet spot where the extra inhibition exceeded 50\%
-		\textbf{(j)}. Adapted from Fitzgerald et al. (2006).}
+		\textbf{(j)}. (Fitzgerald et al. 2006)}
 \end{figure}
 
 ### Experimental Plan
@@ -763,42 +763,46 @@ reproducibility.
 
 Each of the four therapeutics, ARA, bisphosphonate, dipyridamole, and
 lansoprazole, will be investigated pairwise for combinatorial PD effects in a
-manner that is similar to determining the PD for a single compound.
+manner that is similar to determining the PD for a single compound. The
+concentrations selected will be evenly sampled from the dynamic range of the
+single compound PDs.
 
 Drug combination will be evaluated for presence antagonism (negative
 interaction), additive (no interaction), or synergy (positive interaction)
-using the *combination index* metric (Equation \ref{eq:comboIndex}, @Fitzgerald2006).
+using the *combination index* metric (Equation \ref{eq:comboIndex},
+@Fitzgerald2006).
 
 \begin{equation}\label{eq:comboIndex}
     \text{Combination Index} = \frac{[CI_1]_{X\%}}{[I_1]_{X\%}} + \frac{[CI_2]_{X\%}}{[I_2]_{X\%}}
 \end{equation}
 
-The *combination index* is the sum where for a given relative effect of $X\%$,
+The combination index is the sum where for a given relative effect of $X\%$,
 $I_1$ and $I_2$ are the concentrations needed to individually induce the $X\%$
 effect, $CI_1$ and $CI_2$ are the combined concentrations required for the same
 effect. The combination index may be interpreted as less than 1 indicates
 antagonism, equal to 1 indicates additive, and greater than 1 indicates
-synergy. Once the combination index has been discovered and determined to be
-across dose ranges for the, a combined dose effect model may be solved through
-nonlinear optimization. [@Chou1984;@Michaud1996]
+synergy. [@Chou1984;@Michaud1996] For the case of Bliss independence,
+combination index will be determine by the difference between observed effect
+compared to the multiplied effects from the constituent compounds individually.
 
 ##### Expected Results and Proposed Alternatives
 
-While it is uncertain what the combination indices may be, the drug compounds
-tested each are thought to act on the calcification pathway at different
-levels. Thus, it is possible that the criteria of mutual exclusivity in Bliss
-independence behavior is met, resulting in 
+While it is difficult to predict when synergy may arise due to the incomplete
+knowledge of all the pathways involved, the drug compounds are thought to act
+on the calcification pathway at different levels, thus antagonism is not
+expected. However, an important aspect of this proposed research is that when
+results are unexpected, that may be the most interesting scenario to refine our
+knowledge of the mechanisms at work.
 
-Dipyridamole combined with ARA is expected to have drastic synergistic effects.
+Dipyridamole combined with ARA is expected to have synergistic effects.
 Adenosine and adenosine analogs have been shown to be rapidly be absorbed by
 the body. [@Zannikos2001] Dipyridamole should have little affect alone, since
 there is expected to be little adenosine production in CD73 -/- cells. However,
 it can be expected to greatly increase the extracellular half-life of ARA,
-providing more for adenosine signaling action. 
-
-In terms of 
-
-Antagonistic: Adenosine increases TNAP turnover, thus TNAP inhibition will be less effective
+providing more capacity for adenosine signaling. ARA with lansoprazole may only
+be additive in combination. ARA should reduce the amount of TNAP expression,
+leaving lansoprasole with fewer enzymes to inhibit. This mutually exclusive
+mechanism suggests that a Bliss independence model could be a good fit. However, if synergy is discovered between ARA and any other compound, it may indicate that ARA is actually affecting other calcification regulatory networks, which would help direct future research efforts in elucidating the role of adenosine signaling.
 
 ## Specific Aim 3
 
