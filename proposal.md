@@ -444,9 +444,6 @@ coding for the enzyme's catalytic site. [@Knofel1999] This same mouse model
 will be the *in vivo* CD73 -/- model used in Aim 3. VSMCs will be isolated and
 cultured from this knockout model in a similar procedure as above.
 
-[@Castrop2004]: CD73 mice sacrificed at 4-6 months, showed significantly elevated plasma alkaline phosphatase levels, consistent with the mechanism and suggests that the ACDC phenotype may be expressed
-[@Jono2000]: Quantification of calcification. Treatment of HSMC with phosphate. Immortal HSMC. Causes differentiation
-
 ##### Expected Results and Proposed Alternatives
 
 While VSMC cell cultures have previously been established from *ex vivo* human
@@ -836,29 +833,57 @@ results are unexpected, that may be the most interesting scenario to refine our
 knowledge of the mechanisms at work.
 
 Dipyridamole combined with ARA is expected to have synergistic effects.
-Adenosine and adenosine analogs have been shown to be rapidly be absorbed by
-the body. [@Zannikos2001] Dipyridamole should have little affect alone, since
+Adenosine and adenosine analogs [@Zannikos2001] have been shown to be rapidly
+be absorbed by the body. Dipyridamole should have little affect alone, since
 there is expected to be little adenosine production in CD73 -/- cells. However,
 it can be expected to greatly increase the extracellular half-life of ARA,
 providing more capacity for adenosine signaling. ARA with lansoprazole may only
 be additive in combination. ARA should reduce the amount of TNAP expression,
 leaving lansoprasole with fewer enzymes to inhibit. This mutually exclusive
-mechanism suggests that a Bliss independence model could be a good fit. However, if synergy is discovered between ARA and any other compound, it may indicate that ARA is actually affecting other calcification regulatory networks, which would help direct future research efforts in elucidating the role of adenosine signaling.
+mechanism suggests that a Bliss independence model could be a good fit.
+However, if synergy is discovered between ARA and any other compound, it may
+indicate that ARA is actually affecting other calcification regulatory
+networks, which would help direct future research efforts in elucidating the
+role of adenosine signaling.
 
 ## Specific Aim 3
 
 ### Strategy and Rationale
 
+This Aim proposes to harness the mechanistic exploration in Aim 1 and Aim 2 to
+provide results for treating ACDC in a living organism. Leading up to Aim 3,
+mechanistic knowledge on disease progression and therapeutic strategies will
+build, thus increasing confidence in the efficacy of the treatments and
+increasing efficiency of the research plan. For example, it may be discovered
+that dipyridamole alone has negligible PD effect, but show significant synergy
+when combined with an ARA. Thus, when the experimental resource expenditure
+reaches higher level for *in vivo* experimentation, the dipyridamole alone
+strategy will be lower priority than its use in a combination therapy.
 
-This PD dose-effect model will be directly coupled with the concentrations in
-the effect compartment within a PK model. The general modeling approach that is
-adopted in this proposal is to start as simple as reasonable and expand in
-response to new data that suggests a more complicated system would be
-appropriate. A single compartment PK model would be used as a starting point,
-however, ACDC symptoms manifest in the peripheral regions of patients, which
-suggest that perhaps a two-compartment model may be used if it significantly
-fits the experimental data better (Figure \ref{fig:pkpd}).
+The major steps in this Aim are to establish a viable animal disease model,
+optimize a dosing strategy using PK experiment data, and then finally
+demonstrate and quantify efficacy.
 
+CD73 knockout mice will naturally be the initial choice in building a disease
+model. While MVC has not been observed in CD73 -/- mice [@Castrop2004], the
+initial mouse study was performed several years before CD73 was implicated in
+ectopic calcification. Significantly elevated levels of serum TNAP were noted
+in the mice, which is consistent with the hypothesis TNAP overexpression
+leading to PP~i~ depletion. Osteoporosis-like trabecular bone weakening has
+also been reported in CD73 -/- mice [@Takedachi2012], which suggests there may
+indeed be some dysregulation of mineralization. Furthermore, ENPP1 and ABCC6
+knock mice have been confirmed to exhibit phenotypes that mirror the matching
+conditions in humans. Considering the relatively less severe phenotype
+associated with CD73 dysfunction, and significantly longer time before onset of
+symptoms make it possible that this phenotype was initially overlooked.
+Therefore, this part of the research will begin by characterizing the ACDC
+associated phenotype in CD73 knockout mice.
+
+PK modeling will be performed using the animal model, administering dosage of
+the compound and measuring serum and dialysate levels and using nonlinear
+optimization algorithms to fit parameters to the PK model. The PK model will be
+used to create an integrated PK-PD model using the PD models developed in Aim 2
+(Figure \ref{pkpd-derendorf}).
 
 \begin{SCfigure}
 	\centering
@@ -868,6 +893,24 @@ fits the experimental data better (Figure \ref{fig:pkpd}).
 		(PK) with the dose dependent effect the drug has on the body (PD).}
 \end{SCfigure}
 
+This PD dose-effect model will be directly coupled with the concentrations in
+the effect compartment within a PK model. The general modeling approach that is
+adopted in this proposal is to start as simple as reasonable and expand in
+response to new data that suggests a more complicated system would be
+appropriate. A single compartment PK model would be used as a starting point,
+however, ACDC symptoms manifest in the peripheral regions of patients, which
+suggest that perhaps a two-compartment model may be used if it significantly
+fits the experimental data better (Figure \ref{fig:pkpd}). The PK-PD model will
+then be used for dose planning.
+
+One rationale for using a PK-PD model for treatment planning in the animal
+model is to allow the research to be translatable for human therapy. Since ACDC
+is a rare disease, there will be difficulty in finding clinical test subjects.
+Therefore, a predictive PK-PD model may reduce the number of clinical
+experiments necessary in humans. Furthermore, the validation of the PK-PD model
+will also provide further confidence in the combination therapy benefits
+discovered in Aim 2.
+
 \begin{SCfigure}
 	\centering
 		\includegraphics[width=.5\textwidth]{images/pkpd.png}
@@ -875,27 +918,99 @@ fits the experimental data better (Figure \ref{fig:pkpd}).
 		model. Compartments V1 and V2 represent the circulating serum and the
 		peripheral tissues that the drug is transported in to. Concentration of
 		drug within the effect compartment, in this case V2, is directly fed
-		into the PD model of drug effects.}
+		into the PD model of drug dose response.}
 \end{SCfigure}
-
-
-[@Castrop2004]: CD73 mice sacrificed at 4-6 months, showed significantly elevated plasma alkaline phosphatase levels, consistent with the mechanism and suggests that the ACDC phenotype may be expressed
 
 ### Experimental Plan
 
 #### Establish ACDC Mouse Model
 
+CD73 -/- mice will be purchased from purchased from The Jackson Laboratory
+(<http://jaxmice.jax.org/strain/018986.html>) and housed until 6 months of age.
+To detect signs of arterial calcification, the mice will be imaged using high
+resolution computed tomography scans [@Jorgensen1998] to detect presence of
+calcification compared to wildtype controls. *Ex vivo* histology and staining
+of the vascular cells in the limbs will also be performed to inspect for
+increased TNAP expression and signs of calcification, using similar methodology
+to the *in vitro* molecular profiling experiments proposed in Aim 1.
+
 ##### Expected Results and Proposed Alternatives
+
+Due to the relatively mild phenotype of ACDC compared to other calcification
+diseases that are present at infancy, several variables may be tuned to induce
+ACDC symptoms in mice. Mice may be allowed to age longer, for example to 12
+months, as ACDC is not found in early life. The diet of the mouse may be
+modified with higher phosphate and lower vitamin D content
+[@Tani2007;@Shiota2011] in order to induce calcification.  Difficulties in
+inducing the disease phenotype may indicate that the mice have additional
+compensatory mechanisms, such as greater endogenous adenosine generation, that
+help to preserve homeostatsis. Calcification inducing conditions applied to the
+CD73 knockout mice will be repeated with the wildtype controls, ideally finding
+an optimal condition where MVC is readily observed in the knockout mice but not
+observed in the control 
 
 #### Develop Pharmacokinetic Model
 
+PK models will be built by performing dosing known amounts of compounds into
+the animals and measuring its rate of clearance from the blood stream. The
+experimental setup will involve first cannulating the animals for drug infusion
+and measurements during the procedure. [@Tsai2010] The animals will be hooked
+up to a microdialysis system, where administration of the compound and sampling
+of the blood and liver dialysates can be collected quickly. Upon drug infusion,
+dialysate samples will be collected every ten minutes into a fraction
+collector. A validated high performance liquid chromatography with
+photodiode-array detector (HPLC-PDA) will be used to measure drug
+concentrations in the samples.
+
+The compartmental PK model parameters can then be fit from the experimental
+data. Uncertainty analysis using the Latin Hypercube method, or a suitable
+alternative, will be used to determine the uncertainty in the model predictions
+given the model structure and experimental error.
+
 ##### Expected Results and Proposed Alternatives
 
-#### Develop Pharmacokinetic-Pharmacodynamic Model
+The experimental portion of this step will require many optimization steps
+along with significant training and experience to be able to conduct the
+procedure. The detection system must be validated to ensure that measurements
+are accurate. The drug infusion procedure will need to be optimized for each
+drug, and several dosing concentrations will need to be used to gather data for
+parameter fitting. It is then expected to see exponential-like decay curves in
+the dialysate concentrations as drug is absorbed and cleared. Difficulty in
+collecting data may be addressed through different measurement systems.
+
+In the model fitting, some parameters may be approximated from literature, as
+the PK for all the compounds have been previously studied, such as the
+elimination rates. However, the PK data for our specific disease model and
+dosing protocol does not exist, thus it is still desirable to measure these
+parameters experimentally.
+
+#### Build Pharmacokinetic-Pharmacodynamic Model for Therapy Planning
+
+PK-PD models will be produced by direct linking the effective exposure
+compartment to the dose response relationship. Dosing will be performed
+similarly to the PK studies, however, repeated blood sampling may not be
+necessary. Similar to the dosing regime in the PD studies, once daily
+administrations of the drugs will be performed for 21 days. At the end of day
+21, the mice will be analyzed using micro-CT (if effective in calcification
+detection) and sacrificed to perform *ex vivo* staining of their VSMCs. The
+effectiveness of the treatment at various levels dosage levels will be compared
+to the PK-PD model for further refinement of model structure and parameters.
 
 ##### Expected Results and Proposed Alternatives
+
+Building a predictive PK-PD model will likely need to be performed somewhat in
+parallel with some initial efficacy experiments to validate the PK component of
+this of the model. This is due to that fact that the PK studies may not provide
+enough information to produce an unambiguous PK model structure. Additional
+compartments may be necessary to add in order to reflect any observed delayed
+responses or reduced exposure. The current PK knowledge of the compounds will
+also be used in this process. For example, bisphosphonates are typically
+modeled using a three-compartment PK, due to its rapid absorption by bone and
+followed by sustained release [@Cremers2005;@Kimmel2007].
 
 #### Conduct Dosing Plan on Mouse Model and Evaluate Efficacy
+
+Single compound and combination therapy dosing regimes will be devised and evaluated. 
 
 ##### Expected Results and Proposed Alternatives
 
