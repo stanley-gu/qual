@@ -333,20 +333,27 @@ determined by relatively few number of stiff parameters.
 # Experimental Design and Methods
 ## Overview
 
-The 
+The main focuses of this research plan is to elucidate the mechanism and
+propose treatment for ACDC using a systematic and quantitative approach (Figure
+\ref{fig:overview}).  While tremendous work has been already done to discover
+this disease and provide some preliminary hypotheses on biological process
+involved, there is still lacking detailed studies regarding the surface protein
+expressions, extracellular environment, and pathological mechanism of ACDC
+vascular cells. While the current working hypothesis implicates several surface
+proteins, such as ENPP1, the expression levels were not measured. Even less
+known are the extracellular metabolite concentrations. The mechanism of
+adenosine signaling is also not known. The current hypothesis suggests that
+PP~i~ depletion is calcification mechanism, however, PP~i~ levels have not yet
+been measured in CD73 -/- cells. Aim 1 is expected to provide the missing
+details to form a more complete picture of ACDC affected cells.
 
-Figure \ref{fig:overview} shows an overview of the specific aims.
-
-
-
-Specific Aims 1 and 2 will serve to explore the mechanism behind ACDC and will
-be performed in parallel. The results from the *in vitro* and *in silico*
-modeling will be used to inform each process.
-
-Specific Aims 2 and 3 will serve to intelligently select and design for a
-therapeutic intervention for treating the disease. Analysis of the optimized
-*in silico* model will enable the selection of the best therapeutic
-intervention to be tested in a CD73 -/- mouse model.
+In moving towards treatment development, Aim 2 will build the first catalog of
+quantiative pharmacodynamic (PD) models from multiple targets for the ACDC
+pathway. Furthermore, combinatorial PD models will be produced to optimize for
+treatment potential and highlight any knowledge gaps in the target pathway. Aim
+3 proposes to produce the first ACDC animal model and rescue of the ACDC
+condition through a rationally designed therapy regime devised from
+pharmacokinetic-pharmacodynamic (PK-PD) modeling, using the results from Aim 2.
 
 \begin{SCfigure}
 	\centering
@@ -356,6 +363,12 @@ intervention to be tested in a CD73 -/- mouse model.
 		if research is conducted on the cell, tissue (collections of cells), or
 		organism level.}
 \end{SCfigure}
+
+While to some degree, each of these aims can be performed in parallel,
+methodology from each Aim will facilitate and strengthen the discoveries of the
+others. We view that it is an advantage that these Aims can be performed
+partially in parallel, which may lead to faster discovery and course correction
+of the research plan with initial findings.
 
 ## Specific Aim 1
 ### Strategy and Rationale
@@ -807,6 +820,8 @@ mechanism suggests that a Bliss independence model could be a good fit. However,
 ## Specific Aim 3
 
 ### Strategy and Rationale
+
+
 This PD dose-effect model will be directly coupled with the concentrations in
 the effect compartment within a PK model. The general modeling approach that is
 adopted in this proposal is to start as simple as reasonable and expand in
