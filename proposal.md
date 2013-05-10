@@ -378,6 +378,35 @@ based on PP~i~ depletion caused adenosine, signal disruption that is proposed
 here, Aim 1 will pursue further molecular biology experiments to support or
 invalidate the working model.
 
+The disease model consisting of the CD73 -/- knockout mouse will be the source
+for primary VSMCs for *in vitro* experimentation. This is selection was chosen
+in order to minimize the inconsistencies between species and different cell
+types across the experimental plans.
+
+This Aim will first start by characterizing the key missing metabolic
+information that is currently missing. While the methodology focuses upon in
+this section are low-throughput and are designed specifically to measure the
+metabolites of interest, there is a possibility of switching to higher
+throughput methods used in metabolomics [@Beckonert2007], which could allow the
+profiling of many more metabolites. Similarly, a more proteomic [@Sleno2008]
+type approach may be used to measure proteins in a higher throughput manner.
+However, the underlying strategy for the experimental planning in this proposal
+is to start with the simplest approaches first and add complexity where needed.
+
+The approach for determining the adenosine (ADO) signaling mechanism, Figure
+\ref{fig:signaling}, was selected to systematically narrow down the adenosine
+receptor (AR) of interest.  There are four pharmacological classes of (ARs),
+A~1~, A~2A~, A~2B~, and A~3~. Toward the goal of developing a potential
+therapeutic by replacement of the missing ADO signal, and to understanding the
+biological repercussions and potential off-target effects, it is necessary to
+identify the specific AR which, when activated, inhibits TNAP expression.
+Combinations of AR agonist (ARA) and AR antagonists (ARANT) will potentially
+pinpoint the receptor class responsible for regulating MVC.  Additionally,
+dipyridamole, a potent inhibitor of ADO uptake by the cell [@Hayashi1985], will
+be used to determine that adenosine signaling is not due to intracellular
+adenosine uptake or concentrations. Dipyridamole will also be used in Aim 2 as
+a therapeutic and possible adjuvant therapy.
+
 \begin{figure}
 	\centering
 		\includegraphics[width=\textwidth]{images/ado-signaling.png}
@@ -480,7 +509,13 @@ both AMP and adenosine.
 The enzyme RNA expression levels are expected to correspond with extracellular
 activity. Discrepancies in these measures may indicate that adenosine signaling
 has some effect on surface protein recycling or expression. These measurements
-may be taken again during adenosine agonist addition to further investigate.
+will be taken again during adenosine agonist addition to further investigate.
+
+In addition to the surface enzymes of primary interest, the levels of proteins
+and transcription factors related to bone regulation, such as osteopontin,
+matrix gla protein, Cbfa1/RUNX2, and MSX-2 [@Moe2008] may also be measured to
+full characterize the CD73 -/- phenotype in relation to these other regulator
+factors. Findings from this work could also lead to additional therapeutic targets.
 
 #### Establish Extracellular Metabolite Profile of ACDC Versus Disease Cells
 
@@ -525,23 +560,16 @@ on the discrepancy.
 ##### Combinatorial Probing of Adenosine Receptors with Agonists
 
 One of the key goals in this Aim is to elucidate the adenosine signaling
-mechanism for regulating TNAP expression. There are four pharmacological
-classes of adenosine receptors (ARs), A~1~, A~2A~, A~2B~, and A~3~. Toward the
-goal of developing a potential therapeutic by replacement of the missing
-adenosine signal, and to understanding the biological repercussions and
-potential off-target effects, it is necessary to identify the specific
-AR which, when activated, inhibits TNAP expression.
-
-A combinatorial approach of activating a single type of adenosine receptor,
-while inhibiting all others, will be used. Four adenosine receptor agonists
-(ARAs) will be selected, CPA, CGS21680, BAY 60-6583, and IB-MECA, and four
-adenosine receptor antagonists (ARANTs) DPCPX, CSC, MRS1754, and MRS1220, will
-be used to selectively investigate A~1~, A~2A~, A~2B~, and A~3~ effects on TNAP
-expression, respectively. [@Hasko2008] Each ARA will be incubated at its EC90
-value in a microtiter plate with three ARANTs onboard, at their IC90 values,
-for the other AR types. This will be performed for control and CD73 -/- VSMCs.
-TNAP activity levels will be quantified at time 0, 12 hours, 1 day, 3 days, and
-5 days.
+mechanism for regulating TNAP expression. A combinatorial approach of
+activating a single type of adenosine receptor, while inhibiting all others,
+will be used. Four adenosine receptor agonists (ARAs) will be selected, CPA,
+CGS21680, BAY 60-6583, and IB-MECA, and four adenosine receptor antagonists
+(ARANTs) DPCPX, CSC, MRS1754, and MRS1220, will be used to selectively
+investigate A~1~, A~2A~, A~2B~, and A~3~ effects on TNAP expression,
+respectively. [@Hasko2008] Each ARA will be incubated at its EC90 value in a
+microtiter plate with three ARANTs onboard, at their IC90 values, for the other
+AR types. This will be performed for control and CD73 -/- VSMCs.  TNAP activity
+levels will be quantified at time 0, 12 hours, 1 day, 3 days, and 5 days.
 
 ##### Expected Results and Proposed Alternatives
 
