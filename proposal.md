@@ -151,8 +151,8 @@ blood, vessel calcification has been discovered to be an active process that is
 similar to bone formation and remodeling. [@Bostrom1993; @Giachelli1993; @Ding2006]
 
 Calcification can occur in either the media (within vessel walls) or intima
-(vessel lumen interior). Intimal vascular calcification (IVC) is frequently
-seen in conditions related to atheroschlerosis [@Nakamura2009]. Medial vascular
+(vessel lumen). Intimal vascular calcification (IVC) is frequently seen in
+conditions related to atheroschlerosis [@Nakamura2009]. Medial vascular
 calcification (MVC), also known as Monckeberg's arteriosclerosis, increases in
 prevalence in populations with increased age, diabetes mellitus, chronic kidney
 disease, chronic inflammation, and genetic disorders. [@Micheletti2008]
@@ -663,7 +663,7 @@ entirely new drug or biologic. Four different pharmacological strategies will
 be investigated for ACDC therapy: AR signaling, TNAP inhibition, PP~i~
 supplementation, adenosine uptake blockage. The ARA identified in Aim 1 will be
 used to induce the adenosine signaling pathway for the inhibition of TNAP
-expression. Lansoprazole, a inhibitor of TNAP activity [@Delomenede2009], will
+expression. Lansoprazole, an inhibitor of TNAP activity [@Delomenede2009], will
 be used to bind to the TNAP-PP~i~ complex to reduce PP~i~ hydrolysis. PP~i~
 will be supplemented through treatment with bisphosphonates [@Fleisch1998],
 PP~i~ analogs that are highly resistant to hydrolysis by TNAP. Adenosine uptake
@@ -783,11 +783,10 @@ parameter optimization software (NONMEM).
 ##### Expected Results and Proposed Alternatives
 
 The observed drug effects on calcification are expected to form a dose-response
-curve that will fit in a Hill-type equation (Figure \ref{fig:pd}). The result
+curve that will fit a Hill-type equation (Figure \ref{fig:pd}). The result
 should be a predictive model of 21-day dosing effects for each of the
-compounds. The fitting of the parameters is not expected to be a significant
-challenge, however, different software packages may be used to perform fitting
-if the need arises.
+compounds. If fitting the parameters proves to be a significant challenge,
+different software packages may be used to perform fitting.
 
 Model fitting could prove difficult if experimental data is far too noisy or
 unreliable, which would suggest that the experimental protocol should be
@@ -925,7 +924,7 @@ discovered in Aim 2.
 
 #### Establish ACDC Mouse Model
 
-CD73 -/- mice will be purchased from purchased from The Jackson Laboratory
+CD73 -/- mice will be purchased from The Jackson Laboratory
 (<http://jaxmice.jax.org/strain/018986.html>) and housed until 6 months of age.
 To detect signs of arterial calcification, the mice will be imaged using high
 resolution computed tomography scans [@Jorgensen1998] to detect presence of
@@ -968,18 +967,19 @@ alternative, will be used to determine the uncertainty in the model predictions
 given the model structure and experimental error.
 
 PK-PD models will be produced by direct linking the effective exposure
-compartment to the dose response relationship.
+compartment to the dose response.
 
 ##### Expected Results and Proposed Alternatives
 
 The experimental portion of this step will require many optimization steps
 along with significant training and experience to be able to conduct the
-procedure. The detection system must be validated to ensure that measurements
-are accurate. The drug infusion procedure will need to be optimized for each
-drug, and several dosing concentrations will need to be used to gather data for
-parameter fitting. It is then expected to see exponential-like decay curves in
-the dialysate concentrations as drug is absorbed and cleared. Difficulty in
-collecting data may be addressed through different measurement systems.
+procedure. Validation on he detection system must be performed to ensure that
+measurements are accurate. The drug infusion procedure will need to be
+optimized for each drug, and several dosing concentrations will need to be used
+to gather data for parameter fitting. It is then expected to see
+exponential-like decay curves in the dialysate concentrations as drug is
+absorbed and cleared. Difficulty in collecting data may be addressed through
+different measurement systems.
 
 In the model fitting, some parameters may be approximated from literature, as
 the PK for all the compounds have been previously studied, such as the
