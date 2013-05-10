@@ -39,7 +39,7 @@ Dr.~Paul \textsc{Wiggins} \\
 \end{titlepage}
 
 \tableofcontents
-\listoffigures
+
 \newpage
 
 # Abstract and Specific Aims
@@ -949,7 +949,7 @@ CD73 knockout mice will be repeated with the wildtype controls, ideally finding
 an optimal condition where MVC is readily observed in the knockout mice but not
 observed in the control 
 
-#### Develop Pharmacokinetic Model
+#### Develop Pharmacokinetic-Pharmacodynamic Model
 
 PK models will be built by performing dosing known amounts of compounds into
 the animals and measuring its rate of clearance from the blood stream. The
@@ -966,6 +966,9 @@ The compartmental PK model parameters can then be fit from the experimental
 data. Uncertainty analysis using the Latin Hypercube method, or a suitable
 alternative, will be used to determine the uncertainty in the model predictions
 given the model structure and experimental error.
+
+PK-PD models will be produced by direct linking the effective exposure
+compartment to the dose response relationship.
 
 ##### Expected Results and Proposed Alternatives
 
@@ -984,20 +987,6 @@ elimination rates. However, the PK data for our specific disease model and
 dosing protocol does not exist, thus it is still desirable to measure these
 parameters experimentally.
 
-#### Build Pharmacokinetic-Pharmacodynamic Model for Therapy Planning
-
-PK-PD models will be produced by direct linking the effective exposure
-compartment to the dose response relationship. Dosing will be performed
-similarly to the PK studies, however, repeated blood sampling may not be
-necessary. Similar to the dosing regime in the PD studies, once daily
-administrations of the drugs will be performed for 21 days. At the end of day
-21, the mice will be analyzed using micro-CT (if effective in calcification
-detection) and sacrificed to perform *ex vivo* staining of their VSMCs. The
-effectiveness of the treatment at various levels dosage levels will be compared
-to the PK-PD model for further refinement of model structure and parameters.
-
-##### Expected Results and Proposed Alternatives
-
 Building a predictive PK-PD model will likely need to be performed somewhat in
 parallel with some initial efficacy experiments to validate the PK component of
 this of the model. This is due to that fact that the PK studies may not provide
@@ -1010,15 +999,37 @@ followed by sustained release [@Cremers2005;@Kimmel2007].
 
 #### Conduct Dosing Plan on Mouse Model and Evaluate Efficacy
 
-Single compound and combination therapy dosing regimes will be devised and evaluated. 
+Single compound and combination therapy dosing regimes will be devised in
+accordance to the PK-PD model and evaluated against the experimental efficacy
+data. Dosing will be performed similarly to the PK studies, however, repeated
+blood sampling may not be necessary. Similar to the dosing regime in the PD
+studies, once daily administrations of the drugs will be performed for 21 days.
+At the end of day 21, the mice will be analyzed using micro-CT (if effective in
+calcification detection) and sacrificed to perform *ex vivo* staining of their
+VSMCs. The effectiveness of the treatment at various levels dosage levels will
+be compared to the PK-PD model for further refinement of model structure and
+parameters. Additional observations, such as dose toxicity in the animals, will
+be monitored and used to inform the model.
 
 ##### Expected Results and Proposed Alternatives
 
-# Summary and Future Directions 
+In the initial rounds of dose planning using the PK-PD model, there is likely
+to be significant modifications to the model that will be made due to
+discrepancy in the predictions and simulation. However, through iterative
+changes in model structure, parameters, and model complexity, the predictive
+capabilities of the model are expected to be improved over time. Due to the
+overwhelming number of experimental conditions possible, especially with
+combination therapies, this iterative model development and feedback will
+likely prove to be a very useful approach. Experimental procedures may also
+need to be adjusted, and further *in vitro* experimentation may be needed to
+explain inconsistencies. If the dose effect itself is difficult to quantify *in
+vivo*, it may be necessary to revise the PD models to use a measure of efficacy
+that is more consistent across whole animals and cell culture. For example,
+levels of PP~i~ and P~i~ may serve as a kind of surrogate calcification index.
+Enough data should be collected in the cell culture PD experiments to be able
+to re-tune the model to fit a different set of efficacy criteria, but more PD
+experimentation may be necessary even at this stage of the research plan.
 
-Treatment of CD73-defiency with bisphosphonates may also have an added
-advantage for reducing the effects of osteoporosis-like trabecular bone
-weakening, which has been found in CD73 -/- mice [@Takedachi2012]. However,
-this has not yet been reported in humans.
+# Summary and Future Directions 
 
 # References
