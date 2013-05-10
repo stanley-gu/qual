@@ -33,7 +33,7 @@ Dr.~Paul \textsc{Wiggins} \\
 \end{minipage}
 
 \vspace{3cm}
-{\large May 9, 2013}
+{\large May 10, 2013}
 
 \end{center}
 \end{titlepage}
@@ -49,7 +49,7 @@ with increase risk for cardiac events and mortality. Given the significant
 clinical impact of arterial calcification, the mechanism and genetic basis
 behind its clinical presentation has been a subject of intense study.
 
-Recently, the human gene *NT53* that encodes CD73, the enzyme responsible for
+Recently, the human gene *NT5E* that encodes CD73, the enzyme responsible for
 converting extracellular AMP to adenosine, has been implicated as a key
 component behind the metabolic pathway for inhibiting medial vascular
 calcification. Individuals with mutations in NT5E result in a disease phenotype
@@ -198,7 +198,7 @@ restored through CD73-deliverying viral vectors.
 
 In determining the mechanism of ACDC, the literature was reviewed for related
 enzymes and metabolites that are related in the pathobiology of MVC (Figure
-\ref{fig:mechanism}). [@Rutsch2011] The process of bone formation by
+\ref{fig:pathway-sthilaire}). [@StHilaire2011] The process of bone formation by
 osteoblasts is closely resembled by the induced osteoblast-like smooth muscle
 cells that cause MVC. [@Neven2011] Insight into the pathological mechanism has
 come from numerous independent genetic studies that discovered molecular
@@ -883,7 +883,7 @@ PK modeling will be performed using the animal model, administering dosage of
 the compound and measuring serum and dialysate levels and using nonlinear
 optimization algorithms to fit parameters to the PK model. The PK model will be
 used to create an integrated PK-PD model using the PD models developed in Aim 2
-(Figure \ref{pkpd-derendorf}).
+(Figure \ref{fig:pkpd-derendorf}).
 
 \begin{SCfigure}
 	\centering
@@ -1030,6 +1030,29 @@ Enough data should be collected in the cell culture PD experiments to be able
 to re-tune the model to fit a different set of efficacy criteria, but more PD
 experimentation may be necessary even at this stage of the research plan.
 
-# Summary and Future Directions 
+# Summary and Future Directions
+
+NT5E mutations leading to defective CD73 protein results in the onset of ACDC,
+a painful condition of limb and joint calcification. This is a debilitating
+disease with no known cure. Recent studies have suggested that the CD73 plays a
+role in providing adenosine signaling which keeps the body's calcification
+mechanisms in check. However, detailed knowledge on how the signaling mechanism
+functions and what possible drug treatments may be effective in combating the
+disease is currently lacking. This proposal outlines the systematic
+investigation of the biomolecular mechanisms behind presentation of disease and
+the function of drug interventions to bridge the knowledge gaps. PK-PD
+modeling, built from *in vitro* and *in vivo* data will be employed to
+characterize the relationships between drug treatment and efficacy.
+Furthermore, due to the complex combinatorial control of this disease pathway,
+a combination drug therapy approach will be investigated for increasing
+treatment potency while reducing the risk of high dosages that may lead to
+safety complications. PK-PD modeling will be used to plan and administer
+treatment in an animal model of disease, with the aim of ultimately aiding in
+the personalized treatment planning of affected patients. Furthermore, the
+knowledge and methodologies developed in this research proposal may also be
+applicable to supporting the understanding and treatment of an entire family of
+ectopic calcification diseases, such as GACI and PXE.
+
+\newpage
 
 # References
