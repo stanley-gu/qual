@@ -49,7 +49,7 @@ with increase risk for cardiac events and mortality. Given the significant
 clinical impact of arterial calcification, the mechanism and genetic basis
 behind its clinical presentation has been a subject of intense study.
 
-Recently, the human gene *NT5E* that encodes CD73, the enzyme responsible for
+Recently, the human gene NT5E that encodes CD73, the enzyme responsible for
 converting extracellular AMP to adenosine, has been implicated as a key
 component behind the metabolic pathway for inhibiting medial vascular
 calcification. Individuals with mutations in NT5E result in a disease phenotype
@@ -116,7 +116,7 @@ recently found that deletion of the gene NT5E led to calcification in leg
 arteries, to arterial insufficiency, and to inability to walk. The gene codes
 for an ecto-5'-nucleotidase, CD73. Write a proposal to support research to
 define the mechanisms by which the genetic abnormality causes the disease, and
-to find out how one can treat the disease. [@StHilaire2011]
+to find out how one can treat the disease [@StHilaire2011].
 
 # Background
 
@@ -148,30 +148,30 @@ well-defined risk factor in significantly increased patient mortality.
 [@Shaw2003; @Chiu2010; @Blacher2001; @London2003] While once thought to be a
 passive process of deposition due to elevated electrolyte imbalances in the
 blood, vessel calcification has been discovered to be an active process that is
-similar to bone formation and remodeling. [@Bostrom1993; @Giachelli1993;
-@Ding2006]
+similar to bone formation and remodeling [@Bostrom1993; @Giachelli1993;
+@Ding2006].
 
 Calcification can occur in either the media (vessel walls) or intima (vessel
 lumen). Intimal vascular calcification (IVC) is frequently seen in conditions
 related to atheroschlerosis [@Nakamura2009]. Medial vascular calcification
 (MVC), also known as Monckeberg's arteriosclerosis, increases in prevalence for
 populations with greater age, diabetes mellitus, chronic kidney disease,
-chronic inflammation, and genetic disorders. [@Micheletti2008]
+chronic inflammation, and genetic disorders [@Micheletti2008].
 
 While the subject of arterial calcification is a large and diverse field, the
 focus of this background will be on the possible biological mechanisms of
 interest behind the NT5E mutation phenotype. Additional reviews on the
 pathobiology behind arterial calcification have been published and are
-referenced here. [@Demer2008; @Giachelli2004]
+referenced here [@Demer2008; @Giachelli2004].
 
 ## Arterial Calcification due to Deficiency of CD73 (ACDC)
 
 Ecto-5'-nucleotidase (CD73) is located on the surface of the plasma membrane
-and hydrolyzes adenosine monophosphate (AMP) to adenosine (ADO). [@Zimmermann1992]
+and hydrolyzes adenosine monophosphate (AMP) to adenosine (ADO) [@Zimmermann1992].
 Due to the broad range of AMP and adenosine involvement in biological
 processes, the CD73 function is implicated in a variety of pathological
 conditions, including immunodeficiency [@Deaglio2007], inflammation
-[@Colgan2006], and ectopic calcification. [@Kathiresan2012]
+[@Colgan2006], and ectopic calcification [@Kathiresan2012].
 
 \begin{SCfigure}
 	\centering
@@ -198,16 +198,16 @@ CD73-deliverying viral vectors.
 
 In determining the mechanism of ACDC, the literature was reviewed for related
 enzymes and metabolites that are related to the pathobiology of MVC (Figure
-\ref{fig:pathway-sthilaire}). The process of bone formation by osteoblasts is
+\ref{fig:mechanism}). The process of bone formation by osteoblasts is
 closely resembled by the induced osteoblast-like smooth muscle cells that cause
-MVC. [@Neven2011] Furthremore, insight into the pathological mechanism has come
+MVC [@Neven2011]. Furthremore, insight into the pathological mechanism has come
 from numerous independent genetic studies that discovered other biomolecular
-defects in rare monogenetic disorders. [@Nitschke2012a]
+defects in rare monogenetic disorders [@Nitschke2012a].
 
 \begin{SCfigure}
 	\centering
-		\includegraphics[width=.5\textwidth]{images/pathway-sthilaire.png}
-		\caption{\label{fig:pathway-sthilaire} Hypothetical mechanism for
+		\includegraphics[width=.5\textwidth]{images/mechanism.png}
+		\caption{\label{fig:mechanism} Hypothetical mechanism for
 		calcification regulation by CD73 activity. On the surface of vascular
 		cells, ENPP1 converts ATP to AMP and PP\textsubscript{i}, an inhibitor
 		of calcification. Further downstream, CD73 produces adenosine and
@@ -215,7 +215,7 @@ defects in rare monogenetic disorders. [@Nitschke2012a]
 		P\textsubscript{i}, promoting calcification. Adenosine signaling to the
 		cell is an inhibitor of TNAP expression. Thus, when CD73 activity is
 		deficient, adenosine signaling drops, TNAP inhibition releases, and
-		PP\textsubscript{i} levels deplete from TNAP over-activity. (St. Hilaire et al. 2011)}
+		PP\textsubscript{i} levels deplete from TNAP over-activity.}
 \end{SCfigure}
 
 ### Tissue-Nonspecific Alkaline Phosphatase (TNAP)
@@ -224,19 +224,19 @@ A key enzyme related to calcification, TNAP, was found to be significantly
 overexpressed on the surface of CD73-deficient cells, which could be reduced to
 normal levels through adenosine supplementation *in vitro*. TNAP plays a key
 regulatory role in maintaining proper levels of inorganic pyrophosphate (PP~i~)
-and phosphate (P~i~) through the hydrolysis of PP~i~ into P~i~. [@Millan2006]
+and phosphate (P~i~) through the hydrolysis of PP~i~ into P~i~ [@Millan2006].
 The ratio of PP~i~ to P~i~ is crucial in controlling the formation of HA
 crystals [@Lomashvili2004], one of the primary constituents of bone and product
 of arterial calcification. PP~i~ inhibits the deposition of P~i~ and calcium on
 to growth sites in HA crystals, however, when PP~i~ levels fall to abnormal
-low, ectopic calcification results. [@Narisawa2004;@Hessle2002] 
+low, ectopic calcification results [@Narisawa2004;@Hessle2002].
 
 The under-expression of TNAP activity also has deleterious effects. In both
 humans [@Henthorn1992] and mice [@Anderson2004] with defects in TNAP
 expression, the result is fatality soon after birth. In the TNAP knockout mice,
 there was normal HA formation containing matrix vesicles that are released by
 osteoblasts, however, extracellular mineralization was impaired due to elevated
-PP~i~ levels (Figure \ref{mice-tnap-knockout}, @Anderson2004).
+PP~i~ levels (Figure \ref{mice-tnap-knockout}).
 
 \begin{SCfigure}
 	\centering
@@ -244,7 +244,7 @@ PP~i~ levels (Figure \ref{mice-tnap-knockout}, @Anderson2004).
 		\caption{Impaired bone formation in TNAP knockout mice (B) compared to
 		wildtype mice (A). During early development, the lack of TNAP results
 		in excessive extracellular PP\textsubscript{i} and inhibits
-		mineralization.\label{mice-tnap-knockout}} 
+		mineralization. Anderson et al. 2004\label{mice-tnap-knockout}} 
 \end{SCfigure}
 
 ### Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1) and ANK
@@ -267,8 +267,7 @@ Mutations in the gene ANKH (ANK in mice) also result in a similar disease
 phenotype [@Nurnberg2001]. Apart from ENPP1, ANKH is the other contributor of
 PP~i~ in the extracellular environment by transporting intracellular PP~i~.
 
-### ATP-binding Cassette Sub-Family C Member 6 (ABCC6) and Role of Adenosine
-Signaling
+### ATP-binding Cassette Sub-Family C Member 6 (ABCC6) and Role of Adenosine Signaling
 
 @StHilaire2011 discovered that by supplementing CD73 deficient cells with
 adenosine, TNAP overexpression can be brought back down to normal levels.
@@ -282,7 +281,7 @@ ACDC [@LeSaux2000]. However, later studies [@Leftheriotis2011;@LeSaux2012]
 showed that ABBC6 does not transport adenosine, and suggests that its role may
 be more complex. Evidence shows that a yet to be discovered substrate, or
 substrates, is transported systemically into serum, which prevents ectopic
-calcification. [@LeSaux2006] Interestingly, mutations in ENPP1 or ABCC6 can
+calcification [@LeSaux2006]. Interestingly, mutations in ENPP1 or ABCC6 can
 lead to PXE-like symptoms [@Nitschke2012], which further suggests that the
 mechanisms behind these diseases are inter-related.
 
@@ -290,8 +289,8 @@ Focusing back on the adenosine-supplementation recovery in CD73-deficient
 cells, the mechanism in which adenosine apparently suppresses TNAP is not yet
 known. All adenosine receptors (AR) are G-Protein Coupled Receptors (GPCR) and
 one of four different pharmacological classes ($A_1$, $A_{2A}$, $A_{2B}$, and
-$A_3$), each implicated in a wide range of biological processes in the body.
-[@Hasko2008]
+$A_3$), each implicated in a wide range of biological processes in the body
+[@Hasko2008].
 
 # Experimental Design and Methods
 ## Overview
@@ -389,13 +388,13 @@ therapeutic and possible adjuvant therapy.
 
 Vascular smooth muscle cells (VSMCs) will be isolated and cultured
 [@mahabeleshwar2007methods] from distal arteries of C57BL/6J mice. Medial
-tissues will be separated from surgically excised vasculature. [@Jono2000]
+tissues will be separated from surgically excised vasculature [@Jono2000].
 Small pieces of tissue (1 to 2 mm^3^) will be digested overnight in DMEM
 supplemented collagenase type I, elastase type III, and soybean trypsin
 inhibitor at 37^$\circ$^ C. The single cell suspensions will then be cultured
 for several weeks in DMEM supplemented with fetal bovine serum (FBS). The
 purity of the cultures will be assessed by immunostaining for $\alpha$-actin
-and calponin, positive indicators for smooth muscle cells. [@Liaw1995] VSMCs
+and calponin, positive indicators for smooth muscle cells [@Liaw1995]. VSMCs
 will be routinely subcultured in growth medium. For running experiments, VSMCs
 will be grown to confluency, trypsinized, counted (Invitrogen Automated Cell
 Counter), and redispersed on to microtiter plates. These cells will serve as
@@ -403,7 +402,7 @@ the health control VSMCs.
 
 CD73 -/- knockout mice will be purchased from The Jackson Laboratory
 (<http://jaxmice.jax.org/>) which contain mutations in the NT5E/CD73 gene
-coding for the enzyme's catalytic site. [@Knofel1999] This same mouse model
+coding for the enzyme's catalytic site [@Knofel1999]. This same mouse model
 will be the *in vivo* CD73 -/- model used in Aim 3. VSMCs will be isolated and
 cultured from this knockout model in a similar procedure as above.
 
@@ -438,8 +437,8 @@ threshold compared with the normalizer (PCR Detection System, BioRad).
 
 ENPP1 and TNAP enzyme activity on the cell surface will be assayed using
 colorimetric substrates, p-nitrophenyl thymidine 5'-monophosphate and nitro
-blue tetrazolium/5-bromo-4-chloro-3-indolyl phosphate, respectively (Sigma).
-[@Nam2011] After one hour incubation, the ENPP1 reaction will be stopped by
+blue tetrazolium/5-bromo-4-chloro-3-indolyl phosphate, respectively (Sigma)
+[@Nam2011]. After one hour incubation, the ENPP1 reaction will be stopped by
 addition of NaOH, and the absorbance through the well measured at 405 nm. The
 TNAP reaction will be stopped by washing with H~2~O and air drying. TNAP
 activity will be quantified via microscopic densitometry with image analysis
@@ -501,17 +500,17 @@ One of the key metabolite levels to be determined is PP~i~. The working
 hypothesis is that ACDC is the result of depressed PP~i~ due to increased TNAP
 expression. It has been shown that healthy *ex vivo* rat VSMCs after 3 days of
 culture generate PP~i~ endogenously to reach a level of 0.44 $\mu$M in medium,
-without any addition of PP~i~. [@Lomashvili2004] Depletion of PP~i~ resulted in
+without any addition of PP~i~ [@Lomashvili2004]. Depletion of PP~i~ resulted in
 spontaneous calcification. In injured aortic cultures, higher levels of
 pyrophosphate, 5-10 $\mu$M was shown to inhibit calcification, although these
 high levels necessary for calcification inhibition is likely necessary due to
 increased TNAP expression in injured tissue. In healthy humans, 3.26 +/- 0.17
-$\mu$M serum levels of PP~i~ were measured. [@Lomashvili2005] Thus, it will be
+$\mu$M serum levels of PP~i~ were measured [@Lomashvili2005]. Thus, it will be
 expected that normal VSMCs will equilibrate with the media at around 1 $\mu$M
 PP~i~, whereas CD73 -/- VSMCs will be significantly less. Failing to find
 decreased levels of PP~i~ could suggest that disrupted regulator of
-mineralization could be a different HA inhibitor, such as osteopontin.
-[@Sapir-Koren2011]
+mineralization could be a different HA inhibitor, such as osteopontin
+[@Sapir-Koren2011].
 
 Differences in other metabolite concentrations would suggest other compensatory
 mechanisms may be upregulated and could direct further experiments to shed
@@ -525,7 +524,7 @@ activating a single class of AR, while inhibiting all others, will be used.
 Four adenosine receptor agonists (ARAs) will be selected (CPA, CGS21680, BAY
 60-6583, and IB-MECA) and four adenosine receptor antagonists (ARANTs) (DPCPX,
 CSC, MRS1754, and MRS1220) will be used to selectively investigate A~1~, A~2A~,
-A~2B~, and A~3~ effects on TNAP expression, respectively. [@Hasko2008] Each ARA
+A~2B~, and A~3~ effects on TNAP expression, respectively [@Hasko2008]. Each ARA
 will be incubated at its EC95 value on a microtiter plate with three ARANTs
 onboard, at their IC95 values, for the other AR types. This will be performed
 for control and CD73 -/- VSMCs.  TNAP activity levels will be quantified at
@@ -603,7 +602,7 @@ model, the general approach will be to design a methodology for deliverying
 dosages at different concentrations and select a way to measure its effect. One
 common way to model this relationship between dose and drug effect is using the
 Hill Equation (Equation \ref{eq:hill}), where $E$ is the observed drug effect,
-E~max~ is the maximum observable drug effect, $C$ is the drug concentration,
+$E_{max}$ is the maximum observable drug effect, $C$ is the drug concentration,
 and $n$ is the Hill coefficient (Figure \ref{fig:pd}).
 
 \begin{equation}\label{eq:hill}
@@ -636,7 +635,7 @@ for increased residence time and signaling of extracellular adenosine.
 
 As the case with many complex diseases, such as cancer, often times a
 one-gene-one-drug target approach is ineffective in perturbing the system
-enough to get much therapeutic benefit. [@Fitzgerald2006] Arterial
+enough to get much therapeutic benefit [@Fitzgerald2006]. Arterial
 calcification involves many physiological processes and is characterized by
 redundancy and homeostasis. Combination therapy may be highly advantageous for
 1) lowering the doses of drugs with non-overlapping toxicity and similar
@@ -771,8 +770,7 @@ single compound PD models.
 
 Drug combination will be evaluated for presence antagonism (negative
 interaction), additive (no interaction), or synergy (positive interaction)
-using the *combination index* metric (Equation \ref{eq:comboIndex},
-@Fitzgerald2006).
+using the *combination index* metric (Equation \ref{eq:comboIndex}).
 
 \begin{equation}\label{eq:comboIndex}
     \text{Combination Index} = \frac{[CI_1]_{X\%}}{[I_1]_{X\%}} + \frac{[CI_2]_{X\%}}{[I_2]_{X\%}}
@@ -783,7 +781,7 @@ $I_1$ and $I_2$ are the concentrations needed to individually induce the $X\%$
 effect, $CI_1$ and $CI_2$ are the combined concentrations required for the same
 effect. The combination index may be interpreted as less than 1 indicates
 antagonism, equal to 1 indicates additive, and greater than 1 indicates
-synergy. [@Chou1984;@Michaud1996] For the case of Bliss independence,
+synergy [@Chou1984;@Michaud1996]. For the case of Bliss independence,
 combination index will be determine by the difference between observed effect
 compared to the multiplied effects from the constituent compounds individually.
 
@@ -919,7 +917,7 @@ but not observed in the control
 PK models will be built by performing dosing known amounts of compounds into
 the animals and measuring its rate of clearance from the blood stream. The
 experimental setup will involve first cannulating the animals for drug infusion
-and measurements during the procedure. [@Tsai2010] The animals will be hooked
+and measurements during the procedure [@Tsai2010]. The animals will be hooked
 up to a microdialysis system, where administration of the compound and sampling
 of the blood and liver dialysates can be collected quickly. Upon drug infusion,
 dialysate samples will be collected every ten minutes into a fraction
@@ -962,8 +960,8 @@ structure. Additional compartments may be necessary to add in order to reflect
 any observed delayed responses or reduced exposures. The current PK knowledge
 of the compounds will also be used in this process. For example,
 bisphosphonates are typically modeled using a three-compartment PK, due to its
-rapid absorption by bone and following sustained release.
-[@Cremers2005;@Kimmel2007]
+rapid absorption by bone and following sustained release
+[@Cremers2005;@Kimmel2007].
 
 #### Conduct Dosing Plan on Mouse Model and Evaluate Efficacy
 
