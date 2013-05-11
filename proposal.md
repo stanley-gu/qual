@@ -10,7 +10,7 @@
 \textsc{\Large Qualifying Examination}\\[0.5cm]
 
 % Title
-{ \LARGE \bfseries A Quantitative Systems Approach for Studying and Treating Arterial Calcification Due to CD73 Deficiency}\\[2.0cm]
+{ \LARGE \bfseries Arterial Calcification Due to CD73 Deficiency: Investigating Mechanism and Treatment }\\[2.0cm]
 
 \vfill
 
