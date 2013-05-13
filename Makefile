@@ -7,9 +7,10 @@ DOCX := $(patsubst %.md,output/%.docx,$(wildcard *.md))
 TEX := $(patsubst %.md,output/%.tex,$(wildcard *.md))
 HTML := $(patsubst %.md,output/%.html,$(wildcard *.md))
 SLIDES := $(patsubst %.slides,%.pdf,$(wildcard *.slides))
+PRESENTATION := $(patsubst %.html,$(OUTPUTDIR)/%.html,$(wildcard *.html))
 
 # The all rule makes all the PDF files listed
-all : $(PDFS) $(HTML)
+all : $(PDFS) $(PRESENTATION)
 
 # makes all Markdown into PDFs
 pdf : $(PDFS)
@@ -53,6 +54,9 @@ $(OUTPUTDIR)/%.tex : %.md
 # source, and makes them using pandoc
 $(OUTPUTDIR)/%.html : %.md $(OUTPUTDIR)/components
 	pandoc $< -o $@ -N --toc --bibliography refs.bib -s -S --mathjax -c components/bootstrap/docs/assets/css/bootstrap.css
+
+$(OUTPUTDIR)/%.html : %.html $(OUTPUTDIR)/components
+	cp $< $(OUTPUTDIR)
 
 $(OUTPUTDIR)/%.pdf : %.slides
 
