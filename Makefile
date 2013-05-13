@@ -6,11 +6,11 @@ PDFS := $(patsubst %.md,$(OUTPUTDIR)/%.pdf,$(wildcard *.md))
 DOCX := $(patsubst %.md,output/%.docx,$(wildcard *.md))
 TEX := $(patsubst %.md,output/%.tex,$(wildcard *.md))
 HTML := $(patsubst %.md,output/%.html,$(wildcard *.md))
-SLIDES := $(patsubst %.slides,%.pdf,$(wildcard *.slides))
+SLIDES := $(patsubst %.slides,$(OUTPUTDIR)/%.html,$(wildcard *.slides))
 PRESENTATION := $(patsubst %.html,$(OUTPUTDIR)/%.html,$(wildcard *.html))
 
 # The all rule makes all the PDF files listed
-all : $(PDFS) $(PRESENTATION)
+all : $(PDFS) $(PRESENTATION) $(SLIDES)
 
 # makes all Markdown into PDFs
 pdf : $(PDFS)
@@ -58,7 +58,8 @@ $(OUTPUTDIR)/%.html : %.md $(OUTPUTDIR)/components
 $(OUTPUTDIR)/%.html : %.html $(OUTPUTDIR)/components
 	cp $< $(OUTPUTDIR)
 
-$(OUTPUTDIR)/%.pdf : %.slides
+$(OUTPUTDIR)/%.html : %.slides
+	pandoc -t dzslides -s $< -o $@
 
 # This rule makes the output folder
 $(OUTPUTDIR):

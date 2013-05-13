@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "dependencies": {
     "bootstrap": "~2.3.1",
-    "deck.js": "latest"
+    "deck.js": "latest",
+    "flat_ui": "latest"
   }
 }
